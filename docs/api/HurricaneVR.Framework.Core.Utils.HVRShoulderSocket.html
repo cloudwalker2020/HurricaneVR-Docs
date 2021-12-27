@@ -1,0 +1,852 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HVRShoulderSocket
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HVRShoulderSocket
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="HurricaneVR.Framework.Core.Utils.HVRShoulderSocket">
+  
+  
+  <h1 id="HurricaneVR_Framework_Core_Utils_HVRShoulderSocket" data-uid="HurricaneVR.Framework.Core.Utils.HVRShoulderSocket" class="text-break">Class HVRShoulderSocket
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html">HVRGrabberBase</a></div>
+    <div class="level6"><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html">HVRSocket</a></div>
+    <div class="level7"><span class="xref">HVRShoulderSocket</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabControl">HVRSocket.GrabControl</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabDetectionType">HVRSocket.GrabDetectionType</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckHandOverlap">HVRSocket.CheckHandOverlap</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_ReleasesOnHover">HVRSocket.ReleasesOnHover</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_HoldType">HVRSocket.HoldType</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_AutoSpawnPrefab">HVRSocket.AutoSpawnPrefab</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabTimeout">HVRSocket.GrabTimeout</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabbableMustBeHeld">HVRSocket.GrabbableMustBeHeld</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabsFromHand">HVRSocket.GrabsFromHand</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_HoverActions">HVRSocket.HoverActions</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_HandGrabActions">HVRSocket.HandGrabActions</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_ParentDisablesGrab">HVRSocket.ParentDisablesGrab</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_ParentGrabbable">HVRSocket.ParentGrabbable</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanRemoveGrabbable">HVRSocket.CanRemoveGrabbable</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_ScaleGrabbable">HVRSocket.ScaleGrabbable</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_Size">HVRSocket.Size</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrabStabbingGrabbable">HVRSocket.CanGrabStabbingGrabbable</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioGrabbedOverride">HVRSocket.AudioGrabbedOverride</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioReleasedOverride">HVRSocket.AudioReleasedOverride</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioGrabbedFallback">HVRSocket.AudioGrabbedFallback</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioReleasedFallback">HVRSocket.AudioReleasedFallback</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_SocketFilters">HVRSocket.SocketFilters</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_FilterCondition">HVRSocket.FilterCondition</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_DistanceSource">HVRSocket.DistanceSource</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_SpawnedPrefab">HVRSocket.SpawnedPrefab</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_DebugScale">HVRSocket.DebugScale</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket__previousParent">HVRSocket._previousParent</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket__previousScale">HVRSocket._previousScale</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket__modelBounds">HVRSocket._modelBounds</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket__appQuitting">HVRSocket._appQuitting</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket__timeoutGrabbable">HVRSocket._timeoutGrabbable</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket__mass">HVRSocket._mass</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket__hadRigidBody">HVRSocket._hadRigidBody</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket__ignoreGrabSFX">HVRSocket._ignoreGrabSFX</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket__fixPositionRoutine">HVRSocket._fixPositionRoutine</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_LinkedGrabbable">HVRSocket.LinkedGrabbable</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsGrabActivated">HVRSocket.IsGrabActivated</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsHoldActive">HVRSocket.IsHoldActive</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_AllowSwap">HVRSocket.AllowSwap</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanInteract">HVRSocket.CanInteract</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsSocket">HVRSocket.IsSocket</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanAddGrabbable">HVRSocket.CanAddGrabbable</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_Start">HVRSocket.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckAutoSpawn">HVRSocket.CheckAutoSpawn()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_Update">HVRSocket.Update()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckHover">HVRSocket.CheckHover()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverEnter_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.OnHoverEnter(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHandGrabberEntered">HVRSocket.OnHandGrabberEntered()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHandGrabberExited">HVRSocket.OnHandGrabberExited()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverGrabbableReleased_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.OnHoverGrabbableReleased(HVRGrabberBase, HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverExit_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.OnHoverExit(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckGrab">HVRSocket.CheckGrab()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrab_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.CanGrab(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrabEx_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.CanGrabEx(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsValid_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.IsValid(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnBeforeHover_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.OnBeforeHover(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnAfterHover_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.OnAfterHover(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRGrabArgs_">HVRSocket.OnGrabbed(HVRGrabArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetPositionOffset_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.GetPositionOffset(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetRotationOffset_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.GetRotationOffset(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetTargetPosition_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.GetTargetPosition(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetTargetRotation_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.GetTargetRotation(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnGrabbableParented_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.OnGrabbableParented(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_PositionGrabbable_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.PositionGrabbable(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_RotateGrabbable_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.RotateGrabbable(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_HandleRigidBodyGrab_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.HandleRigidBodyGrab(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CleanupRigidBody_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.CleanupRigidBody(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlaySocketedSFX_HurricaneVR_Framework_Core_Sockets_HVRSocketable_">HVRSocket.PlaySocketedSFX(HVRSocketable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlayUnsocketedSFX_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.PlayUnsocketedSFX(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlaySFX_UnityEngine_AudioClip_">HVRSocket.PlaySFX(AudioClip)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_UpdateScale_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.UpdateScale(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnReleased_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.OnReleased(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrabbableBeRemoved_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_">HVRSocket.CanGrabbableBeRemoved(HVRHandGrabber)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabTimeoutRoutine_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.GrabTimeoutRoutine(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_TryGrab_HurricaneVR_Framework_Core_HVRGrabbable_System_Boolean_System_Boolean_">HVRSocket.TryGrab(HVRGrabbable, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetDistanceToGrabber_UnityEngine_Vector3_">HVRSocket.GetDistanceToGrabber(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetSquareDistanceToGrabber_UnityEngine_Vector3_">HVRSocket.GetSquareDistanceToGrabber(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_BeforeGrabbed">HVRGrabberBase.BeforeGrabbed</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_Grabbed">HVRGrabberBase.Grabbed</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_Released">HVRGrabberBase.Released</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_BeforeHoverEnter">HVRGrabberBase.BeforeHoverEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HoverEnter">HVRGrabberBase.HoverEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HoverExit">HVRGrabberBase.HoverExit</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_GrabBags">HVRGrabberBase.GrabBags</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_ControllerRotation">HVRGrabberBase.ControllerRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_AllowHovering">HVRGrabberBase.AllowHovering</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_AllowGrabbing">HVRGrabberBase.AllowGrabbing</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_IsGrabbing">HVRGrabberBase.IsGrabbing</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_IsHovering">HVRGrabberBase.IsHovering</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HoverTarget">HVRGrabberBase.HoverTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_GrabbedTarget">HVRGrabberBase.GrabbedTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_IsHandGrabber">HVRGrabberBase.IsHandGrabber</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_Rigidbody">HVRGrabberBase.Rigidbody</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase__grabPoint">HVRGrabberBase._grabPoint</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_GrabPoint">HVRGrabberBase.GrabPoint</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_JointAnchorWorldPosition">HVRGrabberBase.JointAnchorWorldPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_Velocity">HVRGrabberBase.Velocity</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_IsMine">HVRGrabberBase.IsMine</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_PerformUpdate">HVRGrabberBase.PerformUpdate</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_PullingGrabbable">HVRGrabberBase.PullingGrabbable</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_OnEnable">HVRGrabberBase.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_OnDisable">HVRGrabberBase.OnDisable()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_OnDestroy">HVRGrabberBase.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_FixedUpdate">HVRGrabberBase.FixedUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_CheckRelease">HVRGrabberBase.CheckRelease()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_ForceRelease">HVRGrabberBase.ForceRelease()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HandSwapRelease">HVRGrabberBase.HandSwapRelease()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_IsValidGrabbable_HurricaneVR_Framework_Core_HVRGrabbable_">HVRGrabberBase.IsValidGrabbable(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_GetClosestGrabbable">HVRGrabberBase.GetClosestGrabbable()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_GetClosestGrabbable_System_Predicate_HurricaneVR_Framework_Core_HVRGrabbable__">HVRGrabberBase.GetClosestGrabbable(Predicate&lt;HVRGrabbable&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_TryGrab_HurricaneVR_Framework_Core_HVRGrabbable_System_Boolean_">HVRGrabberBase.TryGrab(HVRGrabbable, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_TryGrabNoEvents_HurricaneVR_Framework_Core_HVRGrabbable_System_Boolean_">HVRGrabberBase.TryGrabNoEvents(HVRGrabbable, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_CheckForceRelease_HurricaneVR_Framework_Core_HVRGrabbable_">HVRGrabberBase.CheckForceRelease(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_GrabGrabbable_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_System_Boolean_">HVRGrabberBase.GrabGrabbable(HVRGrabberBase, HVRGrabbable, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_OnBeforeGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRGrabArgs_">HVRGrabberBase.OnBeforeGrabbed(HVRGrabArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_OnAfterGrabbed_HurricaneVR_Framework_Core_HVRGrabbable_">HVRGrabberBase.OnAfterGrabbed(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_CheckUnHover">HVRGrabberBase.CheckUnHover()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_ClosestValidHover_System_Boolean_">HVRGrabberBase.ClosestValidHover(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_ClosestValidHover">HVRGrabberBase.ClosestValidHover()</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HoverGrabbable_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_">HVRGrabberBase.HoverGrabbable(HVRGrabberBase, HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_UnhoverGrabbable_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_">HVRGrabberBase.UnhoverGrabbable(HVRGrabberBase, HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_OnGrabbableDestroyed_HurricaneVR_Framework_Core_HVRGrabbable_">HVRGrabberBase.OnGrabbableDestroyed(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_CheckForLineOfSight_UnityEngine_Vector3_HurricaneVR_Framework_Core_HVRGrabbable_UnityEngine_LayerMask_System_Single_System_Boolean_">HVRGrabberBase.CheckForLineOfSight(Vector3, HVRGrabbable, LayerMask, Single, Boolean)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="HurricaneVR.Framework.Core.Utils.html">HurricaneVR.Framework.Core.Utils</a></h6>
+  <h6><strong>Assembly</strong>: HurricaneVR.Framework.dll</h6>
+  <h5 id="HurricaneVR_Framework_Core_Utils_HVRShoulderSocket_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class HVRShoulderSocket : HVRSocket</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Utils_HVRShoulderSocket_CanHover_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Utils.HVRShoulderSocket.CanHover(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Utils/HVRShoulderSocket.cs/#L8">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_Utils_HVRShoulderSocket_CanHover_" data-uid="HurricaneVR.Framework.Core.Utils.HVRShoulderSocket.CanHover*"></a>
+  <h4 id="HurricaneVR_Framework_Core_Utils_HVRShoulderSocket_CanHover_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Utils.HVRShoulderSocket.CanHover(HurricaneVR.Framework.Core.HVRGrabbable)">CanHover(HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanHover(HVRGrabbable grabbable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">grabbable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html#HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanHover_HurricaneVR_Framework_Core_HVRGrabbable_">HVRSocket.CanHover(HVRGrabbable)</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetRigidbody_UnityEngine_MonoBehaviour_">VRUtilities.GetRigidbody(MonoBehaviour)</a>
+  </div>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetCopyOf__1_UnityEngine_Component___0_">VRUtilities.GetCopyOf&lt;T&gt;(Component, T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Utils_HVRShoulderSocket.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Utils.HVRShoulderSocket%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Utils/HVRShoulderSocket.cs/#L6" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

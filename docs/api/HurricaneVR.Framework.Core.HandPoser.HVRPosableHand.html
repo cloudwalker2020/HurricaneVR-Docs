@@ -1,0 +1,1774 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HVRPosableHand
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HVRPosableHand
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand">
+  
+  
+  <h1 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand" class="text-break">Class HVRPosableHand
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">HVRPosableHand</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="HurricaneVR.Framework.Core.HandPoser.html">HurricaneVR.Framework.Core.HandPoser</a></h6>
+  <h6><strong>Assembly</strong>: HurricaneVR.Framework.dll</h6>
+  <h5 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class HVRPosableHand : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Axis1.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Axis1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L33">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Axis1" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Axis1">Axis1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;Forward&quot;)]
+public HVRAxis Axis1</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HurricaneVR.Framework.Shared.HVRAxis</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Axis2.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Axis2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L34">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Axis2" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Axis2">Axis2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;Up&quot;)]
+public HVRAxis Axis2</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HurricaneVR.Framework.Shared.HVRAxis</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_HandMirrorer.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.HandMirrorer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L28">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_HandMirrorer" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.HandMirrorer">HandMirrorer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRHandMirrorer HandMirrorer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRHandMirrorer.html">HVRHandMirrorer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Index.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Index%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L42">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Index" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Index">Index</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRPosableFinger Index</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger.html">HVRPosableFinger</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_IsLeft.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.IsLeft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L20">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_IsLeft" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.IsLeft">IsLeft</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Settings&quot;)]
+public bool IsLeft</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Middle.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Middle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L43">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Middle" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Middle">Middle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRPosableFinger Middle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger.html">HVRPosableFinger</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_MirrorAxis.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.MirrorAxis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L26">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_MirrorAxis" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.MirrorAxis">MirrorAxis</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Mirroring&quot;)]
+public MirrorAxis MirrorAxis</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.MirrorAxis.html">MirrorAxis</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_MirrorSettings.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.MirrorSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L27">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_MirrorSettings" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.MirrorSettings">MirrorSettings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRHandMirrorSettings MirrorSettings</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRHandMirrorSettings.html">HVRHandMirrorSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Pinky.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Pinky%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L45">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Pinky" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Pinky">Pinky</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRPosableFinger Pinky</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger.html">HVRPosableFinger</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoserIndex.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoserIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L23">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoserIndex" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoserIndex">PoserIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Used to match up with grab points to allowed objects to have grab points that can be grabbed by different hands.&quot;)]
+public int PoserIndex</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Ring.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Ring%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L44">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Ring" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Ring">Ring</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRPosableFinger Ring</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger.html">HVRPosableFinger</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_TargetAxis1.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.TargetAxis1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L36">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_TargetAxis1" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.TargetAxis1">TargetAxis1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;TargetAxis&quot;)]
+[FormerlySerializedAs(&quot;OtherForward&quot;)]
+public HVRAxis TargetAxis1</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HurricaneVR.Framework.Shared.HVRAxis</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_TargetAxis2.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.TargetAxis2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L37">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_TargetAxis2" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.TargetAxis2">TargetAxis2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;OtherUp&quot;)]
+public HVRAxis TargetAxis2</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HurricaneVR.Framework.Shared.HVRAxis</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Thumb.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Thumb%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L41">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Thumb" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Thumb">Thumb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Fingers&quot;)]
+public HVRPosableFinger Thumb</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger.html">HVRPosableFinger</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_UseMatchRotation.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.UseMatchRotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L31">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_UseMatchRotation" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.UseMatchRotation">UseMatchRotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Hand Mirror Settings for VRIK&quot;)]
+public bool UseMatchRotation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Fingers.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Fingers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L54">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Fingers_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Fingers*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Fingers" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Fingers">Fingers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRPosableFinger[] Fingers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger.html">HVRPosableFinger</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_IsRight.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.IsRight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L49">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_IsRight_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.IsRight*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_IsRight" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.IsRight">IsRight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Side.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Side%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L47">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Side_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Side*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Side" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Side">Side</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRHandSide Side { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HurricaneVR.Framework.Shared.HVRHandSide</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CopyHandData_HurricaneVR_Framework_Core_HandPoser_Data_HVRHandPoseData_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CopyHandData(HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L467">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CopyHandData_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CopyHandData*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CopyHandData_HurricaneVR_Framework_Core_HandPoser_Data_HVRHandPoseData_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CopyHandData(HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData)">CopyHandData(HVRHandPoseData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CopyHandData(HVRHandPoseData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData.html">HVRHandPoseData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CreateFullHandPose_HurricaneVR_Framework_Core_HandPoser_MirrorAxis_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CreateFullHandPose(HurricaneVR.Framework.Core.HandPoser.MirrorAxis%2CUnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L504">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CreateFullHandPose_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CreateFullHandPose*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CreateFullHandPose_HurricaneVR_Framework_Core_HandPoser_MirrorAxis_UnityEngine_Transform_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CreateFullHandPose(HurricaneVR.Framework.Core.HandPoser.MirrorAxis,UnityEngine.Transform)">CreateFullHandPose(MirrorAxis, Transform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRHandPose CreateFullHandPose(MirrorAxis axis, Transform transformOverride = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.MirrorAxis.html">MirrorAxis</a></td>
+        <td><span class="parametername">axis</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">transformOverride</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRHandPose.html">HVRHandPose</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CreateFullHandPoseWorld_HurricaneVR_Framework_Core_HandPoser_MirrorAxis_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CreateFullHandPoseWorld(HurricaneVR.Framework.Core.HandPoser.MirrorAxis)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L485">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CreateFullHandPoseWorld_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CreateFullHandPoseWorld*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CreateFullHandPoseWorld_HurricaneVR_Framework_Core_HandPoser_MirrorAxis_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CreateFullHandPoseWorld(HurricaneVR.Framework.Core.HandPoser.MirrorAxis)">CreateFullHandPoseWorld(MirrorAxis)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRHandPose CreateFullHandPoseWorld(MirrorAxis axis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.MirrorAxis.html">MirrorAxis</a></td>
+        <td><span class="parametername">axis</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRHandPose.html">HVRHandPose</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CreateHandPose_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CreateHandPose(UnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L448">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CreateHandPose_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CreateHandPose*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_CreateHandPose_UnityEngine_Transform_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.CreateHandPose(UnityEngine.Transform)">CreateHandPose(Transform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRHandPoseData CreateHandPose(Transform transformOverride = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">transformOverride</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData.html">HVRHandPoseData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_DetectBoneAxes_HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_UnityEngine_Vector3_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.DetectBoneAxes(HurricaneVR.Framework.Core.HandPoser.HVRPosableHand%2CUnityEngine.Vector3%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L646">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_DetectBoneAxes_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.DetectBoneAxes*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_DetectBoneAxes_HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.DetectBoneAxes(HurricaneVR.Framework.Core.HandPoser.HVRPosableHand,UnityEngine.Vector3,UnityEngine.Vector3)">DetectBoneAxes(HVRPosableHand, Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DetectBoneAxes(HVRPosableHand otherHand, Vector3 forward, Vector3 up)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.html">HVRPosableHand</a></td>
+        <td><span class="parametername">otherHand</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">forward</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">up</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_FromByteArray_System_Byte___HurricaneVR_Framework_Shared_HVRHandSide_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.FromByteArray(System.Byte%5B%5D%2CHurricaneVR.Framework.Shared.HVRHandSide)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L809">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_FromByteArray_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.FromByteArray*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_FromByteArray_System_Byte___HurricaneVR_Framework_Shared_HVRHandSide_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.FromByteArray(System.Byte[],HurricaneVR.Framework.Shared.HVRHandSide)">FromByteArray(Byte[], HVRHandSide)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FromByteArray(byte[] bytes, HVRHandSide side)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">HurricaneVR.Framework.Shared.HVRHandSide</span></td>
+        <td><span class="parametername">side</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_GetSignedAxisVectorToDirection_UnityEngine_Quaternion_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.GetSignedAxisVectorToDirection(UnityEngine.Quaternion%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L158">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_GetSignedAxisVectorToDirection_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.GetSignedAxisVectorToDirection*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_GetSignedAxisVectorToDirection_UnityEngine_Quaternion_UnityEngine_Vector3_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.GetSignedAxisVectorToDirection(UnityEngine.Quaternion,UnityEngine.Vector3)">GetSignedAxisVectorToDirection(Quaternion, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetSignedAxisVectorToDirection(Quaternion r, Vector3 direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_MatchRotation_UnityEngine_Quaternion_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.MatchRotation(UnityEngine.Quaternion%2CUnityEngine.Vector3%2CUnityEngine.Vector3%2CUnityEngine.Vector3%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L671">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_MatchRotation_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.MatchRotation*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_MatchRotation_UnityEngine_Quaternion_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.MatchRotation(UnityEngine.Quaternion,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">MatchRotation(Quaternion, Vector3, Vector3, Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion MatchRotation(Quaternion targetRotation, Vector3 targetforwardAxis, Vector3 targetUpAxis, Vector3 forwardAxis, Vector3 upAxis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">targetRotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">targetforwardAxis</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">targetUpAxis</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">forwardAxis</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">upAxis</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Mirror_HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_HurricaneVR_Framework_Core_HandPoser_MirrorAxis_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Mirror(HurricaneVR.Framework.Core.HandPoser.HVRPosableHand%2CHurricaneVR.Framework.Core.HandPoser.MirrorAxis)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L521">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Mirror_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Mirror*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Mirror_HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_HurricaneVR_Framework_Core_HandPoser_MirrorAxis_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Mirror(HurricaneVR.Framework.Core.HandPoser.HVRPosableHand,HurricaneVR.Framework.Core.HandPoser.MirrorAxis)">Mirror(HVRPosableHand, MirrorAxis)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Mirror(HVRPosableHand targetHand, MirrorAxis axis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.html">HVRPosableHand</a></td>
+        <td><span class="parametername">targetHand</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.MirrorAxis.html">MirrorAxis</a></td>
+        <td><span class="parametername">axis</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Mirror_HurricaneVR_Framework_Core_HandPoser_MirrorAxis_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Mirror(HurricaneVR.Framework.Core.HandPoser.MirrorAxis%2CUnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L583">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Mirror_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Mirror*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Mirror_HurricaneVR_Framework_Core_HandPoser_MirrorAxis_UnityEngine_Transform_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Mirror(HurricaneVR.Framework.Core.HandPoser.MirrorAxis,UnityEngine.Transform)">Mirror(MirrorAxis, Transform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRHandPoseData Mirror(MirrorAxis axis, Transform transformOverride = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.MirrorAxis.html">MirrorAxis</a></td>
+        <td><span class="parametername">axis</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">transformOverride</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData.html">HVRHandPoseData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_MirrorHand_HurricaneVR_Framework_Core_HandPoser_MirrorAxis_UnityEngine_Vector3__UnityEngine_Quaternion__UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.MirrorHand(HurricaneVR.Framework.Core.HandPoser.MirrorAxis%2CUnityEngine.Vector3%40%2CUnityEngine.Quaternion%40%2CUnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L532">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_MirrorHand_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.MirrorHand*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_MirrorHand_HurricaneVR_Framework_Core_HandPoser_MirrorAxis_UnityEngine_Vector3__UnityEngine_Quaternion__UnityEngine_Transform_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.MirrorHand(HurricaneVR.Framework.Core.HandPoser.MirrorAxis,UnityEngine.Vector3@,UnityEngine.Quaternion@,UnityEngine.Transform)">MirrorHand(MirrorAxis, out Vector3, out Quaternion, Transform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MirrorHand(MirrorAxis axis, out Vector3 position, out Quaternion rotation, Transform transformOverride = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.MirrorAxis.html">MirrorAxis</a></td>
+        <td><span class="parametername">axis</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">transformOverride</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Pose_HurricaneVR_Framework_Core_HandPoser_Data_HVRHandPoseData_System_Boolean_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Pose(HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L128">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Pose_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Pose*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Pose_HurricaneVR_Framework_Core_HandPoser_Data_HVRHandPoseData_System_Boolean_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Pose(HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData,System.Boolean)">Pose(HVRHandPoseData, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pose(HVRHandPoseData pose, bool poseHand = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData.html">HVRHandPoseData</a></td>
+        <td><span class="parametername">pose</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">poseHand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Pose_HurricaneVR_Framework_Core_HandPoser_HVRHandPose_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Pose(HurricaneVR.Framework.Core.HandPoser.HVRHandPose)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L109">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Pose_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Pose*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Pose_HurricaneVR_Framework_Core_HandPoser_HVRHandPose_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Pose(HurricaneVR.Framework.Core.HandPoser.HVRHandPose)">Pose(HVRHandPose)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pose(HVRHandPose pose)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRHandPose.html">HVRHandPose</a></td>
+        <td><span class="parametername">pose</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFinger_HurricaneVR_Framework_Core_HandPoser_HVRPosableFinger_HurricaneVR_Framework_Core_HandPoser_Data_HVRPosableFingerData_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFinger(HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger%2CHurricaneVR.Framework.Core.HandPoser.Data.HVRPosableFingerData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L174">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFinger_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFinger*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFinger_HurricaneVR_Framework_Core_HandPoser_HVRPosableFinger_HurricaneVR_Framework_Core_HandPoser_Data_HVRPosableFingerData_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFinger(HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger,HurricaneVR.Framework.Core.HandPoser.Data.HVRPosableFingerData)">PoseFinger(HVRPosableFinger, HVRPosableFingerData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PoseFinger(HVRPosableFinger finger, HVRPosableFingerData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger.html">HVRPosableFinger</a></td>
+        <td><span class="parametername">finger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.Data.HVRPosableFingerData.html">HVRPosableFingerData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFinger_HurricaneVR_Framework_Core_HandPoser_HVRPosableFinger_HurricaneVR_Framework_Core_HandPoser_HVRPosableFinger_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFinger(HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger%2CHurricaneVR.Framework.Core.HandPoser.HVRPosableFinger)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L198">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFinger_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFinger*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFinger_HurricaneVR_Framework_Core_HandPoser_HVRPosableFinger_HurricaneVR_Framework_Core_HandPoser_HVRPosableFinger_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFinger(HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger,HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger)">PoseFinger(HVRPosableFinger, HVRPosableFinger)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PoseFinger(HVRPosableFinger finger, HVRPosableFinger target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger.html">HVRPosableFinger</a></td>
+        <td><span class="parametername">finger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger.html">HVRPosableFinger</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFingers_HurricaneVR_Framework_Core_HandPoser_Data_HVRHandPoseData_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFingers(HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L119">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFingers_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFingers*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFingers_HurricaneVR_Framework_Core_HandPoser_Data_HVRHandPoseData_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFingers(HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData)">PoseFingers(HVRHandPoseData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PoseFingers(HVRHandPoseData pose)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData.html">HVRHandPoseData</a></td>
+        <td><span class="parametername">pose</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFingers_HurricaneVR_Framework_Core_HandPoser_HVRHandPose_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFingers(HurricaneVR.Framework.Core.HandPoser.HVRHandPose)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L114">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFingers_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFingers*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFingers_HurricaneVR_Framework_Core_HandPoser_HVRHandPose_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFingers(HurricaneVR.Framework.Core.HandPoser.HVRHandPose)">PoseFingers(HVRHandPose)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PoseFingers(HVRHandPose pose)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRHandPose.html">HVRHandPose</a></td>
+        <td><span class="parametername">pose</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFrom_HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_System_Boolean_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFrom(HurricaneVR.Framework.Core.HandPoser.HVRPosableHand%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L143">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFrom_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFrom*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_PoseFrom_HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_System_Boolean_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.PoseFrom(HurricaneVR.Framework.Core.HandPoser.HVRPosableHand,System.Boolean)">PoseFrom(HVRPosableHand, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PoseFrom(HVRPosableHand source, bool poseHand = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.html">HVRPosableHand</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">poseHand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Serialize_System_Byte___.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Serialize(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L772">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Serialize_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Serialize*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_Serialize_System_Byte___" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.Serialize(System.Byte[])">Serialize(Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Serialize(byte[] buffer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_SetupFingerArray.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.SetupFingerArray%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L67">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_SetupFingerArray_" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.SetupFingerArray*"></a>
+  <h4 id="HurricaneVR_Framework_Core_HandPoser_HVRPosableHand_SetupFingerArray" data-uid="HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.SetupFingerArray">SetupFingerArray()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetupFingerArray()</code></pre>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetRigidbody_UnityEngine_MonoBehaviour_">VRUtilities.GetRigidbody(MonoBehaviour)</a>
+  </div>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetCopyOf__1_UnityEngine_Component___0_">VRUtilities.GetCopyOf&lt;T&gt;(Component, T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_HandPoser_HVRPosableHand.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.HandPoser.HVRPosableHand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/HandPoser/HVRPosableHand.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,2242 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HVRBowBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HVRBowBase
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase">
+  
+  
+  <h1 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase" class="text-break">Class HVRBowBase
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">HVRBowBase</span></div>
+      <div class="level6"><a class="xref" href="HurricaneVR.Framework.Weapons.Bow.HVRPhysicsBow.html">HVRPhysicsBow</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="HurricaneVR.Framework.Weapons.Bow.html">HurricaneVR.Framework.Weapons.Bow</a></h6>
+  <h6><strong>Assembly</strong>: HurricaneVR.Framework.dll</h6>
+  <h5 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(HVRGrabbable))]
+[RequireComponent(typeof(Rigidbody))]
+public class HVRBowBase : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_BowHand.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.BowHand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L86">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_BowHand" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.BowHand">BowHand</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected HVRHandGrabber BowHand</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_BowHandHaptics.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.BowHandHaptics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L42">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_BowHandHaptics" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.BowHandHaptics">BowHandHaptics</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BowHandHaptics</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ForwardMarker.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ForwardMarker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L38">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ForwardMarker" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ForwardMarker">ForwardMarker</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Transform for forward vector, uses this transform if not provided.&quot;)]
+public Transform ForwardMarker</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_HapticsDuration.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.HapticsDuration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L57">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_HapticsDuration" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.HapticsDuration">HapticsDuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Vibration frequency when pulling the bow.&quot;)]
+public float HapticsDuration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_HapticsFrequency.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.HapticsFrequency%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L60">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_HapticsFrequency" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.HapticsFrequency">HapticsFrequency</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Vibration frequency when pulling the bow.&quot;)]
+public float HapticsFrequency</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_HapticsMaxAmplitude.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.HapticsMaxAmplitude%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L54">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_HapticsMaxAmplitude" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.HapticsMaxAmplitude">HapticsMaxAmplitude</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Vibration strength when pulling the bow.&quot;)]
+[Range(0F, 1F)]
+public float HapticsMaxAmplitude</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_HapticsMinAmplitude.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.HapticsMinAmplitude%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L50">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_HapticsMinAmplitude" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.HapticsMinAmplitude">HapticsMinAmplitude</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Vibration strength when pulling the bow.&quot;)]
+[Range(0F, 1F)]
+public float HapticsMinAmplitude</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_HapticStep.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.HapticStep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L46">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_HapticStep" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.HapticStep">HapticStep</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Number of haptic ticks by percent traveled.&quot;)]
+[Range(0.02F, 1F)]
+public float HapticStep</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_LeftRest.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.LeftRest%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L32">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_LeftRest" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.LeftRest">LeftRest</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Transforms&quot;)]
+[Tooltip(&quot;Arrow Rest When the bow is held with the left hand.&quot;)]
+public Transform LeftRest</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_NockGrabbable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.NockGrabbable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L17">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_NockGrabbable" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.NockGrabbable">NockGrabbable</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Bow String&quot;)]
+public HVRGrabbable NockGrabbable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_NockHand.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.NockHand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L84">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_NockHand" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.NockHand">NockHand</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected HVRHandGrabber NockHand</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ReleasedSFX.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ReleasedSFX%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L67">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ReleasedSFX" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ReleasedSFX">ReleasedSFX</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip[] ReleasedSFX</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.AudioClip</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ReverseArrowsRests.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ReverseArrowsRests%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L26">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ReverseArrowsRests" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ReverseArrowsRests">ReverseArrowsRests</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReverseArrowsRests</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_RightRest.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.RightRest%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L35">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_RightRest" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.RightRest">RightRest</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Arrow Rest When the bow is held with the right hand.&quot;)]
+public Transform RightRest</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ShootThreshold.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ShootThreshold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L23">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ShootThreshold" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ShootThreshold">ShootThreshold</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ShootThreshold</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Speed.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Speed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L24">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Speed" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Speed">Speed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Speed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_SpeedCurve.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.SpeedCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L25">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_SpeedCurve" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.SpeedCurve">SpeedCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimationCurve SpeedCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.AnimationCurve</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringClip.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringClip%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L63">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringClip" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringClip">StringClip</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;SFX&quot;)]
+public AudioClip StringClip</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.AudioClip</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringDropLimit.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringDropLimit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L19">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringDropLimit" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringDropLimit">StringDropLimit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StringDropLimit</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringHaptics.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringHaptics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L41">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringHaptics" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringHaptics">StringHaptics</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Haptics&quot;)]
+public bool StringHaptics</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringLimit.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringLimit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L18">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringLimit" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringLimit">StringLimit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StringLimit</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringLimitStyle.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringLimitStyle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L22">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringLimitStyle" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringLimitStyle">StringLimitStyle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Settings&quot;)]
+public HVRBowLimitStyle StringLimitStyle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Weapons.Bow.HVRBowLimitStyle.html">HVRBowLimitStyle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringMaxPitch.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringMaxPitch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L65">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringMaxPitch" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringMaxPitch">StringMaxPitch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StringMaxPitch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringMinPitch.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringMinPitch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L64">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_StringMinPitch" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.StringMinPitch">StringMinPitch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StringMinPitch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Arrow.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Arrow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L78">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Arrow_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Arrow*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Arrow" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Arrow">Arrow</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected HVRArrow Arrow { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Weapons.Bow.HVRArrow.html">HVRArrow</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ArrowNocked.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ArrowNocked%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L76">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ArrowNocked_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ArrowNocked*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ArrowNocked" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ArrowNocked">ArrowNocked</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ArrowNocked { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Forward.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Forward%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L73">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Forward_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Forward*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Forward" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Forward">Forward</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Forward { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Grabbable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Grabbable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L81">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Grabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Grabbable*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Grabbable" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Grabbable">Grabbable</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRGrabbable Grabbable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_NockSocket.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.NockSocket%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L80">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_NockSocket_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.NockSocket*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_NockSocket" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.NockSocket">NockSocket</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRNockingPoint NockSocket { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Weapons.Bow.HVRNockingPoint.html">HVRNockingPoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Rest.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Rest%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L70">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Rest_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Rest*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Rest" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Rest">Rest</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform Rest { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Rigidbody.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Rigidbody%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L82">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Rigidbody_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Rigidbody*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Rigidbody" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Rigidbody">Rigidbody</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rigidbody Rigidbody { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rigidbody</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Tension.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Tension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L71">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Tension_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Tension*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Tension" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Tension">Tension</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Tension { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_WorldForward.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.WorldForward%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L74">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_WorldForward_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.WorldForward*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_WorldForward" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.WorldForward">WorldForward</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 WorldForward { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_AfterFixedUpdateBow.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.AfterFixedUpdateBow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L165">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_AfterFixedUpdateBow_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.AfterFixedUpdateBow*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_AfterFixedUpdateBow" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.AfterFixedUpdateBow">AfterFixedUpdateBow()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void AfterFixedUpdateBow()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_BeforeFixedUpdateBow.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.BeforeFixedUpdateBow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L160">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_BeforeFixedUpdateBow_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.BeforeFixedUpdateBow*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_BeforeFixedUpdateBow" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.BeforeFixedUpdateBow">BeforeFixedUpdateBow()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void BeforeFixedUpdateBow()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_CheckArrowRelease.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.CheckArrowRelease%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L195">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_CheckArrowRelease_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.CheckArrowRelease*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_CheckArrowRelease" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.CheckArrowRelease">CheckArrowRelease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void CheckArrowRelease()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_CheckDropArrow.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.CheckDropArrow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L240">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_CheckDropArrow_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.CheckDropArrow*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_CheckDropArrow" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.CheckDropArrow">CheckDropArrow()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void CheckDropArrow()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_EnableBowHandCollisionRoutine_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.EnableBowHandCollisionRoutine(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L428">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_EnableBowHandCollisionRoutine_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.EnableBowHandCollisionRoutine*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_EnableBowHandCollisionRoutine_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.EnableBowHandCollisionRoutine(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber,HurricaneVR.Framework.Core.HVRGrabbable)">EnableBowHandCollisionRoutine(HVRHandGrabber, HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerator EnableBowHandCollisionRoutine(HVRHandGrabber hand, HVRGrabbable arrow)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a></td>
+        <td><span class="parametername">hand</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">arrow</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_FixedUpdateBow.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.FixedUpdateBow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L170">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_FixedUpdateBow_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.FixedUpdateBow*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_FixedUpdateBow" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.FixedUpdateBow">FixedUpdateBow()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void FixedUpdateBow()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_NockArrow_HurricaneVR_Framework_Weapons_Bow_HVRArrow_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.NockArrow(HurricaneVR.Framework.Weapons.Bow.HVRArrow)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L187">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_NockArrow_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.NockArrow*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_NockArrow_HurricaneVR_Framework_Weapons_Bow_HVRArrow_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.NockArrow(HurricaneVR.Framework.Weapons.Bow.HVRArrow)">NockArrow(HVRArrow)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NockArrow(HVRArrow arrow)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Weapons.Bow.HVRArrow.html">HVRArrow</a></td>
+        <td><span class="parametername">arrow</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowDropped.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowDropped%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L398">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowDropped_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowDropped*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowDropped" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowDropped">OnArrowDropped()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnArrowDropped()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowNocked_HurricaneVR_Framework_Weapons_Bow_HVRArrow_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowNocked(HurricaneVR.Framework.Weapons.Bow.HVRArrow)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L312">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowNocked_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowNocked*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowNocked_HurricaneVR_Framework_Weapons_Bow_HVRArrow_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowNocked(HurricaneVR.Framework.Weapons.Bow.HVRArrow)">OnArrowNocked(HVRArrow)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnArrowNocked(HVRArrow arrow)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Weapons.Bow.HVRArrow.html">HVRArrow</a></td>
+        <td><span class="parametername">arrow</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowRemoved_HurricaneVR_Framework_Weapons_Bow_HVRArrow_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowRemoved(HurricaneVR.Framework.Weapons.Bow.HVRArrow)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L409">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowRemoved_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowRemoved*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowRemoved_HurricaneVR_Framework_Weapons_Bow_HVRArrow_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowRemoved(HurricaneVR.Framework.Weapons.Bow.HVRArrow)">OnArrowRemoved(HVRArrow)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnArrowRemoved(HVRArrow arrow)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Weapons.Bow.HVRArrow.html">HVRArrow</a></td>
+        <td><span class="parametername">arrow</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowShot.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowShot%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L219">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowShot_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowShot*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowShot" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowShot">OnArrowShot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnArrowShot()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowSocketed_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowSocketed(HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L298">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowSocketed_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowSocketed*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnArrowSocketed_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnArrowSocketed(HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase,HurricaneVR.Framework.Core.HVRGrabbable)">OnArrowSocketed(HVRGrabberBase, HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnArrowSocketed(HVRGrabberBase arg0, HVRGrabbable grabbable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html">HVRGrabberBase</a></td>
+        <td><span class="parametername">arg0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">grabbable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnBowSocketed_HurricaneVR_Framework_Core_Grabbers_HVRSocket_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnBowSocketed(HurricaneVR.Framework.Core.Grabbers.HVRSocket%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L385">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnBowSocketed_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnBowSocketed*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnBowSocketed_HurricaneVR_Framework_Core_Grabbers_HVRSocket_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnBowSocketed(HurricaneVR.Framework.Core.Grabbers.HVRSocket,HurricaneVR.Framework.Core.HVRGrabbable)">OnBowSocketed(HVRSocket, HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnBowSocketed(HVRSocket arg0, HVRGrabbable arg1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html">HVRSocket</a></td>
+        <td><span class="parametername">arg0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnBowUnsocketed_HurricaneVR_Framework_Core_Grabbers_HVRSocket_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnBowUnsocketed(HurricaneVR.Framework.Core.Grabbers.HVRSocket%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L393">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnBowUnsocketed_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnBowUnsocketed*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnBowUnsocketed_HurricaneVR_Framework_Core_Grabbers_HVRSocket_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnBowUnsocketed(HurricaneVR.Framework.Core.Grabbers.HVRSocket,HurricaneVR.Framework.Core.HVRGrabbable)">OnBowUnsocketed(HVRSocket, HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnBowUnsocketed(HVRSocket arg0, HVRGrabbable arg1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRSocket.html">HVRSocket</a></td>
+        <td><span class="parametername">arg0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnDrawGizmosSelected.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnDrawGizmosSelected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L438">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnDrawGizmosSelected_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnDrawGizmosSelected*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnDrawGizmosSelected" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnDrawGizmosSelected">OnDrawGizmosSelected()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDrawGizmosSelected()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnGrabbed(HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L283">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnGrabbed_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnGrabbed*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnGrabbed(HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase,HurricaneVR.Framework.Core.HVRGrabbable)">OnGrabbed(HVRGrabberBase, HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnGrabbed(HVRGrabberBase arg0, HVRGrabbable arg1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html">HVRGrabberBase</a></td>
+        <td><span class="parametername">arg0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnHandGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnHandGrabbed(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L347">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnHandGrabbed_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnHandGrabbed*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnHandGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnHandGrabbed(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber,HurricaneVR.Framework.Core.HVRGrabbable)">OnHandGrabbed(HVRHandGrabber, HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnHandGrabbed(HVRHandGrabber hand, HVRGrabbable bow)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a></td>
+        <td><span class="parametername">hand</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">bow</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnHandReleased_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnHandReleased(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L366">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnHandReleased_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnHandReleased*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnHandReleased_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnHandReleased(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber,HurricaneVR.Framework.Core.HVRGrabbable)">OnHandReleased(HVRHandGrabber, HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnHandReleased(HVRHandGrabber arg0, HVRGrabbable arg1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a></td>
+        <td><span class="parametername">arg0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnNockedArrowGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnNockedArrowGrabbed(HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L342">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnNockedArrowGrabbed_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnNockedArrowGrabbed*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnNockedArrowGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnNockedArrowGrabbed(HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase,HurricaneVR.Framework.Core.HVRGrabbable)">OnNockedArrowGrabbed(HVRGrabberBase, HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnNockedArrowGrabbed(HVRGrabberBase arg0, HVRGrabbable arg1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html">HVRGrabberBase</a></td>
+        <td><span class="parametername">arg0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnReleased_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnReleased(HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L288">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnReleased_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnReleased*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnReleased_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnReleased(HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase,HurricaneVR.Framework.Core.HVRGrabbable)">OnReleased(HVRGrabberBase, HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnReleased(HVRGrabberBase arg0, HVRGrabbable arg1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html">HVRGrabberBase</a></td>
+        <td><span class="parametername">arg0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnStringGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnStringGrabbed(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L380">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnStringGrabbed_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnStringGrabbed*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnStringGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnStringGrabbed(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber,HurricaneVR.Framework.Core.HVRGrabbable)">OnStringGrabbed(HVRHandGrabber, HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnStringGrabbed(HVRHandGrabber hand, HVRGrabbable nock)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a></td>
+        <td><span class="parametername">hand</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">nock</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnStringReleased_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnStringReleased(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L375">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnStringReleased_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnStringReleased*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_OnStringReleased_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.OnStringReleased(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber,HurricaneVR.Framework.Core.HVRGrabbable)">OnStringReleased(HVRHandGrabber, HVRGrabbable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnStringReleased(HVRHandGrabber arg0, HVRGrabbable arg1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a></td>
+        <td><span class="parametername">arg0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_PlayReleasedSFX.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.PlayReleasedSFX%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L278">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_PlayReleasedSFX_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.PlayReleasedSFX*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_PlayReleasedSFX" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.PlayReleasedSFX">PlayReleasedSFX()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void PlayReleasedSFX()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_PlayStringSFX_System_Single_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.PlayStringSFX(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L272">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_PlayStringSFX_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.PlayStringSFX*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_PlayStringSFX_System_Single_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.PlayStringSFX(System.Single)">PlayStringSFX(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void PlayStringSFX(float nockDistance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">nockDistance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ShootArrow_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ShootArrow(UnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L230">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ShootArrow_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ShootArrow*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_ShootArrow_UnityEngine_Vector3_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.ShootArrow(UnityEngine.Vector3)">ShootArrow(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ShootArrow(Vector3 direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Start.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L96">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Start_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Start*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_Start" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_UpdateBow.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.UpdateBow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L148">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_UpdateBow_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.UpdateBow*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_UpdateBow" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.UpdateBow">UpdateBow()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void UpdateBow()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_UpdateBowHandCollision_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_System_Boolean_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.UpdateBowHandCollision(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber%2CHurricaneVR.Framework.Core.HVRGrabbable%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L420">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_UpdateBowHandCollision_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.UpdateBowHandCollision*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_UpdateBowHandCollision_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_HurricaneVR_Framework_Core_HVRGrabbable_System_Boolean_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.UpdateBowHandCollision(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber,HurricaneVR.Framework.Core.HVRGrabbable,System.Boolean)">UpdateBowHandCollision(HVRHandGrabber, HVRGrabbable, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void UpdateBowHandCollision(HVRHandGrabber hand, HVRGrabbable arrow, bool enable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a></td>
+        <td><span class="parametername">hand</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a></td>
+        <td><span class="parametername">arrow</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase_UpdateHaptics_System_Single_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase.UpdateHaptics(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L252">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_UpdateHaptics_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.UpdateHaptics*"></a>
+  <h4 id="HurricaneVR_Framework_Weapons_Bow_HVRBowBase_UpdateHaptics_System_Single_" data-uid="HurricaneVR.Framework.Weapons.Bow.HVRBowBase.UpdateHaptics(System.Single)">UpdateHaptics(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void UpdateHaptics(float nockDistance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">nockDistance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetRigidbody_UnityEngine_MonoBehaviour_">VRUtilities.GetRigidbody(MonoBehaviour)</a>
+  </div>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetCopyOf__1_UnityEngine_Component___0_">VRUtilities.GetCopyOf&lt;T&gt;(Component, T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Weapons_Bow_HVRBowBase.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Weapons.Bow.HVRBowBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Weapons/Bow/HVRBowBase.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
