@@ -2,7 +2,6 @@
 
 - Follow the setup steps on the [Project Setup page](setup.md#project-and-packages-setup).
 - Read through the [Grab System](grab.md#grab-system), [Sockets](sockets.md#sockets) .
-Accessing inputs globally, or per grabbable object
 
 ## Demonstration Scenes
 

@@ -55,7 +55,7 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "templates/template"
+      "templates/darkfx"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
