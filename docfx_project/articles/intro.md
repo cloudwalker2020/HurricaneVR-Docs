@@ -1,7 +1,7 @@
 # Getting Started
 
 - Follow the setup steps on the [Project Setup page](setup.md#project-and-packages-setup).
-- Read through the [Grab System](grab.md#grab-system), [Sockets](sockets.md#sockets) .
+- Read through the [Grab System](interactions.md#grab-system), [Sockets](sockets.md#sockets) .
 
 ## Demonstration Scenes
 

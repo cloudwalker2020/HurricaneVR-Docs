@@ -23,9 +23,6 @@ If your colliders are not on the same object as the [HVRGrabbable](xref:Hurrican
 - Objects “in the bag” are sorted by their distance to the grabber to determine which one should be grabbed.
 - If you wish you can subclass and extend the existing components to customize your grab detection system.
 
-
-
-
 ## Hand Grabber
 
 The [HVRHandGrabber](xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber)  components reside on the hand rigid body objects. It is important to note how the grab flow works.
@@ -54,7 +51,7 @@ Each [HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable) can have this 
 
 When [Hand Grabs](#hand-grabs) completes, or [Hand Pulls](#hand-pulls) has pulled the object close enough, a final "strong" [Configurable Joint](https://docs.unity3d.com/Manual/class-ConfigurableJoint.html) is created between the hand rigid body and the grabbable rigid body.
 
-The settings of the joint can be overridden globally @ HVRSettings.DefaultJointSettings and per [HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable) with the 'JointOverride' field.
+The settings of the joint can be overridden globally @ HVRSettings.DefaultJointSettings or per grabbable's [JointOverride](xref:HurricaneVR.Framework.Core.HVRGrabbable.JointOverride) field.
 
 [HVRGrabbableChild](xref:HurricaneVR.Framework.Core.HVRGrabbableChild)
 [HVRGrabberBase](xref:HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase) 

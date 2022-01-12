@@ -66,13 +66,13 @@ protected override Vector3 GetPositionOffset(HVRGrabbable grabbable)
 
 ## Socketable Scaling
 
-Each [HVRSocket](xref:HurricaneVR.Framework.Core.Grabbers.HVRSocket) has the option 'Scale Grabbable' which will automatically scale socketable objects by their Mesh Renderer bounding box sizes.\
+Each [HVRSocket](xref:HurricaneVR.Framework.Core.Grabbers.HVRSocket) has the option 'Scale Grabbable' which will automatically scale socketable objects by their Mesh Renderer bounding box sizes.
 
 The localScale will be set to the 'Size' field divided by the longest bounding box axis length.
 
-The 'Scale Override' field on the [HVRSocketable](xref:HurricaneVR.Framework.Core.Sockets.HVRSocketable) which should reference a disabled Box Collider for sizing can be used to override the Mesh Renderer Bounding Box.
+The [Scale Override](xref:HurricaneVR.Framework.Core.Sockets.HVRSocketable.ScaleOverride) which should reference a disabled Box Collider for sizing can be used to override the Mesh Renderer Bounding Box.
 
-Skinned Mesh Renderer based socketables must use 'Scale Override', the Bow in the example scene uses this.
+Skinned Mesh Renderer based socketables must use [Scale Override](xref:HurricaneVR.Framework.Core.Sockets.HVRSocketable.ScaleOverride), the Bow in the example scene uses this.
 
 ## Hover Actions
 

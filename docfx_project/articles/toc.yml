@@ -11,8 +11,10 @@
       href: setup_steamvr.md
     - name: LegacyVR (Unity 2019)
       href: setup_legacyvr.md
-- name: Grab System
-  href: grab.md
+- name: Interactions
+  href: interactions.md
   items:
     - name: Sockets
       href: sockets.md
+- name: Integrations
+  href: integrations.md
