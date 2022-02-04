@@ -1,0 +1,29 @@
+- name: Introduction
+  href: intro.md
+- name: Project Setup
+  href: setup.md
+  items:
+    - name: Project Settings
+      href: setup_project.md
+    - name: XR Plugin
+      href: setup_xrplugin.md
+    - name: SteamVR
+      href: setup_steamvr.md
+    - name: LegacyVR (Unity 2019)
+      href: setup_legacyvr.md
+- name: Rig Breakdown
+  items:
+    - name: Player Controller
+      href: rig/playercontroller.md
+    - name: Physics Hands
+      href: rig/physicshands.md
+- name: Interactions
+  items:
+    - name: Grab Detection
+      href: detection.md
+    - name: Hands
+      href: hands.md
+    - name: Sockets
+      href: sockets.md
+- name: Integrations
+  href: integrations.md
