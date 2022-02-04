@@ -18,7 +18,8 @@ This will happen if:
 ### Hand Pulls
 
 The grabbed object will be pulled towards the hand using the HVRJointSettings supplied in the “Pulling Settings” field.\
-This is done this way to prevent grabbed objects from hitting surrounding objects with infinite force while it moves and rotates into position.
+This approach uses physics forces which prevents objects from getting stuck (which would require other systems to handle unstucking objects) and prevents hitting surrounding objects with infinite force while the object moves and rotates into position.\
+If the object can't move into pose position due to collision, the hand will go to retrieve the object after a customizable [Timeout](xref:HurricaneVR.Framework.Core.HVRGrabbable.FinalJointTimeout).
 
 Each [HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable) can have this pull joint setting overridden, which should be done for objects greater than 2 mass.
 

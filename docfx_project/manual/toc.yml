@@ -11,17 +11,22 @@
       href: setup_steamvr.md
     - name: LegacyVR (Unity 2019)
       href: setup_legacyvr.md
+- name: Scene Setup
+  href: scenesetup.md
 - name: Rig Breakdown
   items:
     - name: Player Controller
       href: rig/playercontroller.md
+      items:
+        - name: Camera Rig
+          href: rig/camerarig.md
     - name: Physics Hands
       href: rig/physicshands.md
 - name: Interactions
   items:
     - name: Grab Detection
       href: detection.md
-    - name: Hands
+    - name: Hand Grabber
       href: hands.md
     - name: Sockets
       href: sockets.md
