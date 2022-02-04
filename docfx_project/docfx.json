@@ -7,7 +7,7 @@
             "HurricaneVR.Framework.csproj"
                       ],
           "exclude":[],
-          "src": "F:\\Code\\HurricaneVR\\"
+          "src": "C:\\Code\\HurricaneVR\\"
         }
       ],
       "dest": "api",
