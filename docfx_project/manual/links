@@ -6,3 +6,10 @@
 [HVRTriggerGrabbableBag](xref:HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag)
 [HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable)
 [HVRTeleporter](xref:HurricaneVR.Framework.Core.Player.HVRTeleporter)
+
+
+[Configurable Joints](https://docs.unity3d.com/Manual/class-ConfigurableJoint.html)
+
+
+[HVRSocket](xref:HurricaneVR.Framework.Core.Grabbers.HVRSocket)
+[HVRSocketableTags](xref:HurricaneVR.Framework.Core.Sockets.HVRSocketableTags) 

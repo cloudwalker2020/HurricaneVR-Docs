@@ -8,7 +8,7 @@ If your colliders are not on the same object as the [HVRGrabbable](xref:Hurrican
 
 1. Add a [HVRGrabbableChild](xref:HurricaneVR.Framework.Core.HVRGrabbableChild) to the child objects that have colliders on them.
     1. Optionally set the Parent Grabbable field to the linked [HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable) object. If empty it will use the first parent grabbable it finds.
-1. Open HVRSettings and enable one or both at a global level if you wish, keeping in mind this applies to every collider the trigger system comes in contact with.
+1. Open [HVRSettings](hvrsettings.md#grab-detection) and enable one or both at a global level if you wish, keeping in mind this applies to every collider the trigger system comes in contact with.
     1. Use Attached Rigid Body: the detected collider will use it's attached rigid body to locate the grabbable, since the grabbable should be on the same object as a rigidbody.
     1. Component In Parent Fallback: finds the first [HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable) that is a parent of the collider
 

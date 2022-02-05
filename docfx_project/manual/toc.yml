@@ -21,6 +21,8 @@
       href: jointsettings.md
     - name: Sockets
       href: sockets.md
+    - name: Grab Detection
+      href: detection.md
 - name: Rig Breakdown
   items:
     - name: Player Controller
@@ -31,8 +33,6 @@
     - name: Physics Hands
       href: rig/physicshands.md
       items:
-        - name: Grab Detection
-          href: detection.md
         - name: Hand Grabber
           href: hands.md
         - name: Hand Breakdown

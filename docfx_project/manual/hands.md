@@ -28,10 +28,3 @@ Each [HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable) can have this 
 When [Hand Grabs](#hand-grabs) completes, or [Hand Pulls](#hand-pulls) has pulled the object close enough, a final "strong" [Configurable Joint](https://docs.unity3d.com/Manual/class-ConfigurableJoint.html) is created between the hand rigid body and the grabbable rigid body.
 
 The settings of the joint can be overridden globally @ HVRSettings.DefaultJointSettings or per grabbable's [JointOverride](xref:HurricaneVR.Framework.Core.HVRGrabbable.JointOverride) field.
-
-[HVRGrabbableChild](xref:HurricaneVR.Framework.Core.HVRGrabbableChild)
-[HVRGrabberBase](xref:HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase) 
-[HVRHandGrabber](xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber) 
-[HVRForceGrabber](xref:HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber) 
-[HVRTriggerGrabbableBag](xref:HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag)
-[HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable)

@@ -1,6 +1,6 @@
-# [HVRJointSettings](xref:HurricaneVR.Framework.Core.ScriptableObjects.HVRJointSettings)
+# HVRJointSettings
 
-Scriptable object used to store and apply values to [Configurable Joints](https://docs.unity3d.com/Manual/class-ConfigurableJoint.html).
+[HVRJointSettings](xref:HurricaneVR.Framework.Core.ScriptableObjects.HVRJointSettings) used to store and apply values to [Configurable Joints](https://docs.unity3d.com/Manual/class-ConfigurableJoint.html).
 
 Used by the [HVRJointHand](xref:HurricaneVR.Framework.Core.Player.HVRJointHand) component on the [Physics Hands](rig/physicshands.md#physics-hands) to set the default hand strength.
 
