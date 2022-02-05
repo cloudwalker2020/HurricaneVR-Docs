@@ -2,7 +2,7 @@
 
 - Follow the setup steps on the [Project Setup page](setup.md#project-and-packages-setup).
 - Have a read through the documentation on critical pieces of the framework. 
-    - [Grab Detection](detection.md#grab-systems)
+    - [Grab Detection](detection.md#grabbable-detection)
     - [Hand Grabber](hands.md#hand-grabber)
     - [Sockets](sockets.md#sockets)
 

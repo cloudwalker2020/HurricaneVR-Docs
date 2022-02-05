@@ -1,10 +1,8 @@
-# Grab Systems
-
-## Grabbable Detection
+# Grabbable Detection
 
 The [HVRHandGrabber](xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber) and [HVRForceGrabber](xref:HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber) both use  [HVRTriggerGrabbableBag](xref:HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag) components to detect grabbable objects.
 
-Colliders and Triggers are required to go along with the [HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable) component.
+[HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable) require colliders to be detected.
 
 If your colliders are not on the same object as the [HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable) component, you will need to hint the grab system how to locate your grabbable component.
 
@@ -14,7 +12,7 @@ If your colliders are not on the same object as the [HVRGrabbable](xref:Hurrican
     1. Use Attached Rigid Body: the detected collider will use it's attached rigid body to locate the grabbable, since the grabbable should be on the same object as a rigidbody.
     1. Component In Parent Fallback: finds the first [HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable) that is a parent of the collider
 
-### Notes
+## Notes
 
 - Subclasses of [HVRGrabbableBag](xref:HurricaneVR.Framework.Core.Bags.HVRGrabbableBag) are used to detect objects so that they can be grabbed.
 - Each [HVRGrabberBase](xref:HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase) needs at least one of these assigned.

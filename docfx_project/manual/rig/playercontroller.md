@@ -2,7 +2,7 @@
 
 The rig included with the asset makes use of Unity's [CharacterController](https://docs.unity3d.com/ScriptReference/CharacterController.html) component. It's important to note this is the most basic of movement providers, it is not a rigidbody and behaves like a massless object.
  
-Games made using this will be limited to games like Alyx / Walking dead where objects do not collide with the player as they can easily push the player around.
+Games made using this will be limited to basic locomotion used in games like Alyx and Walking dead where objects do not collide with the player as they can easily push the player around.
 
 If you want to build a game like Boneworks or Blade and Sorcery, then [HexaBodyVR](https://assetstore.unity.com/packages/tools/physics/hexabody-vr-player-controller-185521) will work better in this regard.
 

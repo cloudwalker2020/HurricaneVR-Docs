@@ -1,8 +1,8 @@
-# Scene Setup
+# HVRGlobal
 
-## HVRGlobal
+This prefab is used to hold framework required components and should be placed into a master scene in your game. It is advised to make a variant of this prefab so that you can override the fields of it's components so that updating the asset in the future painless.
 
-This prefab is used to hold framework required components and should be placed into a master scene in your game. It is advised to make a variant of this prefab so that you can override the fields of it's components to make updating the asset in the future painless.
+Location: Hurricane/Framework/Prefabs
 
 ## [HVRInputManager](xref:HurricaneVR.Framework.ControllerInput.HVRInputManager)
 
@@ -10,14 +10,28 @@ This component is required for the framework to function. It handles device dete
 
 The following fields are scriptable objects that you can clone to customize certain behaviours. Be sure to clone the original if you wish to modify the values and assign it in your own HVRGlobal prefab variant to make updating the asset easier for you.
 
-### Finger Settings
+## Finger Settings
 
 [HVRFingerSettings](xref:HurricaneVR.Framework.Shared.HVRFingerSettings) scriptable object that defines how much each capacitive button affects the bending of each finger.
 
 As of this writing, OpenXR via Unity still does not support Knuckles finger tracking out of the box, the  [KnucklesOverrideGripFingers](xref:HurricaneVR.Framework.Shared.HVRFingerSettings.KnucklesOverrideGripFingers)  can be enabled to fallback to standard finger curl behaviour like Oculus controllers.
 
-### Controller Offsets
+## Controller Offsets
 
 [HVRControllerOffsets](xref:HurricaneVR.Framework.Components.HVRControllerOffsets) scriptable object that defines controller offsets based on the active VR SDK and the device connected. 
 
-### Grab Haptics
+## Grab Haptics
+
+[HVRGrabHaptics](xref:HurricaneVR.Framework.Shared.HVRGrabHaptics) defines haptic values used in the following interaction events:
+- Hand Grab
+- Hand Release
+- Hand Hover
+- Force Grab
+- Force Hover
+
+## Deadzones
+
+Not entirely sure how useful device specific deadzones is, but each device can have a deadzone value applied. 
+'Override Deadzone' and 'Deadzone Override' can be used to provide a single deadzone value.
+
+The controller component will ignore values less than the provided deadzones when reading thumbstick inputs.

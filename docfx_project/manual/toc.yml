@@ -1,4 +1,4 @@
-- name: Introduction
+- name: Getting Started
   href: intro.md
 - name: Project Setup
   href: setup.md
@@ -11,8 +11,16 @@
       href: setup_steamvr.md
     - name: LegacyVR (Unity 2019)
       href: setup_legacyvr.md
-- name: Scene Setup
-  href: scenesetup.md
+- name: Framework
+  items:
+    - name: Scene Setup
+      href: scenesetup.md
+    - name: HVRSettings
+      href: hvrsettings.md
+    - name: Joint Settings
+      href: jointsettings.md
+    - name: Sockets
+      href: sockets.md
 - name: Rig Breakdown
   items:
     - name: Player Controller
@@ -22,13 +30,13 @@
           href: rig/camerarig.md
     - name: Physics Hands
       href: rig/physicshands.md
-- name: Interactions
-  items:
-    - name: Grab Detection
-      href: detection.md
-    - name: Hand Grabber
-      href: hands.md
-    - name: Sockets
-      href: sockets.md
+      items:
+        - name: Grab Detection
+          href: detection.md
+        - name: Hand Grabber
+          href: hands.md
+        - name: Hand Breakdown
+          href: rig/handbreakdown.md
+
 - name: Integrations
   href: integrations.md
