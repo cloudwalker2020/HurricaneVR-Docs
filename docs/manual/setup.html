@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>Project and Packages Setup </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="Project and Packages Setup ">
     <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     
     
@@ -57,10 +57,37 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="project-and-packages-setup">Project and Packages Setup</h1>
 
+<ul>
+<li>Import the HurricaneVR Asset from the Unity Package Manager before proceeding.</li>
+<li>Make sure TextMesh Pro is installed and updated to the latest version for the example scenes.</li>
+<li>Setup your Unity VR environment based on the below, then proceed to setup your <a href="setup_project.html#project-setup">Project Settings</a>.</li>
+</ul>
+<h2 id="oculus-store-builds">Oculus Store Builds</h2>
+<ul>
+<li><a href="https://developer.oculus.com/blog/oculus-all-in-on-openxr-deprecates-proprietary-apis/">Oculus dev article on deprecation of the Unity 2019 Legacy Oculus SDK</a></li>
+<li>Install <a href="setup_xrplugin.html#xr-plugin-management">XR Plugin Management</a> with either the <a href="https://docs.unity3d.com/Packages/com.unity.xr.oculus@2.0/manual/index.html">Oculus XR Plugin</a> or the <a href="https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.3/manual/index.html">OpenXR Plugin</a>.</li>
+<li><a href="setup_legacyvr.html#unity-2019-legacy-vr">Legacy SDK</a> is only allowed by Oculus with a waiver according to their article.</li>
+</ul>
+<h2 id="pcvr-builds">PCVR Builds</h2>
+<p>Choose between using the <a href="https://assetstore.unity.com/packages/tools/integration/steamvr-plugin-32647">SteamVR Plugin</a> or <a href="https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.3/manual/index.html">OpenXR Plugin</a> depending on what Unity version you want to use.<br>
+Keep in mind Valve Knuckles finger tracking is not supported yet by Unity OpenXR and requires SteamVR plugin to work correctly.</p>
+<ul>
+<li>Unity 2019:  <a href="setup_legacyvr.html#unity-2019-legacy-vr">Legacy SDK</a> + <a href="setup_steamvr.html#steamvr">SteamVR</a></li>
+<li>Unity 2019 and above: <a href="setup_xrplugin.html#xr-plugin-management">XR Plugin Management</a> + <a href="setup_steamvr.html#steamvr">SteamVR</a></li>
+<li>Unity 2020.3 and above <a href="setup_xrplugin.html#xr-plugin-management">XR Plugin Management</a> + <a href="https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.3/manual/index.html">OpenXR</a> 1.3+</li>
+</ul>
 </article>
           </div>
           

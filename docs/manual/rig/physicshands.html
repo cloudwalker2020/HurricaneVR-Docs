@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Physics Hands </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Physics Hands ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="physics-hands">Physics Hands</h1>
+
+<p>The hands are driven using a PD controller. The implementation makes use of Unity's <a href="https://docs.unity3d.com/Manual/class-ConfigurableJoint.html">Configurable Joint</a> to take advantage of the physics engines iterative nature and stability of simulation that joints allow.</p>
+<p>PD controllers are simply PID controllers that ignore the I component, if you want to learn more on the subject then check out this excellent video on the topic - <a href="https://www.youtube.com/watch?v=wkfEZmsQqiA">PID Control</a>.</p>
+<h2 id="hvrjointhand">HVRJointHand</h2>
+<p><a href="xref:HurricaneVR.Framework.Core.Player.HVRJointHand">HVRJointHand</a> is a PD controller implementation that chases the target controller.</p>
+<p><a href="xref:HurricaneVR.Framework.Core.Player.HVRJointHand.JointSettings">JointSettings</a> defines the default PD values used that controls the hand's strength.</p>
+<h3 id="max-distance">Max Distance</h3>
+<p>If distance between the hand and the controller is greater than <a href="xref:HurricaneVR.Framework.Core.Player.HVRJointHand.MaxTargetDistance">MaxTargetDistance</a> or if the distance between <a href="xref:HurricaneVR.Framework.Core.Player.HVRJointHand.Anchor">Anchor</a> (shoulder) and the hand is greater than <a href="xref:HurricaneVR.Framework.Core.Player.HVRJointHand.ArmLength">ArmLength</a> one of the below is performed.</p>
+<p>Set <a href="xref:HurricaneVR.Framework.Core.Player.HVRJointHand.MaxDistanceBehaviour">MaxDistanceBehaviour</a> to determine what happens after max distance is breached.</p>
+<ul>
+<li>GrabbablePrevents - if you're holding an object then nothing happens.</li>
+<li>GrabbableDrops - the object you are holding is released, hand collision is disabled, then the hand smoothly returns to the controller.</li>
+<li>HandSweep - <a href="xref:HurricaneVR.Framework.Core.Player.HVRTeleportCollisonHandler">HVRTeleportCollisonHandler</a> is used to try and safely bring the hand and held object (if any) to a position between the player and the controller.</li>
+</ul>
+<div class="TIP">
+<h5>Tip</h5>
+<p><a href="xref:HurricaneVR.Framework.Core.Player.HVRJointHand.Anchor">Anchor</a> and <a href="xref:HurricaneVR.Framework.Core.Player.HVRJointHand.ArmLength">ArmLength</a> are useful if your avatar has arms (with or without a full body) to keep the hand from going further than it should.</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p><a href="xref:HurricaneVR.Framework.Core.HVRGrabbable.OverrideMaxDistanceBehaviour">OverrideMaxDistanceBehaviour</a> and
+<a href="xref:HurricaneVR.Framework.Core.HVRGrabbable.MaxDistanceBehaviour">MaxDistanceBehaviour</a> override this behaviour on a per object basis.</p>
+</div>
+<h2 id="hvrthrowingcenterofmass">HVRThrowingCenterOfMass</h2>
+<p><a href="xref:HurricaneVR.Framework.Components.HVRThrowingCenterOfMass">HVRThrowingCenterOfMass</a> holds transform points relative to the hand that represent the center of mass of the controller. To try and achieve solid throwing in VR, the center of mass of the controller is used in the final throwing calculation that converts angular velocity to linear velocity. This seems to work well since you're actually swinging your controller around in real life, and not the object that you are throwing in game.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>If you disagree with this approach, you can remove this component. The center of mass of the hand's rigidbody will instead be used to convert angular velocity to linear velocity when throwing.</p>
+</div>
+<h2 id="hvrrigidbodyoverrides">HVRRigidBodyOverrides</h2>
+<p>Used to override rigidbody properites of the hand.</p>
+<p>Inertia Tensor Rotation is 0'd out to enable smooth rotation along all axis.</p>
+<p>Inertia Tensor is set to a default value that feels good with the default joint settings. You may wish to adjust this if you want to control the torque required to rotate the hand.</p>
+<h2 id="hvrhandstrengthhandler">HVRHandStrengthHandler</h2>
+<p>Manages the strength applied to the hand that might be overriden by the grabbable objects. Used internally by the framework and can be ignored outside of debug use.</p>
+<p>The current joint setting applied to the hand can be viewed here if you want to verify that your strength override is applied correctly.</p>
+<p>Setting 'Always Updated Joint' to true will evaluate the settings in the active joint settings every frame, you can enable this while in play mode to modify the settings to test the affects of different PD controller values.</p>
+<h2 id="hvrhandphysics">HVRHandPhysics</h2>
+<p>Basic component that holds a reference to the hand's colliders, mostly used internally by the framework.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

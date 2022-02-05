@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Project Setup </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Project Setup ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="project-setup">Project Setup</h1>
+
+<p>HurricaneVR requires a few project settings to get up and running.</p>
+<p>Open the Setup window by navigating to Tools → HurricaneVR → Setup and then click the “Project Setup&quot; button on the toolbar.</p>
+<ul>
+<li>Setup Layers will add layers if necessary and will report the status of the operation in your console.</li>
+<li>Setup Physics settings will set the recommended physics settings for joint and collision stability.</li>
+<li>Setup Collision Matrix will setup the collision layer matrix for you.</li>
+</ul>
+<p><span class="mx-imgBorder">
+<img src="../images/hvrsetupwindow.png" alt="h">
+</span>
+</p>
+<h2 id="tags-and-layers">Tags and Layers</h2>
+<h3 id="layer-notes">Layer Notes</h3>
+<p>By default grabbable objects require line of sight from the hand to be picked up.<br>
+The HVRHandGrabber component has a RaycastLayerMask field which you can define what layers will block the line of sight ray cast. This field will need to be updated whenever you add additional layers for your environment or grabbable objects other than &quot;Grabbable&quot; framework layer.</p>
+<p><strong>Note:</strong> Grabbable objects can have their line of sight requirement disabled on their HVRGrabbable component.</p>
+<h3 id="framework-layers">Framework Layers</h3>
+<ul>
+<li>Player - used to prevent collision with the player character controller.
+<ul>
+<li>Assign to the PlayerController object (be careful not to assign to the children)</li>
+</ul>
+</li>
+<li>Grabbable - used to help prevent collision with the player character controller and is automatically assigned recursively to objects with HVRGrabbable components.
+<ul>
+<li>Automatic layer assignment can be disabled per grabbable with by setting AutoApplyLayer to false.</li>
+<li>Automatic layer assignment can be toggled at the project level on the HVRSettings scriptable object.</li>
+</ul>
+</li>
+<li>Hand - used on the hand collision geometry
+<ul>
+<li>Automatically applied to the HVRHandGrabber component and children unless disabled on the same.</li>
+</ul>
+</li>
+<li>DynamicPose - Used for the dynamic posing grab sequence to ensure the fingers only collide with the desired object.
+<ul>
+<li>Automatically set in code during the auto pose sequence, no need to assign these to any objects.</li>
+</ul>
+</li>
+</ul>
+<p><span class="mx-imgBorder">
+<img src="../images/tags_layers.png" alt="t">
+</span>
+</p>
+<h2 id="fixed-time-step">Fixed Time Step</h2>
+<p>For smooth game play in VR, the Fixed Time Step must match the refresh rate of the headset.</p>
+<p>The HVRTimeManager component can be added to your scene, and will automatically handle the fixed time step for you.<br>
+The HVRGlobal prefab which comes with other required components already has this and is in use in the included demo scenes.</p>
+<h2 id="physics-settings">Physics Settings</h2>
+<p>Edit -&gt; Project Settings -&gt; Physics</p>
+<p>Notable Properties:</p>
+<ul>
+<li>Default Solver Iterations &amp; Default Solver Velocity Iterations
+<ul>
+<li>Increasing these can stabilize contact and joint constraints at the cost of CPU budget.</li>
+</ul>
+</li>
+<li>Default Max Angular Speed</li>
+<li>Layer Collision Matrix</li>
+<li>Solver Type = PGS</li>
+</ul>
+<p><span class="mx-imgBorder">
+<img src="../images/physics.png" alt="p">
+</span>
+</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

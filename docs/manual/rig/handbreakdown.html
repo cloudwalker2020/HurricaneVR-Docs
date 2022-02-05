@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Hand Breakdown </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Hand Breakdown ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="hand-breakdown">Hand Breakdown</h1>
+
+<p>The following gives some context to the objects and their purpose as part of the default XR Rig and Hand prefabs.</p>
+<h2 id="joint-anchor">Joint Anchor</h2>
+<p>Anchor point for the <a href="https://docs.unity3d.com/Manual/class-ConfigurableJoint.html">Configurable Joint</a> when attaching to a held object.</p>
+<p>Should be placed closer to the hand's center of mass.</p>
+<h2 id="force-grabber">Force Grabber</h2>
+<p><a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber">HVRForceGrabber</a> pulls grabbable objects to the hand using physics forces.</p>
+<ul>
+<li>ForceGrabOrigin: Origin and direction of the line of sight raycast used by the force grabber.</li>
+<li>ForceGrabLaser: <a href="xref:HurricaneVR.Framework.Core.HVRForceGrabberLaser">HVRForceGrabberLaser</a> using Line Renderer to draw the gravity gloves laser.</li>
+<li>ForceGrabberBags: <a href="../detection.html#grabbable-detection">Grabbable Detection</a> triggers. Referenced by <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.GrabBags">GrabBags</a>. Lower indices in the array have higher priority.</li>
+</ul>
+<h2 id="overlapsizer">OverlapSizer</h2>
+<p>Sphere collider that is used to position and size a call to <a href="https://docs.unity3d.com/ScriptReference/Physics.OverlapSphereNonAlloc.html">Physics.OverlapSphere</a> to check if a recently released object is still close to the hand after a <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable.OverlapTimeout">OverlapTimeout</a> amount of time passes.</p>
+<h2 id="socket-bag">Socket Bag</h2>
+<p>Trigger collider used with <a href="xref:HurricaneVR.Framework.Core.Bags.HVRSocketBag">HVRSocketBag</a> to detect sockets in range of the hand.</p>
+<p>Used by the <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber">HVRHandGrabber</a> to determine the closest valid socket to grab objects out of if allowed.</p>
+<h2 id="grabbable-bag">Grabbable Bag</h2>
+<p>Trigger collider used to detect grabbable objects. Can be resized and repositioned if you like. <a href="../detection.html#grabbable-detection">Read about Grabbable Detection</a>.</p>
+<h2 id="teleport">Teleport</h2>
+<p>Used by the <a href="xref:HurricaneVR.Framework.Core.Player.HVRTeleporter">HVRTeleporter</a> to aim and position the start of the teleport line.</p>
+<h2 id="centerofmasses">CenterOfMasses</h2>
+<p>Used by the <a href="physicshands.html#hvrthrowingcenterofmass">HVRThrowingCenterOfMass</a> component to define device specific center of mass points to aid in throwing calcs.</p>
+<h2 id="uipointer">UIPointer</h2>
+<p>Holds the disabled camera, line renderer, and HVRUIPointer component used by the HVRInputModule that allows interactions with world space canvases.</p>
+<p>Transform defines the position and direction (forward vector) of the pointer.</p>
+<h2 id="handraycastorigin">HandRayCastOrigin</h2>
+<p>Raycasts are performed to determine if the object in the Grabbable Bag trigger can be seen by the hand to prevent grabbing objects through world geometry. The position of this transform is the origin of the raycast.</p>
+<h2 id="fallbackposer">FallbackPoser</h2>
+<p>Holds a HVRHandPoser component that defines a hand pose to use when &quot;Offset&quot; grabbing, or if a valid grab point couldn't be found due to position and rotation restrictions defined on the grab point.</p>
+<h2 id="hand-grab-indicator">Hand Grab Indicator</h2>
+<p>Holds the default grab indicator that positions itself on grab points when the hand is hovering and not yet holding an object.</p>
+<h2 id="hand-poses">Hand Poses</h2>
+<p>Holds the poses that the Force Grabber uses when it's Hovering or Pulling an object toward the hand and the poses that the Hand Grabber use's when it's Hovering, Pulling, or Retrieving an object.</p>
+<h2 id="dynamic-grab-indicator">Dynamic Grab Indicator</h2>
+<p>Optional grab indicator that positions itself on the grabbable object to show where the palm will land.</p>
+<h2 id="force-grab-indicator">Force Grab Indicator</h2>
+<p>Visual indicator that positions itself on the grabbable object when the Force Grabber Hover's an object.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

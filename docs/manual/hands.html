@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>Hand Grabber </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="Hand Grabber ">
     <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     
     
@@ -57,10 +57,37 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h2 id="hand-grabber">Hand Grabber</h2>
 
+<p>The <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber">HVRHandGrabber</a>  components reside on the hand rigid body objects. It is important to note how the grab flow works.</p>
+<p>The hand operates in &quot;<a href="#hand-grabs">Hand Grabs</a>&quot; or “<a href="#hand-pulls">Pull</a>” mode for physics based grabbing that use <a href="https://docs.unity3d.com/Manual/class-ConfigurableJoint.html">Configurable Joints</a>.</p>
+<h3 id="hand-grabs">Hand Grabs</h3>
+<p>The hand will move to the object to grab it and immediately create a <a href="#final-joint">Final</a> strong joint with the object. After which the hand returns to the controller via physics.</p>
+<p>This will happen if:</p>
+<ul>
+<li>HandGrabs is enabled on the <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber">HVRHandGrabber</a>.</li>
+<li><a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> is marked Stationary</li>
+<li><a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> is Joint based without a rigid body.</li>
+<li>The object being grabbed is already held with one hand.</li>
+</ul>
+<h3 id="hand-pulls">Hand Pulls</h3>
+<p>The grabbed object will be pulled towards the hand using the HVRJointSettings supplied in the “Pulling Settings” field.<br>
+This approach uses physics forces which prevents objects from getting stuck (which would require other systems to handle unstucking objects) and prevents hitting surrounding objects with infinite force while the object moves and rotates into position.<br>
+If the object can't move into pose position due to collision, the hand will go to retrieve the object after a customizable <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable.FinalJointTimeout">Timeout</a>.</p>
+<p>Each <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> can have this pull joint setting overridden, which should be done for objects greater than 2 mass.</p>
+<h3 id="final-joint">Final Joint</h3>
+<p>When <a href="#hand-grabs">Hand Grabs</a> completes, or <a href="#hand-pulls">Hand Pulls</a> has pulled the object close enough, a final &quot;strong&quot; <a href="https://docs.unity3d.com/Manual/class-ConfigurableJoint.html">Configurable Joint</a> is created between the hand rigid body and the grabbable rigid body.</p>
+<p>The settings of the joint can be overridden globally @ HVRSettings.DefaultJointSettings or per grabbable's <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable.JointOverride">JointOverride</a> field.</p>
 </article>
           </div>
           

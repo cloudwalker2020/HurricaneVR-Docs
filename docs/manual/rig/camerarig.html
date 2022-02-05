@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>HVRCameraRig </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="HVRCameraRig ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="hvrcamerarig"><a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig">HVRCameraRig</a></h1>
+
+<p>The camera rig component manages offsetting the HMD / Camera.</p>
+<p>Height calibration is included and can be enabled by setting the <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.SitStanding">SitStanding</a> along with the <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.EyeHeight">EyeHeight</a> field.</p>
+<p>To assist with testing in edit mode, I have added logic that can quickly calibrate height after entering play mode.</p>
+<ul>
+<li><a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.SaveCalibrationHeight">SaveCalibrationHeight</a>: if enabled the last calibrated height is stored in player prefs.</li>
+<li>Enabling <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.DebugCalibMode">DebugCalibMode</a> will force height calibration on start, if <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.SaveCalibrationHeight">SaveCalibrationHeight</a> is enabled it's stored value is used, otherwise the HMD height is used.
+<ul>
+<li>HMDMoved: Calibrates when the HMD moves more than <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.DebugCalibMovedThreshold">DebugCalibMovedThreshold</a> from it's starting position.</li>
+<li>Immediately: Immediately calibrates.</li>
+</ul>
+</li>
+<li><a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.DebugKeyboardRecalibrate">DebugKeyboardRecalibrate</a> is enabled and RecalibrateKey pressed.</li>
+</ul>
+<h2 id="flooroffset">FloorOffset</h2>
+<p>This transform moves up and down based on a few variables.</p>
+<ul>
+<li>Height Calibration: Calibrating in sitting mode will offset based on the difference between device height and <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.EyeHeight">EyeHeight</a>.</li>
+<li><a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.PlayerControllerYOffset">PlayerControllerYOffset</a>: Used by the player controller when a input driven crouch is activated.</li>
+<li><a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.CameraYOffset">CameraYOffset</a>: Users can adjust this on demand to raise or lower the camera. If <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.DebugKeyboardOffset">DebugKeyboardOffset</a> is enabled the Up/Down arrow keys will shift by <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.DebugKeyboardIncrement">DebugKeyboardIncrement</a> amount.</li>
+</ul>
+<h2 id="camera-scale">Camera Scale</h2>
+<p>When the <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.SitStanding">SitStanding</a> mode is set to Standing, this transform will scale based on the device reported Y height and the <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.EyeHeight">EyeHeight</a> field.</p>
+<p>This will make the world look smaller for shorter players, and larger for taller players if their height is not close to the <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.EyeHeight">EyeHeight</a> value.</p>
+<p>Using this feature will let you build your world without worrying about how tall the player is. You can see this in action in games like Boneworks and Blade and Sorcery.</p>
+<h2 id="left--right-controller">Left / Right Controller</h2>
+<p>Transforms that represent the tracked controller device positions and rotations.</p>
+<p>Each transform has an Offset transform child used to shift the physics hand target.</p>
+<p>The <a href="xref:HurricaneVR.Framework.Components.HVRControllerOffset">HVRControllerOffset</a> component on the Offset transform manages the position and rotation offset based on the Unity XR plugin and device connected. The offsets are driven by the <a href="../scenesetup.html#controller-offsets">Controller Offsets</a> field on the <a href="xref:HurricaneVR.Framework.ControllerInput.HVRInputManager">HVRInputManager</a> component.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

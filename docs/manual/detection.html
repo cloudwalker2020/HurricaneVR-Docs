@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>Grabbable Detection </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="Grabbable Detection ">
     <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     
     
@@ -57,10 +57,46 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="grabbable-detection">Grabbable Detection</h1>
 
+<p>The <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber">HVRHandGrabber</a> and <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber">HVRForceGrabber</a> both use  <a href="xref:HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag">HVRTriggerGrabbableBag</a> components to detect grabbable objects.</p>
+<p><a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> require colliders to be detected.</p>
+<p>If your colliders are not on the same object as the <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> component, you will need to hint the grab system how to locate your grabbable component.</p>
+<ol>
+<li>Add a <a href="xref:HurricaneVR.Framework.Core.HVRGrabbableChild">HVRGrabbableChild</a> to the child objects that have colliders on them.
+<ol>
+<li>Optionally set the Parent Grabbable field to the linked <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> object. If empty it will use the first parent grabbable it finds.</li>
+</ol>
+</li>
+<li>Open <a href="hvrsettings.html#grab-detection">HVRSettings</a> and enable one or both at a global level if you wish, keeping in mind this applies to every collider the trigger system comes in contact with.
+<ol>
+<li>Use Attached Rigid Body: the detected collider will use it's attached rigid body to locate the grabbable, since the grabbable should be on the same object as a rigidbody.</li>
+<li>Component In Parent Fallback: finds the first <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> that is a parent of the collider</li>
+</ol>
+</li>
+</ol>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Subclasses of <a href="xref:HurricaneVR.Framework.Core.Bags.HVRGrabbableBag">HVRGrabbableBag</a> are used to detect objects so that they can be grabbed.</li>
+<li>Each <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase">HVRGrabberBase</a> needs at least one of these assigned.
+<ul>
+<li>If there are multiple assigned to a grabber, objects are given priority based on the index of the bag in the bag list.</li>
+<li>Lower index is higher priority.</li>
+</ul>
+</li>
+<li>Objects “in the bag” are sorted by their distance to the grabber to determine which one should be grabbed.</li>
+<li>If you wish you can subclass and extend the existing components to customize your grab detection system.</li>
+</ul>
 </article>
           </div>
           
