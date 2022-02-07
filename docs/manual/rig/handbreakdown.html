@@ -74,21 +74,21 @@
 <p>Anchor point for the <a href="https://docs.unity3d.com/Manual/class-ConfigurableJoint.html">Configurable Joint</a> when attaching to a held object.</p>
 <p>Should be placed closer to the hand's center of mass.</p>
 <h2 id="force-grabber">Force Grabber</h2>
-<p><a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber">HVRForceGrabber</a> pulls grabbable objects to the hand using physics forces.</p>
+<p><a class="xref" href="../../api/HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber.html">HVRForceGrabber</a> pulls grabbable objects to the hand using physics forces.</p>
 <ul>
 <li>ForceGrabOrigin: Origin and direction of the line of sight raycast used by the force grabber.</li>
-<li>ForceGrabLaser: <a href="xref:HurricaneVR.Framework.Core.HVRForceGrabberLaser">HVRForceGrabberLaser</a> using Line Renderer to draw the gravity gloves laser.</li>
-<li>ForceGrabberBags: <a href="../detection.html#grabbable-detection">Grabbable Detection</a> triggers. Referenced by <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.GrabBags">GrabBags</a>. Lower indices in the array have higher priority.</li>
+<li>ForceGrabLaser: <a class="xref" href="../../api/HurricaneVR.Framework.Core.HVRForceGrabberLaser.html">HVRForceGrabberLaser</a> using Line Renderer to draw the gravity gloves laser.</li>
+<li>ForceGrabberBags: <a href="../detection.html#grabbable-detection">Grabbable Detection</a> triggers. Referenced by <a class="xref" href="../../api/HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_GrabBags">GrabBags</a>. Lower indices in the array have higher priority.</li>
 </ul>
 <h2 id="overlapsizer">OverlapSizer</h2>
-<p>Sphere collider that is used to position and size a call to <a href="https://docs.unity3d.com/ScriptReference/Physics.OverlapSphereNonAlloc.html">Physics.OverlapSphere</a> to check if a recently released object is still close to the hand after a <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable.OverlapTimeout">OverlapTimeout</a> amount of time passes.</p>
+<p>Sphere collider that is used to position and size a call to <a href="https://docs.unity3d.com/ScriptReference/Physics.OverlapSphereNonAlloc.html">Physics.OverlapSphere</a> to check if a recently released object is still close to the hand after a <a class="xref" href="../../api/HurricaneVR.Framework.Core.HVRGrabbable.html#HurricaneVR_Framework_Core_HVRGrabbable_OverlapTimeout">OverlapTimeout</a> amount of time passes.</p>
 <h2 id="socket-bag">Socket Bag</h2>
-<p>Trigger collider used with <a href="xref:HurricaneVR.Framework.Core.Bags.HVRSocketBag">HVRSocketBag</a> to detect sockets in range of the hand.</p>
-<p>Used by the <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber">HVRHandGrabber</a> to determine the closest valid socket to grab objects out of if allowed.</p>
+<p>Trigger collider used with <a class="xref" href="../../api/HurricaneVR.Framework.Core.Bags.HVRSocketBag.html">HVRSocketBag</a> to detect sockets in range of the hand.</p>
+<p>Used by the <a class="xref" href="../../api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a> to determine the closest valid socket to grab objects out of if allowed.</p>
 <h2 id="grabbable-bag">Grabbable Bag</h2>
 <p>Trigger collider used to detect grabbable objects. Can be resized and repositioned if you like. <a href="../detection.html#grabbable-detection">Read about Grabbable Detection</a>.</p>
 <h2 id="teleport">Teleport</h2>
-<p>Used by the <a href="xref:HurricaneVR.Framework.Core.Player.HVRTeleporter">HVRTeleporter</a> to aim and position the start of the teleport line.</p>
+<p>Used by the <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRTeleporter.html">HVRTeleporter</a> to aim and position the start of the teleport line.</p>
 <h2 id="centerofmasses">CenterOfMasses</h2>
 <p>Used by the <a href="physicshands.html#hvrthrowingcenterofmass">HVRThrowingCenterOfMass</a> component to define device specific center of mass points to aid in throwing calcs.</p>
 <h2 id="uipointer">UIPointer</h2>
@@ -113,6 +113,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR-Docs/blob/main/docfx_project/manual/rig/handbreakdown.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

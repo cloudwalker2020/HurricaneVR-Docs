@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>HVRGlobal </title>
+    <title>Scene Setup </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="HVRGlobal ">
+    <meta name="title" content="Scene Setup ">
     <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -67,20 +67,24 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="hvrglobal">HVRGlobal</h1>
+<h1 id="scene-setup">Scene Setup</h1>
 
+<p>The following provides a brief explanation of the required objects / components needed in your scene for the asset to function.</p>
+<p>Example scene with the minimum required: /HurricaneVR/TechDemo/Scenes/scenes_barebones</p>
+<p>HVRGlobal Prefab: /HurricaneVR/Framework/Prefabs
+XR Rig Prefab: /HurricaneVR/TechDemo/Prefabs/ TechDemoXRRig | TechDemoXRRigOpenXR</p>
+<h1 id="hvrglobal">HVRGlobal</h1>
 <p>This prefab is used to hold framework required components and should be placed into a master scene in your game. It is advised to make a variant of this prefab so that you can override the fields of it's components so that updating the asset in the future painless.</p>
-<p>Location: Hurricane/Framework/Prefabs</p>
-<h2 id="hvrinputmanager"><a href="xref:HurricaneVR.Framework.ControllerInput.HVRInputManager">HVRInputManager</a></h2>
+<h2 id="hvrinputmanager"><a class="xref" href="../api/HurricaneVR.Framework.ControllerInput.HVRInputManager.html">HVRInputManager</a></h2>
 <p>This component is required for the framework to function. It handles device detection and other various input functions. It automatically marks it's object as DontDestroyOnLoad so that it persists between scene changes.</p>
 <p>The following fields are scriptable objects that you can clone to customize certain behaviours. Be sure to clone the original if you wish to modify the values and assign it in your own HVRGlobal prefab variant to make updating the asset easier for you.</p>
 <h2 id="finger-settings">Finger Settings</h2>
-<p><a href="xref:HurricaneVR.Framework.Shared.HVRFingerSettings">HVRFingerSettings</a> scriptable object that defines how much each capacitive button affects the bending of each finger.</p>
-<p>As of this writing, OpenXR via Unity still does not support Knuckles finger tracking out of the box, the  <a href="xref:HurricaneVR.Framework.Shared.HVRFingerSettings.KnucklesOverrideGripFingers">KnucklesOverrideGripFingers</a>  can be enabled to fallback to standard finger curl behaviour like Oculus controllers.</p>
+<p><a class="xref" href="../api/HurricaneVR.Framework.Shared.HVRFingerSettings.html">HVRFingerSettings</a> scriptable object that defines how much each capacitive button affects the bending of each finger.</p>
+<p>As of this writing, OpenXR via Unity still does not support Knuckles finger tracking out of the box, the  <a class="xref" href="../api/HurricaneVR.Framework.Shared.HVRFingerSettings.html#HurricaneVR_Framework_Shared_HVRFingerSettings_KnucklesOverrideGripFingers">KnucklesOverrideGripFingers</a>  can be enabled to fallback to standard finger curl behaviour like Oculus controllers.</p>
 <h2 id="controller-offsets">Controller Offsets</h2>
-<p><a href="xref:HurricaneVR.Framework.Components.HVRControllerOffsets">HVRControllerOffsets</a> scriptable object that defines controller offsets based on the active VR SDK and the device connected.</p>
+<p><a class="xref" href="../api/HurricaneVR.Framework.Components.HVRControllerOffsets.html">HVRControllerOffsets</a> scriptable object that defines controller offsets based on the active VR SDK and the device connected.</p>
 <h2 id="grab-haptics">Grab Haptics</h2>
-<p><a href="xref:HurricaneVR.Framework.Shared.HVRGrabHaptics">HVRGrabHaptics</a> defines haptic values used in the following interaction events:</p>
+<p><a class="xref" href="../api/HurricaneVR.Framework.Shared.HVRGrabHaptics.html">HVRGrabHaptics</a> defines haptic values used in the following interaction events:</p>
 <ul>
 <li>Hand Grab</li>
 <li>Hand Release</li>
@@ -99,6 +103,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR-Docs/blob/main/docfx_project/manual/scenesetup.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

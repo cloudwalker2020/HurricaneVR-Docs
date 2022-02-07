@@ -69,43 +69,43 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="sockets">Sockets</h1>
 
-<p>The <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRSocket">HVRSocket</a> component is useful for snapping objects into place for building things like inventories.</p>
+<p>The <a class="xref" href="../api/HurricaneVR.Framework.Core.Grabbers.HVRSocket.html">HVRSocket</a> component is useful for snapping objects into place permnanently or for building Saints and Sinners style inventories.</p>
 <ul>
-<li>Sockets require a subclass of <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRSocketFilter">HVRSocketFilter</a> that will determine if a grabbable object is allowed.
+<li>Sockets require a subclass of <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRSocketFilter.html">HVRSocketFilter</a> that will determine if a grabbable object is allowed.
 <ul>
 <li>Multiple socket filters can be applied to a socket.</li>
 <li>By default multiple filters run in 'AND' mode where all filters must be valid. To change to OR mode set the 'Filter Condition' field to OR. Then the object is allowed as long as one of the filtes IsValid method returns true.</li>
 </ul>
 </li>
-<li>Each <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> requires a subclass of <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRSocketable">HVRSocketable</a> that has a matching filter to validate it.
+<li>Each <a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a> requires a subclass of <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRSocketable.html">HVRSocketable</a> that has a matching filter to validate it.
 <ul>
-<li>One <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRSocketable">HVRSocketable</a> can be assigned to a grabbable object.</li>
+<li>One <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRSocketable.html">HVRSocketable</a> can be assigned to a grabbable object.</li>
 </ul>
 </li>
 </ul>
 <h2 id="framework-provided-filters--socketables">Framework Provided Filters / Socketables</h2>
 <h3 id="scriptable-object-based-filtering">Scriptable Object Based Filtering</h3>
-<p>The <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRTagSocketFilter">HVRTagSocketFilter</a> and <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRTagSocketable">HVRTagSocketable</a> pair are used in the examples scenes for the inventory and holster sockets.<br>
+<p>The <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRTagSocketFilter.html">HVRTagSocketFilter</a> and <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRTagSocketable.html">HVRTagSocketable</a> pair are used in the examples scenes for the inventory and holster sockets.<br>
 They provide the easiest solution to get started with socket filtering for both programmers and non programmers.<br>
 Code validation is done using bitwise integer masking which is extremely performant.</p>
-<p>Both components accept <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRSocketableTags">HVRSocketableTags</a> where you can define 32 categories of objects in the editor.<br>
+<p>Both components accept <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRSocketableTags.html">HVRSocketableTags</a> where you can define 32 categories of objects in the editor.<br>
 After assigning the 'Tags' field on the Filter / Socketable, a multi-select dropdown will appear allowing you to assign multiple tags to the Filter and Socketable.<br>
 Create your own: Assets -&gt; Create -&gt; HurricaneVR -&gt; Socketables<br>
 Be sure to File -&gt; Save or CTRL+S to save scriptable object changes after editing them in the inspector.</p>
 <h3 id="grabbable-inclusion-filtering">Grabbable Inclusion Filtering</h3>
-<p>The <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRGrabbableSocketFilter">HVRGrabbableSocketFilter</a> filter is used to filter specific grabbable objects that exist in your scene or prefab. This is used on the demo XR Rigs on the shoulder socket that holds the backpack.<br>
+<p>The <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRGrabbableSocketFilter.html">HVRGrabbableSocketFilter</a> filter is used to filter specific grabbable objects that exist in your scene or prefab. This is used on the demo XR Rigs on the shoulder socket that holds the backpack.<br>
 Any amount of grabbable objects can be assigned to the 'Valid Grabbables' field.</p>
 <h3 id="grabbable-exclusion-filtering">Grabbable Exclusion Filtering</h3>
-<p>The <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRGrabbableSocketExcluder">HVRGrabbableSocketExcluder</a> can be used to allow every socketable EXCEPT the grabbables assigned to the component.</p>
+<p>The <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRGrabbableSocketExcluder.html">HVRGrabbableSocketExcluder</a> can be used to allow every socketable EXCEPT the grabbables assigned to the component.</p>
 <h3 id="others">Others</h3>
 <p>The rest of the included filters are deprecated due to the addition of the <a href="#scriptable-object-based-filtering">Tag Based Filtering</a> and may be removed in a future update.</p>
-<p><a href="xref:HurricaneVR.Framework.Core.Sockets.HVRStringSocketFilter">HVRStringSocketFilter</a> + <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRStringSocketable">HVRStringSocketable</a><br>
-<a href="xref:HurricaneVR.Framework.Core.Sockets.HVREnumSocketFilter%601">HVREnumSocketFilter</a> + <a href="xref:HurricaneVR.Framework.Core.Sockets.HVREnumSocketable%601">HVREnumSocketable</a><br>
-<a href="xref:HurricaneVR.Framework.Core.Sockets.HVREnumFlagsSocketFilter%601">HVREnumFlagsSocketFilter</a> + <a href="xref:HurricaneVR.Framework.Core.Sockets.HVREnumFlagsSocketable%601">HVREnumFlagsSocketable</a></p>
+<p><a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRStringSocketFilter.html">HVRStringSocketFilter</a> + <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRStringSocketable.html">HVRStringSocketable</a><br>
+<a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVREnumSocketFilter-1.html">HVREnumSocketFilter</a> + <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVREnumSocketable-1.html">HVREnumSocketable</a><br>
+<a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVREnumFlagsSocketFilter-1.html">HVREnumFlagsSocketFilter</a> + <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVREnumFlagsSocketable-1.html">HVREnumFlagsSocketable</a></p>
 <h2 id="socketable-orientation">Socketable Orientation</h2>
 <p>Socketable objects are parented to the object and their transform values are reset. If the Socketable has it's 'Socket Orientation' field assigned to a child transform, the local position and rotation will be pulled from that transform and aligned with the socket object axes. The grabbable objects in the example scene have these orientation overrides set as an example.</p>
 <p>If a socketable object is allowed into two different socket types, it's possible you will need to write custom orientation logic into one of the socket components. The DemoHolster socket subclass used in the example scene can be used as a guide. The small weapons (knife and gun) have DemoHolsterOrientation components with a Transform override that will align the socketable axis with the socket axis.</p>
-<p>The below code snippet shows the two virtual methods that the DemoHolster overrides from the <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRSocket">HVRSocket</a> class.</p>
+<p>The below code snippet shows the two virtual methods that the DemoHolster overrides from the <a class="xref" href="../api/HurricaneVR.Framework.Core.Grabbers.HVRSocket.html">HVRSocket</a> class.</p>
 <pre><code class="lang-csharp">protected override Quaternion GetRotationOffset(HVRGrabbable grabbable)
 {
     var orientation = grabbable.GetComponent&lt;DemoHolsterOrientation&gt;();
@@ -123,18 +123,18 @@ protected override Vector3 GetPositionOffset(HVRGrabbable grabbable)
 }
 </code></pre>
 <h2 id="socketable-scaling">Socketable Scaling</h2>
-<p>Each <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRSocket">HVRSocket</a> has the option 'Scale Grabbable' which will automatically scale socketable objects by their Mesh Renderer bounding box sizes.</p>
+<p>Each <a class="xref" href="../api/HurricaneVR.Framework.Core.Grabbers.HVRSocket.html">HVRSocket</a> has the option 'Scale Grabbable' which will automatically scale socketable objects by their Mesh Renderer bounding box sizes.</p>
 <p>The localScale will be set to the 'Size' field divided by the longest bounding box axis length.</p>
-<p>The <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRSocketable.ScaleOverride">Scale Override</a> which should reference a disabled Box Collider for sizing can be used to override the Mesh Renderer Bounding Box.</p>
-<p>Skinned Mesh Renderer based socketables must use <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRSocketable.ScaleOverride">Scale Override</a>, the Bow in the example scene uses this.</p>
+<p>The <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRSocketable.html#HurricaneVR_Framework_Core_Sockets_HVRSocketable_ScaleOverride">Scale Override</a> which should reference a disabled Box Collider for sizing can be used to override the Mesh Renderer Bounding Box.</p>
+<p>Skinned Mesh Renderer based socketables must use <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRSocketable.html#HurricaneVR_Framework_Core_Sockets_HVRSocketable_ScaleOverride">Scale Override</a>, the Bow in the example scene uses this.</p>
 <h2 id="hover-actions">Hover Actions</h2>
-<p>Each <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRSocket">HVRSocket</a> can have any number of <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRSocketHoverAction">HVRSocketHoverAction</a> assigned to the ‘Hover Actions’ or ‘Hand Grab Actions’ fields.</p>
+<p>Each <a class="xref" href="../api/HurricaneVR.Framework.Core.Grabbers.HVRSocket.html">HVRSocket</a> can have any number of <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRSocketHoverAction.html">HVRSocketHoverAction</a> assigned to the ‘Hover Actions’ or ‘Hand Grab Actions’ fields.</p>
 <p>The inventory sockets in the example scene have Hover Actions built to mimic Walking Dead: Saints and Sinners. They scale based on hand proximity and change to either green or red based on whether or not the socketable is allowed.</p>
 <ul>
-<li>HoverActions execute when the socket detects a <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> in it's <a href="xref:HurricaneVR.Framework.Core.Bags.HVRGrabbableBag">HVRGrabbableBag</a></li>
-<li>HandGrabActions execute when the socket is hovered by the <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber">HVRHandGrabber</a> .</li>
+<li>HoverActions execute when the socket detects a <a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a> in it's <a class="xref" href="../api/HurricaneVR.Framework.Core.Bags.HVRGrabbableBag.html">HVRGrabbableBag</a></li>
+<li>HandGrabActions execute when the socket is hovered by the <a class="xref" href="../api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a> .</li>
 </ul>
-<p>To create your own actions, subclass <a href="xref:HurricaneVR.Framework.Core.Sockets.HVRSocketHoverAction">HVRSocketHoverAction</a> and override the following methods.</p>
+<p>To create your own actions, subclass <a class="xref" href="../api/HurricaneVR.Framework.Core.Sockets.HVRSocketHoverAction.html">HVRSocketHoverAction</a> and override the following methods.</p>
 <pre><code class="lang-csharp">public abstract void OnHoverEnter(HVRSocket socket, HVRGrabbable grabbable, bool isValid);
 public abstract void OnHoverExit(HVRSocket socket, HVRGrabbable grabbable, bool isValid);
 </code></pre>
@@ -145,6 +145,9 @@ public abstract void OnHoverExit(HVRSocket socket, HVRGrabbable grabbable, bool 
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR-Docs/blob/main/docfx_project/manual/sockets.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

@@ -1,6 +1,6 @@
 # Sockets
 
-The [HVRSocket](xref:HurricaneVR.Framework.Core.Grabbers.HVRSocket) component is useful for snapping objects into place for building things like inventories.
+The [HVRSocket](xref:HurricaneVR.Framework.Core.Grabbers.HVRSocket) component is useful for snapping objects into place permnanently or for building Saints and Sinners style inventories.
 
 - Sockets require a subclass of [HVRSocketFilter](xref:HurricaneVR.Framework.Core.Sockets.HVRSocketFilter) that will determine if a grabbable object is allowed.
   - Multiple socket filters can be applied to a socket. 

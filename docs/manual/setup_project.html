@@ -83,8 +83,11 @@
 <h2 id="tags-and-layers">Tags and Layers</h2>
 <h3 id="layer-notes">Layer Notes</h3>
 <p>By default grabbable objects require line of sight from the hand to be picked up.<br>
-The HVRHandGrabber component has a RaycastLayerMask field which you can define what layers will block the line of sight ray cast. This field will need to be updated whenever you add additional layers for your environment or grabbable objects other than &quot;Grabbable&quot; framework layer.</p>
-<p><strong>Note:</strong> Grabbable objects can have their line of sight requirement disabled on their HVRGrabbable component.</p>
+The <a class="xref" href="../api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_RaycastLayermask">RaycastLayermask</a> field defines what layers will block the line of sight ray cast. This field will need to be updated whenever you add additional layers for your environment or grabbable objects other than &quot;Grabbable&quot; framework layer.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Grabbable objects can have their line of sight requirement disabled on their HVRGrabbable component.</p>
+</div>
 <h3 id="framework-layers">Framework Layers</h3>
 <ul>
 <li>Player - used to prevent collision with the player character controller.
@@ -141,6 +144,9 @@ The HVRGlobal prefab which comes with other required components already has this
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR-Docs/blob/main/docfx_project/manual/setup_project.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

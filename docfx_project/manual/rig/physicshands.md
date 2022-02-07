@@ -39,7 +39,7 @@ Set [MaxDistanceBehaviour](xref:HurricaneVR.Framework.Core.Player.HVRJointHand.M
 
 Used to override rigidbody properites of the hand.
 
-Inertia Tensor Rotation is 0'd out to enable smooth rotation along all axis.
+Inertia Tensor Rotation is zeroed out to enable smooth rotation along all axis.
 
 Inertia Tensor is set to a default value that feels good with the default joint settings. You may wish to adjust this if you want to control the torque required to rotate the hand.
 

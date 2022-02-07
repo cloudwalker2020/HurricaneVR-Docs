@@ -1,0 +1,2776 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HVRController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HVRController
+   ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="HurricaneVR.Framework.Shared.HVRController">
+  
+  
+  <h1 id="HurricaneVR_Framework_Shared_HVRController" data-uid="HurricaneVR.Framework.Shared.HVRController" class="text-break">Class HVRController
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">HVRController</span></div>
+      <div class="level6"><a class="xref" href="HurricaneVR.Framework.ControllerInput.HVRXRInputController.html">HVRXRInputController</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="HurricaneVR.Framework.Shared.html">HurricaneVR.Framework.Shared</a></h6>
+  <h6><strong>Assembly</strong>: HurricaneVR.Framework.dll</h6>
+  <h5 id="HurricaneVR_Framework_Shared_HVRController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class HVRController : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_AngularVelocity.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.AngularVelocity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L80">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_AngularVelocity" data-uid="HurricaneVR.Framework.Shared.HVRController.AngularVelocity">AngularVelocity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 AngularVelocity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_AngularVelocityMagnitude.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.AngularVelocityMagnitude%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L115">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_AngularVelocityMagnitude" data-uid="HurricaneVR.Framework.Shared.HVRController.AngularVelocityMagnitude">AngularVelocityMagnitude</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AngularVelocityMagnitude</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_FingerCurls.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.FingerCurls%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L72">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_FingerCurls" data-uid="HurricaneVR.Framework.Shared.HVRController.FingerCurls">FingerCurls</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float[] FingerCurls</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_Grip.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.Grip%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L49">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_Grip" data-uid="HurricaneVR.Framework.Shared.HVRController.Grip">Grip</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Grip</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_GripButton.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.GripButton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L62">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_GripButton" data-uid="HurricaneVR.Framework.Shared.HVRController.GripButton">GripButton</h4>
+  <div class="markdown level1 summary"><p>Supplied by SteamVR, OpenXR, or OVR input bindings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GripButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_GripButtonState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.GripButtonState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L15">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_GripButtonState" data-uid="HurricaneVR.Framework.Shared.HVRController.GripButtonState">GripButtonState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState GripButtonState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_GripForce.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.GripForce%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L50">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_GripForce" data-uid="HurricaneVR.Framework.Shared.HVRController.GripForce">GripForce</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GripForce</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_IndexCurl.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.IndexCurl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L74">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_IndexCurl" data-uid="HurricaneVR.Framework.Shared.HVRController.IndexCurl">IndexCurl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float IndexCurl</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_JoystickAxis.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.JoystickAxis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L38">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_JoystickAxis" data-uid="HurricaneVR.Framework.Shared.HVRController.JoystickAxis">JoystickAxis</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 JoystickAxis</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_JoystickButtonState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.JoystickButtonState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L22">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_JoystickButtonState" data-uid="HurricaneVR.Framework.Shared.HVRController.JoystickButtonState">JoystickButtonState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState JoystickButtonState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_JoystickClicked.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.JoystickClicked%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L43">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_JoystickClicked" data-uid="HurricaneVR.Framework.Shared.HVRController.JoystickClicked">JoystickClicked</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool JoystickClicked</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_JoystickTouch.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.JoystickTouch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L69">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_JoystickTouch" data-uid="HurricaneVR.Framework.Shared.HVRController.JoystickTouch">JoystickTouch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool JoystickTouch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_JoystickTouchState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.JoystickTouchState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L25">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_JoystickTouchState" data-uid="HurricaneVR.Framework.Shared.HVRController.JoystickTouchState">JoystickTouchState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState JoystickTouchState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_LeftFingerCurls.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.LeftFingerCurls%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L110">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_LeftFingerCurls" data-uid="HurricaneVR.Framework.Shared.HVRController.LeftFingerCurls">LeftFingerCurls</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float[] LeftFingerCurls</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_MenuButton.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.MenuButton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L45">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_MenuButton" data-uid="HurricaneVR.Framework.Shared.HVRController.MenuButton">MenuButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MenuButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_MenuButtonState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.MenuButtonState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L19">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_MenuButtonState" data-uid="HurricaneVR.Framework.Shared.HVRController.MenuButtonState">MenuButtonState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState MenuButtonState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_MiddleCurl.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.MiddleCurl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L75">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_MiddleCurl" data-uid="HurricaneVR.Framework.Shared.HVRController.MiddleCurl">MiddleCurl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MiddleCurl</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_PinkyCurl.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.PinkyCurl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L77">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_PinkyCurl" data-uid="HurricaneVR.Framework.Shared.HVRController.PinkyCurl">PinkyCurl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PinkyCurl</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_PrimaryButton.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.PrimaryButton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L41">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_PrimaryButton" data-uid="HurricaneVR.Framework.Shared.HVRController.PrimaryButton">PrimaryButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PrimaryButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_PrimaryButtonState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.PrimaryButtonState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L17">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_PrimaryButtonState" data-uid="HurricaneVR.Framework.Shared.HVRController.PrimaryButtonState">PrimaryButtonState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState PrimaryButtonState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_PrimaryTouch.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.PrimaryTouch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L46">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_PrimaryTouch" data-uid="HurricaneVR.Framework.Shared.HVRController.PrimaryTouch">PrimaryTouch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PrimaryTouch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_PrimaryTouchButtonState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.PrimaryTouchButtonState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L20">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_PrimaryTouchButtonState" data-uid="HurricaneVR.Framework.Shared.HVRController.PrimaryTouchButtonState">PrimaryTouchButtonState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState PrimaryTouchButtonState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_RecentVelocities.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.RecentVelocities%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L118">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_RecentVelocities" data-uid="HurricaneVR.Framework.Shared.HVRController.RecentVelocities">RecentVelocities</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly CircularBuffer&lt;float&gt; RecentVelocities</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.Utilities.CircularBuffer-1.html">CircularBuffer</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_RightFingerCurls.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.RightFingerCurls%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L111">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_RightFingerCurls" data-uid="HurricaneVR.Framework.Shared.HVRController.RightFingerCurls">RightFingerCurls</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float[] RightFingerCurls</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_RingCurl.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.RingCurl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L76">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_RingCurl" data-uid="HurricaneVR.Framework.Shared.HVRController.RingCurl">RingCurl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RingCurl</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_SecondaryButton.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.SecondaryButton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L42">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_SecondaryButton" data-uid="HurricaneVR.Framework.Shared.HVRController.SecondaryButton">SecondaryButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SecondaryButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_SecondaryButtonState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.SecondaryButtonState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L18">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_SecondaryButtonState" data-uid="HurricaneVR.Framework.Shared.HVRController.SecondaryButtonState">SecondaryButtonState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState SecondaryButtonState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_SecondaryTouch.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.SecondaryTouch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L47">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_SecondaryTouch" data-uid="HurricaneVR.Framework.Shared.HVRController.SecondaryTouch">SecondaryTouch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SecondaryTouch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_SecondaryTouchButtonState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.SecondaryTouchButtonState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L21">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_SecondaryTouchButtonState" data-uid="HurricaneVR.Framework.Shared.HVRController.SecondaryTouchButtonState">SecondaryTouchButtonState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState SecondaryTouchButtonState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_ThumbCurl.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.ThumbCurl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L73">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_ThumbCurl" data-uid="HurricaneVR.Framework.Shared.HVRController.ThumbCurl">ThumbCurl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ThumbCurl</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_ThumbNearTouch.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.ThumbNearTouch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L56">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_ThumbNearTouch" data-uid="HurricaneVR.Framework.Shared.HVRController.ThumbNearTouch">ThumbNearTouch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ThumbNearTouch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_ThumbNearTouchState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.ThumbNearTouchState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L31">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_ThumbNearTouchState" data-uid="HurricaneVR.Framework.Shared.HVRController.ThumbNearTouchState">ThumbNearTouchState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState ThumbNearTouchState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_ThumbTouch.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.ThumbTouch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L53">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_ThumbTouch" data-uid="HurricaneVR.Framework.Shared.HVRController.ThumbTouch">ThumbTouch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ThumbTouch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_ThumbTouchState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.ThumbTouchState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L28">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_ThumbTouchState" data-uid="HurricaneVR.Framework.Shared.HVRController.ThumbTouchState">ThumbTouchState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState ThumbTouchState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TrackpadAxis.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TrackpadAxis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L39">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TrackpadAxis" data-uid="HurricaneVR.Framework.Shared.HVRController.TrackpadAxis">TrackpadAxis</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 TrackpadAxis</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TrackpadButtonState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TrackpadButtonState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L23">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TrackpadButtonState" data-uid="HurricaneVR.Framework.Shared.HVRController.TrackpadButtonState">TrackpadButtonState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState TrackpadButtonState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TrackPadClicked.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TrackPadClicked%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L44">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TrackPadClicked" data-uid="HurricaneVR.Framework.Shared.HVRController.TrackPadClicked">TrackPadClicked</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TrackPadClicked</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TrackPadDown.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TrackPadDown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L36">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TrackPadDown" data-uid="HurricaneVR.Framework.Shared.HVRController.TrackPadDown">TrackPadDown</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState TrackPadDown</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TrackPadLeft.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TrackPadLeft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L34">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TrackPadLeft" data-uid="HurricaneVR.Framework.Shared.HVRController.TrackPadLeft">TrackPadLeft</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState TrackPadLeft</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TrackPadRight.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TrackPadRight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L35">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TrackPadRight" data-uid="HurricaneVR.Framework.Shared.HVRController.TrackPadRight">TrackPadRight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState TrackPadRight</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TrackPadTouch.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TrackPadTouch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L70">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TrackPadTouch" data-uid="HurricaneVR.Framework.Shared.HVRController.TrackPadTouch">TrackPadTouch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TrackPadTouch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TrackPadTouchState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TrackPadTouchState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L26">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TrackPadTouchState" data-uid="HurricaneVR.Framework.Shared.HVRController.TrackPadTouchState">TrackPadTouchState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState TrackPadTouchState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TrackPadUp.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TrackPadUp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L33">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TrackPadUp" data-uid="HurricaneVR.Framework.Shared.HVRController.TrackPadUp">TrackPadUp</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState TrackPadUp</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_Trigger.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.Trigger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L51">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_Trigger" data-uid="HurricaneVR.Framework.Shared.HVRController.Trigger">Trigger</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Trigger</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TriggerButton.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TriggerButton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L67">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TriggerButton" data-uid="HurricaneVR.Framework.Shared.HVRController.TriggerButton">TriggerButton</h4>
+  <div class="markdown level1 summary"><p>Suppplied by SteamVR, OpenXR, or OVR input bindings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TriggerButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TriggerButtonState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TriggerButtonState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L16">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TriggerButtonState" data-uid="HurricaneVR.Framework.Shared.HVRController.TriggerButtonState">TriggerButtonState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState TriggerButtonState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TriggerNearTouch.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TriggerNearTouch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L57">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TriggerNearTouch" data-uid="HurricaneVR.Framework.Shared.HVRController.TriggerNearTouch">TriggerNearTouch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TriggerNearTouch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TriggerNearTouchState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TriggerNearTouchState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L30">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TriggerNearTouchState" data-uid="HurricaneVR.Framework.Shared.HVRController.TriggerNearTouchState">TriggerNearTouchState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState TriggerNearTouchState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TriggerTouch.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TriggerTouch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L54">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TriggerTouch" data-uid="HurricaneVR.Framework.Shared.HVRController.TriggerTouch">TriggerTouch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TriggerTouch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_TriggerTouchState.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.TriggerTouchState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L27">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_TriggerTouchState" data-uid="HurricaneVR.Framework.Shared.HVRController.TriggerTouchState">TriggerTouchState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRButtonState TriggerTouchState</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_Velocity.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.Velocity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L79">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_Velocity" data-uid="HurricaneVR.Framework.Shared.HVRController.Velocity">Velocity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Velocity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_VelocityMagnitude.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.VelocityMagnitude%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L116">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_VelocityMagnitude" data-uid="HurricaneVR.Framework.Shared.HVRController.VelocityMagnitude">VelocityMagnitude</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float VelocityMagnitude</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_XRNode.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.XRNode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L84">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_XRNode" data-uid="HurricaneVR.Framework.Shared.HVRController.XRNode">XRNode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XRNode XRNode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.XR.XRNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_ControllerType.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.ControllerType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L113">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_ControllerType_" data-uid="HurricaneVR.Framework.Shared.HVRController.ControllerType*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_ControllerType" data-uid="HurricaneVR.Framework.Shared.HVRController.ControllerType">ControllerType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRControllerType ControllerType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRControllerType.html">HVRControllerType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_Device.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.Device%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L87">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_Device_" data-uid="HurricaneVR.Framework.Shared.HVRController.Device*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_Device" data-uid="HurricaneVR.Framework.Shared.HVRController.Device">Device</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputDevice Device { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.XR.InputDevice</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_FingerSettings.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.FingerSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L100">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_FingerSettings_" data-uid="HurricaneVR.Framework.Shared.HVRController.FingerSettings*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_FingerSettings" data-uid="HurricaneVR.Framework.Shared.HVRController.FingerSettings">FingerSettings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRFingerSettings FingerSettings { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRFingerSettings.html">HVRFingerSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_InputMap.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.InputMap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L99">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_InputMap_" data-uid="HurricaneVR.Framework.Shared.HVRController.InputMap*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_InputMap" data-uid="HurricaneVR.Framework.Shared.HVRController.InputMap">InputMap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRInputSettings InputMap { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRInputSettings.html">HVRInputSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_IsActive.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.IsActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L82">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_IsActive_" data-uid="HurricaneVR.Framework.Shared.HVRController.IsActive*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_IsActive" data-uid="HurricaneVR.Framework.Shared.HVRController.IsActive">IsActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsActive { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_Knuckles.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.Knuckles%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L102">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_Knuckles_" data-uid="HurricaneVR.Framework.Shared.HVRController.Knuckles*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_Knuckles" data-uid="HurricaneVR.Framework.Shared.HVRController.Knuckles">Knuckles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Knuckles { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_Side.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.Side%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L13">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_Side_" data-uid="HurricaneVR.Framework.Shared.HVRController.Side*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_Side" data-uid="HurricaneVR.Framework.Shared.HVRController.Side">Side</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HVRHandSide Side { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRHandSide.html">HVRHandSide</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_ThumbstickDeadZone.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.ThumbstickDeadZone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L98">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_ThumbstickDeadZone_" data-uid="HurricaneVR.Framework.Shared.HVRController.ThumbstickDeadZone*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_ThumbstickDeadZone" data-uid="HurricaneVR.Framework.Shared.HVRController.ThumbstickDeadZone">ThumbstickDeadZone</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 ThumbstickDeadZone { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_Vive.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.Vive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L105">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_Vive_" data-uid="HurricaneVR.Framework.Shared.HVRController.Vive*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_Vive" data-uid="HurricaneVR.Framework.Shared.HVRController.Vive">Vive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Vive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_WMR.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.WMR%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L103">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_WMR_" data-uid="HurricaneVR.Framework.Shared.HVRController.WMR*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_WMR" data-uid="HurricaneVR.Framework.Shared.HVRController.WMR">WMR</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WMR { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_AfterInputUpdate.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.AfterInputUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L184">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_AfterInputUpdate_" data-uid="HurricaneVR.Framework.Shared.HVRController.AfterInputUpdate*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_AfterInputUpdate" data-uid="HurricaneVR.Framework.Shared.HVRController.AfterInputUpdate">AfterInputUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void AfterInputUpdate()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_Awake.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.Awake%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L121">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_Awake_" data-uid="HurricaneVR.Framework.Shared.HVRController.Awake*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_Awake" data-uid="HurricaneVR.Framework.Shared.HVRController.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_CheckButtonState_HurricaneVR_Framework_Shared_HVRButtons_HurricaneVR_Framework_Shared_HVRButtonState__.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.CheckButtonState(HurricaneVR.Framework.Shared.HVRButtons%2CHurricaneVR.Framework.Shared.HVRButtonState%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L235">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_CheckButtonState_" data-uid="HurricaneVR.Framework.Shared.HVRController.CheckButtonState*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_CheckButtonState_HurricaneVR_Framework_Shared_HVRButtons_HurricaneVR_Framework_Shared_HVRButtonState__" data-uid="HurricaneVR.Framework.Shared.HVRController.CheckButtonState(HurricaneVR.Framework.Shared.HVRButtons,HurricaneVR.Framework.Shared.HVRButtonState@)">CheckButtonState(HVRButtons, ref HVRButtonState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void CheckButtonState(HVRButtons button, ref HVRButtonState buttonState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtons.html">HVRButtons</a></td>
+        <td><span class="parametername">button</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td><span class="parametername">buttonState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_GetAverageVelocity_System_Single_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.GetAverageVelocity(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L214">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_GetAverageVelocity_" data-uid="HurricaneVR.Framework.Shared.HVRController.GetAverageVelocity*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_GetAverageVelocity_System_Single_" data-uid="HurricaneVR.Framework.Shared.HVRController.GetAverageVelocity(System.Single)">GetAverageVelocity(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAverageVelocity(float seconds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">seconds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_GetButtonState_HurricaneVR_Framework_Shared_HVRHandSide_HurricaneVR_Framework_Shared_HVRButtons_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.GetButtonState(HurricaneVR.Framework.Shared.HVRHandSide%2CHurricaneVR.Framework.Shared.HVRButtons)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L449">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_GetButtonState_" data-uid="HurricaneVR.Framework.Shared.HVRController.GetButtonState*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_GetButtonState_HurricaneVR_Framework_Shared_HVRHandSide_HurricaneVR_Framework_Shared_HVRButtons_" data-uid="HurricaneVR.Framework.Shared.HVRController.GetButtonState(HurricaneVR.Framework.Shared.HVRHandSide,HurricaneVR.Framework.Shared.HVRButtons)">GetButtonState(HVRHandSide, HVRButtons)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HVRButtonState GetButtonState(HVRHandSide side, HVRButtons button)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRHandSide.html">HVRHandSide</a></td>
+        <td><span class="parametername">side</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtons.html">HVRButtons</a></td>
+        <td><span class="parametername">button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_GetIsGripPressed.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.GetIsGripPressed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L361">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_GetIsGripPressed_" data-uid="HurricaneVR.Framework.Shared.HVRController.GetIsGripPressed*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_GetIsGripPressed" data-uid="HurricaneVR.Framework.Shared.HVRController.GetIsGripPressed">GetIsGripPressed()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool GetIsGripPressed()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_GetIsTriggerPressed.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.GetIsTriggerPressed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L309">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_GetIsTriggerPressed_" data-uid="HurricaneVR.Framework.Shared.HVRController.GetIsTriggerPressed*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_GetIsTriggerPressed" data-uid="HurricaneVR.Framework.Shared.HVRController.GetIsTriggerPressed">GetIsTriggerPressed()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool GetIsTriggerPressed()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_ResetButton_HurricaneVR_Framework_Shared_HVRButtonState__.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.ResetButton(HurricaneVR.Framework.Shared.HVRButtonState%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L436">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_ResetButton_" data-uid="HurricaneVR.Framework.Shared.HVRController.ResetButton*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_ResetButton_HurricaneVR_Framework_Shared_HVRButtonState__" data-uid="HurricaneVR.Framework.Shared.HVRController.ResetButton(HurricaneVR.Framework.Shared.HVRButtonState@)">ResetButton(ref HVRButtonState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ResetButton(ref HVRButtonState buttonState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td><span class="parametername">buttonState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_ResetTrackedVelocities.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.ResetTrackedVelocities%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L206">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_ResetTrackedVelocities_" data-uid="HurricaneVR.Framework.Shared.HVRController.ResetTrackedVelocities*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_ResetTrackedVelocities" data-uid="HurricaneVR.Framework.Shared.HVRController.ResetTrackedVelocities">ResetTrackedVelocities()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ResetTrackedVelocities()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_SetButtonState_HurricaneVR_Framework_Shared_HVRButtons_HurricaneVR_Framework_Shared_HVRButtonState__System_Boolean_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.SetButtonState(HurricaneVR.Framework.Shared.HVRButtons%2CHurricaneVR.Framework.Shared.HVRButtonState%40%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L414">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_SetButtonState_" data-uid="HurricaneVR.Framework.Shared.HVRController.SetButtonState*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_SetButtonState_HurricaneVR_Framework_Shared_HVRButtons_HurricaneVR_Framework_Shared_HVRButtonState__System_Boolean_" data-uid="HurricaneVR.Framework.Shared.HVRController.SetButtonState(HurricaneVR.Framework.Shared.HVRButtons,HurricaneVR.Framework.Shared.HVRButtonState@,System.Boolean)">SetButtonState(HVRButtons, ref HVRButtonState, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetButtonState(HVRButtons button, ref HVRButtonState buttonState, bool pressed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtons.html">HVRButtons</a></td>
+        <td><span class="parametername">button</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td><span class="parametername">buttonState</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">pressed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_SetButtonState_HurricaneVR_Framework_Shared_HVRHandSide_HurricaneVR_Framework_Shared_HVRButtons_HurricaneVR_Framework_Shared_HVRButtonState_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.SetButtonState(HurricaneVR.Framework.Shared.HVRHandSide%2CHurricaneVR.Framework.Shared.HVRButtons%2CHurricaneVR.Framework.Shared.HVRButtonState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L443">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_SetButtonState_" data-uid="HurricaneVR.Framework.Shared.HVRController.SetButtonState*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_SetButtonState_HurricaneVR_Framework_Shared_HVRHandSide_HurricaneVR_Framework_Shared_HVRButtons_HurricaneVR_Framework_Shared_HVRButtonState_" data-uid="HurricaneVR.Framework.Shared.HVRController.SetButtonState(HurricaneVR.Framework.Shared.HVRHandSide,HurricaneVR.Framework.Shared.HVRButtons,HurricaneVR.Framework.Shared.HVRButtonState)">SetButtonState(HVRHandSide, HVRButtons, HVRButtonState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetButtonState(HVRHandSide side, HVRButtons button, HVRButtonState state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRHandSide.html">HVRHandSide</a></td>
+        <td><span class="parametername">side</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtons.html">HVRButtons</a></td>
+        <td><span class="parametername">button</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRButtonState.html">HVRButtonState</a></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_Start.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L126">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_Start_" data-uid="HurricaneVR.Framework.Shared.HVRController.Start*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_Start" data-uid="HurricaneVR.Framework.Shared.HVRController.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_UpdateFingerCurls.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.UpdateFingerCurls%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L189">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_UpdateFingerCurls_" data-uid="HurricaneVR.Framework.Shared.HVRController.UpdateFingerCurls*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_UpdateFingerCurls" data-uid="HurricaneVR.Framework.Shared.HVRController.UpdateFingerCurls">UpdateFingerCurls()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void UpdateFingerCurls()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_UpdateInput.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.UpdateInput%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L233">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_UpdateInput_" data-uid="HurricaneVR.Framework.Shared.HVRController.UpdateInput*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_UpdateInput" data-uid="HurricaneVR.Framework.Shared.HVRController.UpdateInput">UpdateInput()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void UpdateInput()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_Vibrate_HurricaneVR_Framework_Shared_HapticData_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.Vibrate(HurricaneVR.Framework.Shared.HapticData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L456">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_Vibrate_" data-uid="HurricaneVR.Framework.Shared.HVRController.Vibrate*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_Vibrate_HurricaneVR_Framework_Shared_HapticData_" data-uid="HurricaneVR.Framework.Shared.HVRController.Vibrate(HurricaneVR.Framework.Shared.HapticData)">Vibrate(HapticData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Vibrate(HapticData haptics)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HapticData.html">HapticData</a></td>
+        <td><span class="parametername">haptics</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController_Vibrate_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController.Vibrate(System.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L471">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Shared_HVRController_Vibrate_" data-uid="HurricaneVR.Framework.Shared.HVRController.Vibrate*"></a>
+  <h4 id="HurricaneVR_Framework_Shared_HVRController_Vibrate_System_Single_System_Single_System_Single_" data-uid="HurricaneVR.Framework.Shared.HVRController.Vibrate(System.Single,System.Single,System.Single)">Vibrate(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Sends a haptic impulse to the controller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Vibrate(float amplitude, float duration = 1F, float frequency = 1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">amplitude</span></td>
+        <td><p>The normalized (0.0 to 1.0) amplitude value of the haptic impulse to play on the device.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>The duration in seconds that the haptic impulse will play. Only supported on Oculus.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">frequency</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_GetRelativeValues_UnityEngine_Component_UnityEngine_Transform_UnityEngine_Vector3__UnityEngine_Quaternion__">HVRUtilities.GetRelativeValues(Component, Transform, out Vector3, out Quaternion)</a>
+  </div>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_GetRelativeValues_UnityEngine_Component_UnityEngine_Component_UnityEngine_Vector3__UnityEngine_Quaternion__">HVRUtilities.GetRelativeValues(Component, Component, out Vector3, out Quaternion)</a>
+  </div>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetRigidbody_UnityEngine_MonoBehaviour_">VRUtilities.GetRigidbody(MonoBehaviour)</a>
+  </div>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetCopyOf__1_UnityEngine_Component___0_">VRUtilities.GetCopyOf&lt;T&gt;(Component, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteNextUpdate_UnityEngine_MonoBehaviour_System_Action_">CoroutineExtensions.ExecuteNextUpdate(MonoBehaviour, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterSeconds_UnityEngine_MonoBehaviour_System_Action_System_Single_">CoroutineExtensions.ExecuteAfterSeconds(MonoBehaviour, Action, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterSecondsUnscaled_UnityEngine_MonoBehaviour_System_Action_System_Single_">CoroutineExtensions.ExecuteAfterSecondsUnscaled(MonoBehaviour, Action, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterFixedUpdate_UnityEngine_MonoBehaviour_System_Action_">CoroutineExtensions.ExecuteAfterFixedUpdate(MonoBehaviour, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterFixedUpdates_UnityEngine_MonoBehaviour_System_Action_System_Int32_">CoroutineExtensions.ExecuteAfterFixedUpdates(MonoBehaviour, Action, Int32)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Shared_HVRController.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Shared.HVRController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Shared/HVRController.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

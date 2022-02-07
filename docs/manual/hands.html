@@ -69,25 +69,25 @@
             <article class="content wrap" id="_content" data-uid="">
 <h2 id="hand-grabber">Hand Grabber</h2>
 
-<p>The <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber">HVRHandGrabber</a>  components reside on the hand rigid body objects. It is important to note how the grab flow works.</p>
+<p>The <a class="xref" href="../api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a>  components reside on the hand rigid body objects. It is important to note how the grab flow works.</p>
 <p>The hand operates in &quot;<a href="#hand-grabs">Hand Grabs</a>&quot; or “<a href="#hand-pulls">Pull</a>” mode for physics based grabbing that use <a href="https://docs.unity3d.com/Manual/class-ConfigurableJoint.html">Configurable Joints</a>.</p>
 <h3 id="hand-grabs">Hand Grabs</h3>
 <p>The hand will move to the object to grab it and immediately create a <a href="#final-joint">Final</a> strong joint with the object. After which the hand returns to the controller via physics.</p>
 <p>This will happen if:</p>
 <ul>
-<li>HandGrabs is enabled on the <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber">HVRHandGrabber</a>.</li>
-<li><a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> is marked Stationary</li>
-<li><a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> is Joint based without a rigid body.</li>
+<li>HandGrabs is enabled on the <a class="xref" href="../api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a>.</li>
+<li><a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a> is marked Stationary</li>
+<li><a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a> is Joint based without a rigid body.</li>
 <li>The object being grabbed is already held with one hand.</li>
 </ul>
 <h3 id="hand-pulls">Hand Pulls</h3>
 <p>The grabbed object will be pulled towards the hand using the HVRJointSettings supplied in the “Pulling Settings” field.<br>
 This approach uses physics forces which prevents objects from getting stuck (which would require other systems to handle unstucking objects) and prevents hitting surrounding objects with infinite force while the object moves and rotates into position.<br>
-If the object can't move into pose position due to collision, the hand will go to retrieve the object after a customizable <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable.FinalJointTimeout">Timeout</a>.</p>
-<p>Each <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> can have this pull joint setting overridden, which should be done for objects greater than 2 mass.</p>
+If the object can't move into pose position due to collision, the hand will go to retrieve the object after a customizable <a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbable.html#HurricaneVR_Framework_Core_HVRGrabbable_FinalJointTimeout">Timeout</a>.</p>
+<p>Each <a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a> can have this pull joint setting overridden, which should be done for objects greater than 2 mass.</p>
 <h3 id="final-joint">Final Joint</h3>
 <p>When <a href="#hand-grabs">Hand Grabs</a> completes, or <a href="#hand-pulls">Hand Pulls</a> has pulled the object close enough, a final &quot;strong&quot; <a href="https://docs.unity3d.com/Manual/class-ConfigurableJoint.html">Configurable Joint</a> is created between the hand rigid body and the grabbable rigid body.</p>
-<p>The settings of the joint can be overridden globally @ HVRSettings.DefaultJointSettings or per grabbable's <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable.JointOverride">JointOverride</a> field.</p>
+<p>The settings of the joint can be overridden globally @ HVRSettings.DefaultJointSettings or per grabbable's <a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbable.html#HurricaneVR_Framework_Core_HVRGrabbable_JointOverride">JointOverride</a> field.</p>
 </article>
           </div>
           
@@ -95,6 +95,9 @@ If the object can't move into pose position due to collision, the hand will go t
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR-Docs/blob/main/docfx_project/manual/hands.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

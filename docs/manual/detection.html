@@ -69,26 +69,26 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="grabbable-detection">Grabbable Detection</h1>
 
-<p>The <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber">HVRHandGrabber</a> and <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber">HVRForceGrabber</a> both use  <a href="xref:HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag">HVRTriggerGrabbableBag</a> components to detect grabbable objects.</p>
-<p><a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> require colliders to be detected.</p>
-<p>If your colliders are not on the same object as the <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> component, you will need to hint the grab system how to locate your grabbable component.</p>
+<p>The <a class="xref" href="../api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html">HVRHandGrabber</a> and <a class="xref" href="../api/HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber.html">HVRForceGrabber</a> both use  <a class="xref" href="../api/HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag.html">HVRTriggerGrabbableBag</a> components to detect grabbable objects.</p>
+<p><a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a> require colliders to be detected.</p>
+<p>If your colliders are not on the same object as the <a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a> component, you will need to hint the grab system how to locate your grabbable component.</p>
 <ol>
-<li>Add a <a href="xref:HurricaneVR.Framework.Core.HVRGrabbableChild">HVRGrabbableChild</a> to the child objects that have colliders on them.
+<li>Add a <a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbableChild.html">HVRGrabbableChild</a> to the child objects that have colliders on them.
 <ol>
-<li>Optionally set the Parent Grabbable field to the linked <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> object. If empty it will use the first parent grabbable it finds.</li>
+<li>Optionally set the Parent Grabbable field to the linked <a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a> object. If empty it will use the first parent grabbable it finds.</li>
 </ol>
 </li>
 <li>Open <a href="hvrsettings.html#grab-detection">HVRSettings</a> and enable one or both at a global level if you wish, keeping in mind this applies to every collider the trigger system comes in contact with.
 <ol>
 <li>Use Attached Rigid Body: the detected collider will use it's attached rigid body to locate the grabbable, since the grabbable should be on the same object as a rigidbody.</li>
-<li>Component In Parent Fallback: finds the first <a href="xref:HurricaneVR.Framework.Core.HVRGrabbable">HVRGrabbable</a> that is a parent of the collider</li>
+<li>Component In Parent Fallback: finds the first <a class="xref" href="../api/HurricaneVR.Framework.Core.HVRGrabbable.html">HVRGrabbable</a> that is a parent of the collider</li>
 </ol>
 </li>
 </ol>
 <h2 id="notes">Notes</h2>
 <ul>
-<li>Subclasses of <a href="xref:HurricaneVR.Framework.Core.Bags.HVRGrabbableBag">HVRGrabbableBag</a> are used to detect objects so that they can be grabbed.</li>
-<li>Each <a href="xref:HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase">HVRGrabberBase</a> needs at least one of these assigned.
+<li>Subclasses of <a class="xref" href="../api/HurricaneVR.Framework.Core.Bags.HVRGrabbableBag.html">HVRGrabbableBag</a> are used to detect objects so that they can be grabbed.</li>
+<li>Each <a class="xref" href="../api/HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html">HVRGrabberBase</a> needs at least one of these assigned.
 <ul>
 <li>If there are multiple assigned to a grabber, objects are given priority based on the index of the bag in the bag list.</li>
 <li>Lower index is higher priority.</li>
@@ -104,6 +104,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR-Docs/blob/main/docfx_project/manual/detection.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

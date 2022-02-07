@@ -15,9 +15,10 @@ Open the Setup window by navigating to Tools → HurricaneVR → Setup and then 
 ### Layer Notes
 
 By default grabbable objects require line of sight from the hand to be picked up.\
-The HVRHandGrabber component has a RaycastLayerMask field which you can define what layers will block the line of sight ray cast. This field will need to be updated whenever you add additional layers for your environment or grabbable objects other than "Grabbable" framework layer.
-  
-**Note:** Grabbable objects can have their line of sight requirement disabled on their HVRGrabbable component.
+The [RaycastLayermask](xref:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.RaycastLayermask) field defines what layers will block the line of sight ray cast. This field will need to be updated whenever you add additional layers for your environment or grabbable objects other than "Grabbable" framework layer.
+
+> [!NOTE]
+> Grabbable objects can have their line of sight requirement disabled on their HVRGrabbable component.
 
 ### Framework Layers
 

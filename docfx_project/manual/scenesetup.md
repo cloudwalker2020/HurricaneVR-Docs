@@ -1,8 +1,15 @@
+# Scene Setup
+
+The following provides a brief explanation of the required objects / components needed in your scene for the asset to function.
+
+Example scene with the minimum required: /HurricaneVR/TechDemo/Scenes/scenes_barebones
+
+HVRGlobal Prefab: /HurricaneVR/Framework/Prefabs
+XR Rig Prefab: /HurricaneVR/TechDemo/Prefabs/ TechDemoXRRig | TechDemoXRRigOpenXR
+
 # HVRGlobal
 
 This prefab is used to hold framework required components and should be placed into a master scene in your game. It is advised to make a variant of this prefab so that you can override the fields of it's components so that updating the asset in the future painless.
-
-Location: Hurricane/Framework/Prefabs
 
 ## [HVRInputManager](xref:HurricaneVR.Framework.ControllerInput.HVRInputManager)
 

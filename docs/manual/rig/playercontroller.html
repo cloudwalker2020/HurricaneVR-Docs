@@ -72,17 +72,17 @@
 <p>The rig included with the asset makes use of Unity's <a href="https://docs.unity3d.com/ScriptReference/CharacterController.html">CharacterController</a> component. It's important to note this is the most basic of movement providers, it is not a rigidbody and behaves like a massless object.</p>
 <p>Games made using this will be limited to basic locomotion used in games like Alyx and Walking dead where objects do not collide with the player as they can easily push the player around.</p>
 <p>If you want to build a game like Boneworks or Blade and Sorcery, then <a href="https://assetstore.unity.com/packages/tools/physics/hexabody-vr-player-controller-185521">HexaBodyVR</a> will work better in this regard.</p>
-<h2 id="hvrplayercontroller"><a href="xref:HurricaneVR.Framework.Core.Player.HVRPlayerController">HVRPlayerController</a></h2>
+<h2 id="hvrplayercontroller"><a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRPlayerController.html">HVRPlayerController</a></h2>
 <p>The main component that drives the <a href="https://docs.unity3d.com/ScriptReference/CharacterController.html">CharacterController</a> using smooth locomotion with smooth / snap turning options.</p>
-<h2 id="hvrteleporter"><a href="xref:HurricaneVR.Framework.Core.Player.HVRTeleporter">HVRTeleporter</a></h2>
+<h2 id="hvrteleporter"><a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRTeleporter.html">HVRTeleporter</a></h2>
 <p>Used to teleport the player with Alyx style line curve options, destination validation, &quot;jump&quot; and &quot;fall&quot; optional limits. If you do need laser based teleporting in your game you can disable the component.</p>
 <p>Can be used to teleport the player with held objects programatically so be sure to leave this component as is if you need that functionality. Check 'scene_examples' for a demo of this.</p>
-<h2 id="hvrplayerinputs"><a href="xref:HurricaneVR.Framework.ControllerInput.HVRPlayerInputs">HVRPlayerInputs</a></h2>
+<h2 id="hvrplayerinputs"><a class="xref" href="../../api/HurricaneVR.Framework.ControllerInput.HVRPlayerInputs.html">HVRPlayerInputs</a></h2>
 <p>This component collects device inputs for use by the player controller, teleporter, and hand grabbing systems. It's designed to be subclassed if the user wants to override which buttons drive specific actions for various device types.</p>
-<h2 id="hvrteleportcollisonhandler"><a href="xref:HurricaneVR.Framework.Core.Player.HVRTeleportCollisonHandler">HVRTeleportCollisonHandler</a></h2>
+<h2 id="hvrteleportcollisonhandler"><a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRTeleportCollisonHandler.html">HVRTeleportCollisonHandler</a></h2>
 <p>Handles moving hands and the objects they are holding after a teleport with post collision handling behaviours.</p>
-<p>The <a href="xref:HurricaneVR.Framework.Core.Player.HVRTeleportCollisonHandler.AfterTeleportOption">AfterTeleportOption</a> lets you choose between &quot;Sweeping&quot; the hand toward the controller until it collides, or  &quot;DisableCollision&quot; which disables collision on the held object until it's clear of colliders (like Alyx). The object can't be dropped until it's clear.</p>
-<p>The <a href="xref:HurricaneVR.Framework.Core.Player.HVRTeleportCollisonHandler.ResetTarget">ResetTarget</a> field let's you define a point where the hand sweep begins from. On the included XRRig it's placed in the center of the CharacterController capsule.</p>
+<p>The <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRTeleportCollisonHandler.html#HurricaneVR_Framework_Core_Player_HVRTeleportCollisonHandler_AfterTeleportOption">AfterTeleportOption</a> lets you choose between &quot;Sweeping&quot; the hand toward the controller until it collides, or  &quot;DisableCollision&quot; which disables collision on the held object until it's clear of colliders (like Alyx). The object can't be dropped until it's clear.</p>
+<p>The <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRTeleportCollisonHandler.html#HurricaneVR_Framework_Core_Player_HVRTeleportCollisonHandler_ResetTarget">ResetTarget</a> field let's you define a point where the hand sweep begins from. On the included XRRig it's placed in the center of the CharacterController capsule.</p>
 </article>
           </div>
           
@@ -90,6 +90,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR-Docs/blob/main/docfx_project/manual/rig/playercontroller.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

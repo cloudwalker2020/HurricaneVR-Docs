@@ -67,36 +67,36 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="hvrcamerarig"><a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig">HVRCameraRig</a></h1>
+<h1 id="hvrcamerarig"><a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html">HVRCameraRig</a></h1>
 
 <p>The camera rig component manages offsetting the HMD / Camera.</p>
-<p>Height calibration is included and can be enabled by setting the <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.SitStanding">SitStanding</a> along with the <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.EyeHeight">EyeHeight</a> field.</p>
+<p>Height calibration is included and can be enabled by setting the <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_SitStanding">SitStanding</a> along with the <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_EyeHeight">EyeHeight</a> field.</p>
 <p>To assist with testing in edit mode, I have added logic that can quickly calibrate height after entering play mode.</p>
 <ul>
-<li><a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.SaveCalibrationHeight">SaveCalibrationHeight</a>: if enabled the last calibrated height is stored in player prefs.</li>
-<li>Enabling <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.DebugCalibMode">DebugCalibMode</a> will force height calibration on start, if <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.SaveCalibrationHeight">SaveCalibrationHeight</a> is enabled it's stored value is used, otherwise the HMD height is used.
+<li><a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_SaveCalibrationHeight">SaveCalibrationHeight</a>: if enabled the last calibrated height is stored in player prefs.</li>
+<li>Enabling <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_DebugCalibMode">DebugCalibMode</a> will force height calibration on start, if <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_SaveCalibrationHeight">SaveCalibrationHeight</a> is enabled it's stored value is used, otherwise the HMD height is used.
 <ul>
-<li>HMDMoved: Calibrates when the HMD moves more than <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.DebugCalibMovedThreshold">DebugCalibMovedThreshold</a> from it's starting position.</li>
+<li>HMDMoved: Calibrates when the HMD moves more than <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_DebugCalibMovedThreshold">DebugCalibMovedThreshold</a> from it's starting position.</li>
 <li>Immediately: Immediately calibrates.</li>
 </ul>
 </li>
-<li><a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.DebugKeyboardRecalibrate">DebugKeyboardRecalibrate</a> is enabled and RecalibrateKey pressed.</li>
+<li><a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_DebugKeyboardRecalibrate">DebugKeyboardRecalibrate</a> is enabled and RecalibrateKey pressed.</li>
 </ul>
 <h2 id="flooroffset">FloorOffset</h2>
 <p>This transform moves up and down based on a few variables.</p>
 <ul>
-<li>Height Calibration: Calibrating in sitting mode will offset based on the difference between device height and <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.EyeHeight">EyeHeight</a>.</li>
-<li><a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.PlayerControllerYOffset">PlayerControllerYOffset</a>: Used by the player controller when a input driven crouch is activated.</li>
-<li><a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.CameraYOffset">CameraYOffset</a>: Users can adjust this on demand to raise or lower the camera. If <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.DebugKeyboardOffset">DebugKeyboardOffset</a> is enabled the Up/Down arrow keys will shift by <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.DebugKeyboardIncrement">DebugKeyboardIncrement</a> amount.</li>
+<li>Height Calibration: Calibrating in sitting mode will offset based on the difference between device height and <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_EyeHeight">EyeHeight</a>.</li>
+<li><a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_PlayerControllerYOffset">PlayerControllerYOffset</a>: Used by the player controller when a input driven crouch is activated.</li>
+<li><a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_CameraYOffset">CameraYOffset</a>: Users can adjust this on demand to raise or lower the camera. If <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_DebugKeyboardOffset">DebugKeyboardOffset</a> is enabled the Up/Down arrow keys will shift by <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_DebugKeyboardIncrement">DebugKeyboardIncrement</a> amount.</li>
 </ul>
 <h2 id="camera-scale">Camera Scale</h2>
-<p>When the <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.SitStanding">SitStanding</a> mode is set to Standing, this transform will scale based on the device reported Y height and the <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.EyeHeight">EyeHeight</a> field.</p>
-<p>This will make the world look smaller for shorter players, and larger for taller players if their height is not close to the <a href="xref:HurricaneVR.Framework.Core.Player.HVRCameraRig.EyeHeight">EyeHeight</a> value.</p>
+<p>When the <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_SitStanding">SitStanding</a> mode is set to Standing, this transform will scale based on the device reported Y height and the <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_EyeHeight">EyeHeight</a> field.</p>
+<p>This will make the world look smaller for shorter players, and larger for taller players if their height is not close to the <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html#HurricaneVR_Framework_Core_Player_HVRCameraRig_EyeHeight">EyeHeight</a> value.</p>
 <p>Using this feature will let you build your world without worrying about how tall the player is. You can see this in action in games like Boneworks and Blade and Sorcery.</p>
 <h2 id="left--right-controller">Left / Right Controller</h2>
 <p>Transforms that represent the tracked controller device positions and rotations.</p>
 <p>Each transform has an Offset transform child used to shift the physics hand target.</p>
-<p>The <a href="xref:HurricaneVR.Framework.Components.HVRControllerOffset">HVRControllerOffset</a> component on the Offset transform manages the position and rotation offset based on the Unity XR plugin and device connected. The offsets are driven by the <a href="../scenesetup.html#controller-offsets">Controller Offsets</a> field on the <a href="xref:HurricaneVR.Framework.ControllerInput.HVRInputManager">HVRInputManager</a> component.</p>
+<p>The <a class="xref" href="../../api/HurricaneVR.Framework.Components.HVRControllerOffset.html">HVRControllerOffset</a> component on the Offset transform manages the position and rotation offset based on the Unity XR plugin and device connected. The offsets are driven by the <a href="../scenesetup.html#controller-offsets">Controller Offsets</a> field on the <a class="xref" href="../../api/HurricaneVR.Framework.ControllerInput.HVRInputManager.html">HVRInputManager</a> component.</p>
 </article>
           </div>
           
@@ -104,6 +104,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR-Docs/blob/main/docfx_project/manual/rig/camerarig.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

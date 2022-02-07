@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class HVRJointHand
    ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -386,14 +386,16 @@ public class HVRJointHand : MonoBehaviour</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_Anchor.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.Anchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L25">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L54">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_Anchor" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Anchor">Anchor</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Optional anchor point to test distance to the hand, could the shoulder of an arm or full body avatar. Works in tandem with the ArmLength field to limit the distance of the hand.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;Arm Limit&quot;)]
+[Tooltip(&quot;Optional 'Shoulder', if populated the hand and it's object will snap back based on the MaxDistanceBehaviour assigned.&quot;)]
 public Transform Anchor</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -416,14 +418,16 @@ public Transform Anchor</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_ArmLength.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.ArmLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L26">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L60">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_ArmLength" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.ArmLength">ArmLength</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Max distance allowed from the Anchor point if supplied.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float ArmLength</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Max allowed length from the Anchor to the hand.&quot;)]
+public float ArmLength</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -445,7 +449,7 @@ public Transform Anchor</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_IsReturningToController.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.IsReturningToController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L40">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L96">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_IsReturningToController" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.IsReturningToController">IsReturningToController</h4>
   <div class="markdown level1 summary"></div>
@@ -475,14 +479,16 @@ public bool IsReturningToController</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_JointSettings.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.JointSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L16">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L21">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_JointSettings" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.JointSettings">JointSettings</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Default hand strength settings.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Header(&quot;Settings&quot;)]
+[Tooltip(&quot;Default hand strength settings.&quot;)]
 public HVRJointSettings JointSettings</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -505,14 +511,16 @@ public HVRJointSettings JointSettings</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_MaxDistanceBehaviour.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.MaxDistanceBehaviour%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L22">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L47">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_MaxDistanceBehaviour" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.MaxDistanceBehaviour">MaxDistanceBehaviour</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Defines the action taken after max distance from the controller is exceeeded.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MaxDistanceBehaviour MaxDistanceBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Behaviour when arm length is exceeded, or distance from the hand to the controller is exceeded.&quot;)]
+public MaxDistanceBehaviour MaxDistanceBehaviour</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -534,10 +542,11 @@ public HVRJointSettings JointSettings</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_MaxDistanceReached.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.MaxDistanceReached%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L36">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L88">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_MaxDistanceReached" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.MaxDistanceReached">MaxDistanceReached</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Invoked once the max distance is reached from the controller target.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -564,14 +573,16 @@ public UnityEvent MaxDistanceReached</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_MaxTargetDistance.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.MaxTargetDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L21">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L41">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_MaxTargetDistance" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.MaxTargetDistance">MaxTargetDistance</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The max distance the hand is allowed to stray from it's target.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;MaxDistance&quot;)]
+[Tooltip(&quot;Max distance between the hand and the controller target.&quot;)]
 public float MaxTargetDistance</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -594,10 +605,11 @@ public float MaxTargetDistance</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_ParentRigidBody.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.ParentRigidBody%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L31">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L72">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_ParentRigidBody" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.ParentRigidBody">ParentRigidBody</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Kinematic rigidbody that will hold the joint for stability.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -623,10 +635,11 @@ public float MaxTargetDistance</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_ReturnedToController.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.ReturnedToController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L37">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L93">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_ReturnedToController" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.ReturnedToController">ReturnedToController</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>If the max distance behaviour in effect is not a HandSweep, this will invoke after the hand has returned to the controller.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -652,14 +665,16 @@ public float MaxTargetDistance</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_ReturnSpeed.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.ReturnSpeed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L19">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L33">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_ReturnSpeed" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.ReturnSpeed">ReturnSpeed</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The speed at which the hand returns to the controller when the MaxDistanceBehaviour is not set to HandSweep</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float ReturnSpeed</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Speed at which the hand returns to the controller when the max limit is breached, does not work in HandSweep mode.&quot;)]
+public float ReturnSpeed</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -681,14 +696,15 @@ public float MaxTargetDistance</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_SolverIterations.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.SolverIterations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L17">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L24">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_SolverIterations" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.SolverIterations">SolverIterations</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SolverIterations</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Physx constraint iterations&quot;)]
+public int SolverIterations</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -710,14 +726,15 @@ public float MaxTargetDistance</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_SolverVelocityIterations.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.SolverVelocityIterations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L18">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L27">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_SolverVelocityIterations" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.SolverVelocityIterations">SolverVelocityIterations</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SolverVelocityIterations</code></pre>
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Physx constraint iterations&quot;)]
+public int SolverVelocityIterations</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -739,10 +756,11 @@ public float MaxTargetDistance</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_StrengthHandler.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.StrengthHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L32">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L77">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_StrengthHandler" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.StrengthHandler">StrengthHandler</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This component manages the strength overrides that come from grabbable override fields.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -768,10 +786,11 @@ public float MaxTargetDistance</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_Target.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.Target%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L30">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L67">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_Target" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Target">Target</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This hand will chase after the supplied transform, usually set to the offset child of the tracked device transform.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -799,10 +818,11 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_Teleporter.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.Teleporter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L33">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L82">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_Teleporter" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Teleporter">Teleporter</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Referenced to keep track of a recent teleport to prevent the Max Distance behaviour from executing after a teleport.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -830,7 +850,7 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_Grabber.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.Grabber%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L47">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L103">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_Grabber_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Grabber*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_Grabber" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Grabber">Grabber</h4>
@@ -860,7 +880,7 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_Joint.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.Joint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L45">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L101">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_Joint_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Joint*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_Joint" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Joint">Joint</h4>
@@ -890,7 +910,7 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_RigidBody.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.RigidBody%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L43">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L99">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_RigidBody_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.RigidBody*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_RigidBody" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.RigidBody">RigidBody</h4>
@@ -922,7 +942,7 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_Awake.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.Awake%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L53">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L111">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_Awake_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Awake*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_Awake" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Awake">Awake()</h4>
@@ -937,7 +957,7 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_Disable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.Disable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L110">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L170">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_Disable_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Disable*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_Disable" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Disable">Disable()</h4>
@@ -952,7 +972,7 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_Enable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.Enable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L116">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L176">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_Enable_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Enable*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_Enable" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Enable">Enable()</h4>
@@ -967,7 +987,7 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_FixedUpdate.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.FixedUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L142">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L202">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_FixedUpdate_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.FixedUpdate*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_FixedUpdate" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.FixedUpdate">FixedUpdate()</h4>
@@ -979,10 +999,40 @@ public Transform Target</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_GetBehaviour.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.GetBehaviour%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L273">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_GetBehaviour_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.GetBehaviour*"></a>
+  <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_GetBehaviour" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.GetBehaviour">GetBehaviour()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected MaxDistanceBehaviour GetBehaviour()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HurricaneVR.Framework.Core.Player.MaxDistanceBehaviour.html">MaxDistanceBehaviour</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_OnEnable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.OnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L122">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L182">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_OnEnable_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.OnEnable*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_OnEnable" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.OnEnable">OnEnable()</h4>
@@ -994,10 +1044,40 @@ public Transform Target</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_OnMaxDistanceReached.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.OnMaxDistanceReached%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L280">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_OnMaxDistanceReached_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.OnMaxDistanceReached*"></a>
+  <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_OnMaxDistanceReached" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.OnMaxDistanceReached">OnMaxDistanceReached()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnMaxDistanceReached()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_OnReturned.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.OnReturned%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L264">View Source</a>
+  </span>
+  <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_OnReturned_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.OnReturned*"></a>
+  <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_OnReturned" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.OnReturned">OnReturned()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnReturned()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_SetupJoint.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.SetupJoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L127">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L187">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_SetupJoint_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.SetupJoint*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_SetupJoint" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.SetupJoint">SetupJoint()</h4>
@@ -1012,7 +1092,7 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_Start.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L89">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L149">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_Start_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Start*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_Start" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.Start">Start()</h4>
@@ -1027,7 +1107,7 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_StopHandsRoutine.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.StopHandsRoutine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L97">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L157">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_StopHandsRoutine_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.StopHandsRoutine*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_StopHandsRoutine" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.StopHandsRoutine">StopHandsRoutine()</h4>
@@ -1057,7 +1137,7 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_UpdateDistanceCheck.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.UpdateDistanceCheck%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L167">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L228">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_UpdateDistanceCheck_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.UpdateDistanceCheck*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_UpdateDistanceCheck" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.UpdateDistanceCheck">UpdateDistanceCheck()</h4>
@@ -1072,7 +1152,7 @@ public Transform Target</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand_UpdateTargetVelocity.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand.UpdateTargetVelocity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L224">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L302">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Player_HVRJointHand_UpdateTargetVelocity_" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.UpdateTargetVelocity*"></a>
   <h4 id="HurricaneVR_Framework_Core_Player_HVRJointHand_UpdateTargetVelocity" data-uid="HurricaneVR.Framework.Core.Player.HVRJointHand.UpdateTargetVelocity">UpdateTargetVelocity()</h4>
@@ -1084,10 +1164,31 @@ public Transform Target</code></pre>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_GetRelativeValues_UnityEngine_Component_UnityEngine_Transform_UnityEngine_Vector3__UnityEngine_Quaternion__">HVRUtilities.GetRelativeValues(Component, Transform, out Vector3, out Quaternion)</a>
+  </div>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_GetRelativeValues_UnityEngine_Component_UnityEngine_Component_UnityEngine_Vector3__UnityEngine_Quaternion__">HVRUtilities.GetRelativeValues(Component, Component, out Vector3, out Quaternion)</a>
+  </div>
+  <div>
       <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetRigidbody_UnityEngine_MonoBehaviour_">VRUtilities.GetRigidbody(MonoBehaviour)</a>
   </div>
   <div>
       <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetCopyOf__1_UnityEngine_Component___0_">VRUtilities.GetCopyOf&lt;T&gt;(Component, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteNextUpdate_UnityEngine_MonoBehaviour_System_Action_">CoroutineExtensions.ExecuteNextUpdate(MonoBehaviour, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterSeconds_UnityEngine_MonoBehaviour_System_Action_System_Single_">CoroutineExtensions.ExecuteAfterSeconds(MonoBehaviour, Action, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterSecondsUnscaled_UnityEngine_MonoBehaviour_System_Action_System_Single_">CoroutineExtensions.ExecuteAfterSecondsUnscaled(MonoBehaviour, Action, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterFixedUpdate_UnityEngine_MonoBehaviour_System_Action_">CoroutineExtensions.ExecuteAfterFixedUpdate(MonoBehaviour, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterFixedUpdates_UnityEngine_MonoBehaviour_System_Action_System_Int32_">CoroutineExtensions.ExecuteAfterFixedUpdates(MonoBehaviour, Action, Int32)</a>
   </div>
 </article>
           </div>
@@ -1100,7 +1201,7 @@ public Transform Target</code></pre>
                     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Player_HVRJointHand.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Player.HVRJointHand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Player/HVRJointHand.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class HVRSocket
    ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -150,9 +150,6 @@
       <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_JointAnchorWorldPosition">HVRGrabberBase.JointAnchorWorldPosition</a>
     </div>
     <div>
-      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_Velocity">HVRGrabberBase.Velocity</a>
-    </div>
-    <div>
       <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_IsMine">HVRGrabberBase.IsMine</a>
     </div>
     <div>
@@ -171,6 +168,9 @@
       <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_OnDestroy">HVRGrabberBase.OnDestroy()</a>
     </div>
     <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_Awake">HVRGrabberBase.Awake()</a>
+    </div>
+    <div>
       <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_FixedUpdate">HVRGrabberBase.FixedUpdate()</a>
     </div>
     <div>
@@ -180,7 +180,16 @@
       <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_ForceRelease">HVRGrabberBase.ForceRelease()</a>
     </div>
     <div>
-      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HandSwapRelease">HVRGrabberBase.HandSwapRelease()</a>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_CheckSwapReleaseRequired_HurricaneVR_Framework_Core_HVRGrabbable_">HVRGrabberBase.CheckSwapReleaseRequired(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_CheckSwapRelease_HurricaneVR_Framework_Core_HVRGrabbable_">HVRGrabberBase.CheckSwapRelease(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_SwapRelease_HurricaneVR_Framework_Core_HVRGrabbable_">HVRGrabberBase.SwapRelease(HVRGrabbable)</a>
+    </div>
+    <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_ReleaseGrabbable_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_System_Boolean_System_Boolean_">HVRGrabberBase.ReleaseGrabbable(HVRGrabberBase, HVRGrabbable, Boolean, Boolean)</a>
     </div>
     <div>
       <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_IsValidGrabbable_HurricaneVR_Framework_Core_HVRGrabbable_">HVRGrabberBase.IsValidGrabbable(HVRGrabbable)</a>
@@ -196,9 +205,6 @@
     </div>
     <div>
       <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_TryGrabNoEvents_HurricaneVR_Framework_Core_HVRGrabbable_System_Boolean_">HVRGrabberBase.TryGrabNoEvents(HVRGrabbable, Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_CheckForceRelease_HurricaneVR_Framework_Core_HVRGrabbable_">HVRGrabberBase.CheckForceRelease(HVRGrabbable)</a>
     </div>
     <div>
       <a class="xref" href="HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html#HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_GrabGrabbable_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_System_Boolean_">HVRGrabberBase.GrabGrabbable(HVRGrabberBase, HVRGrabbable, Boolean)</a>
@@ -529,7 +535,7 @@
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket__appQuitting.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket._appQuitting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L102">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L109">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket__appQuitting" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket._appQuitting">_appQuitting</h4>
   <div class="markdown level1 summary"></div>
@@ -558,7 +564,7 @@
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket__fixPositionRoutine.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket._fixPositionRoutine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L107">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L114">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket__fixPositionRoutine" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket._fixPositionRoutine">_fixPositionRoutine</h4>
   <div class="markdown level1 summary"></div>
@@ -587,7 +593,7 @@
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket__hadRigidBody.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket._hadRigidBody%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L105">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L112">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket__hadRigidBody" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket._hadRigidBody">_hadRigidBody</h4>
   <div class="markdown level1 summary"></div>
@@ -616,7 +622,7 @@
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket__ignoreGrabSFX.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket._ignoreGrabSFX%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L106">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L113">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket__ignoreGrabSFX" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket._ignoreGrabSFX">_ignoreGrabSFX</h4>
   <div class="markdown level1 summary"></div>
@@ -645,7 +651,7 @@
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket__mass.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket._mass%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L104">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L111">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket__mass" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket._mass">_mass</h4>
   <div class="markdown level1 summary"></div>
@@ -674,7 +680,7 @@
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket__modelBounds.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket._modelBounds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L101">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L108">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket__modelBounds" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket._modelBounds">_modelBounds</h4>
   <div class="markdown level1 summary"></div>
@@ -703,7 +709,7 @@
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket__previousParent.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket._previousParent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L99">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L106">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket__previousParent" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket._previousParent">_previousParent</h4>
   <div class="markdown level1 summary"></div>
@@ -732,7 +738,7 @@
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket__previousScale.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket._previousScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L100">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L107">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket__previousScale" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket._previousScale">_previousScale</h4>
   <div class="markdown level1 summary"></div>
@@ -761,7 +767,7 @@
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket__timeoutGrabbable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket._timeoutGrabbable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L103">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L110">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket__timeoutGrabbable" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket._timeoutGrabbable">_timeoutGrabbable</h4>
   <div class="markdown level1 summary"></div>
@@ -790,7 +796,7 @@
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioGrabbedFallback.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.AudioGrabbedFallback%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L76">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L79">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioGrabbedFallback" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.AudioGrabbedFallback">AudioGrabbedFallback</h4>
   <div class="markdown level1 summary"></div>
@@ -820,7 +826,7 @@ public AudioClip AudioGrabbedFallback</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioGrabbedOverride.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.AudioGrabbedOverride%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L70">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L73">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioGrabbedOverride" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.AudioGrabbedOverride">AudioGrabbedOverride</h4>
   <div class="markdown level1 summary"></div>
@@ -851,7 +857,7 @@ public AudioClip AudioGrabbedOverride</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioReleasedFallback.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.AudioReleasedFallback%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L78">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L81">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioReleasedFallback" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.AudioReleasedFallback">AudioReleasedFallback</h4>
   <div class="markdown level1 summary"></div>
@@ -881,7 +887,7 @@ public AudioClip AudioReleasedFallback</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioReleasedOverride.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.AudioReleasedOverride%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L73">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L76">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_AudioReleasedOverride" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.AudioReleasedOverride">AudioReleasedOverride</h4>
   <div class="markdown level1 summary"></div>
@@ -911,7 +917,7 @@ public AudioClip AudioReleasedOverride</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_AutoSpawnPrefab.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.AutoSpawnPrefab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L33">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L36">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_AutoSpawnPrefab" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.AutoSpawnPrefab">AutoSpawnPrefab</h4>
   <div class="markdown level1 summary"></div>
@@ -941,7 +947,7 @@ public GameObject AutoSpawnPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrabStabbingGrabbable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanGrabStabbingGrabbable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L66">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L69">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrabStabbingGrabbable" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanGrabStabbingGrabbable">CanGrabStabbingGrabbable</h4>
   <div class="markdown level1 summary"></div>
@@ -971,7 +977,7 @@ public bool CanGrabStabbingGrabbable</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanRemoveGrabbable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanRemoveGrabbable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L57">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L60">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanRemoveGrabbable" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanRemoveGrabbable">CanRemoveGrabbable</h4>
   <div class="markdown level1 summary"></div>
@@ -1031,7 +1037,7 @@ public bool CheckHandOverlap</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_DebugScale.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.DebugScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L97">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L104">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_DebugScale" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.DebugScale">DebugScale</h4>
   <div class="markdown level1 summary"></div>
@@ -1058,10 +1064,40 @@ public bool DebugScale</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_DisableCollision.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.DisableCollision%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L97">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_DisableCollision" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.DisableCollision">DisableCollision</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;If false, the socketed object colliders remain active, only works for static or kinematic rb sockets.&quot;)]
+public bool DisableCollision</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_DistanceSource.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.DistanceSource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L90">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L93">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_DistanceSource" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.DistanceSource">DistanceSource</h4>
   <div class="markdown level1 summary"></div>
@@ -1092,7 +1128,7 @@ public Transform DistanceSource</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_FilterCondition.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.FilterCondition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L86">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L89">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_FilterCondition" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.FilterCondition">FilterCondition</h4>
   <div class="markdown level1 summary"></div>
@@ -1122,7 +1158,7 @@ public SocketCondition FilterCondition</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabbableMustBeHeld.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.GrabbableMustBeHeld%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L39">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L42">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabbableMustBeHeld" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GrabbableMustBeHeld">GrabbableMustBeHeld</h4>
   <div class="markdown level1 summary"></div>
@@ -1172,7 +1208,7 @@ public HVRGrabControls GrabControl</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HurricaneVR.Framework.Shared.HVRGrabControls</span></td>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRGrabControls.html">HVRGrabControls</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1201,7 +1237,7 @@ public HVRGrabControls GrabControl</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HurricaneVR.Framework.Shared.HVRGrabDetection</span></td>
+        <td><a class="xref" href="HurricaneVR.Framework.Shared.HVRGrabDetection.html">HVRGrabDetection</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1211,7 +1247,7 @@ public HVRGrabControls GrabControl</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabsFromHand.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.GrabsFromHand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L42">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L45">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabsFromHand" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GrabsFromHand">GrabsFromHand</h4>
   <div class="markdown level1 summary"></div>
@@ -1241,7 +1277,7 @@ public bool GrabsFromHand</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabTimeout.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.GrabTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L36">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L39">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabTimeout" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GrabTimeout">GrabTimeout</h4>
   <div class="markdown level1 summary"></div>
@@ -1271,7 +1307,7 @@ public float GrabTimeout</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_HandGrabActions.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.HandGrabActions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L48">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L51">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_HandGrabActions" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.HandGrabActions">HandGrabActions</h4>
   <div class="markdown level1 summary"></div>
@@ -1301,7 +1337,7 @@ public HVRSocketHoverAction[] HandGrabActions</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_HoldType.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.HoldType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L30">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L33">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_HoldType" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.HoldType">HoldType</h4>
   <div class="markdown level1 summary"></div>
@@ -1330,7 +1366,7 @@ public HVRSocketHoverAction[] HandGrabActions</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_HoverActions.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.HoverActions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L45">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L48">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_HoverActions" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.HoverActions">HoverActions</h4>
   <div class="markdown level1 summary"></div>
@@ -1357,10 +1393,40 @@ public HVRSocketHoverAction[] HoverActions</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_InstantHandPose.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.InstantHandPose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L31">View Source</a>
+  </span>
+  <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_InstantHandPose" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.InstantHandPose">InstantHandPose</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;If true, the hand grabbing an object out of this will instantly bring the object to pose orientation.&quot;)]
+public bool InstantHandPose</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_ParentDisablesGrab.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.ParentDisablesGrab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L51">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L54">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_ParentDisablesGrab" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.ParentDisablesGrab">ParentDisablesGrab</h4>
   <div class="markdown level1 summary"></div>
@@ -1390,7 +1456,7 @@ public bool ParentDisablesGrab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_ParentGrabbable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.ParentGrabbable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L54">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L57">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_ParentGrabbable" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.ParentGrabbable">ParentGrabbable</h4>
   <div class="markdown level1 summary"></div>
@@ -1450,7 +1516,7 @@ public bool ReleasesOnHover</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_ScaleGrabbable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.ScaleGrabbable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L60">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L63">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_ScaleGrabbable" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.ScaleGrabbable">ScaleGrabbable</h4>
   <div class="markdown level1 summary"></div>
@@ -1480,7 +1546,7 @@ public bool ScaleGrabbable</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_Size.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.Size%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L63">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L66">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_Size" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.Size">Size</h4>
   <div class="markdown level1 summary"></div>
@@ -1510,7 +1576,7 @@ public float Size</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_SocketFilters.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.SocketFilters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L83">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L86">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_SocketFilters" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.SocketFilters">SocketFilters</h4>
   <div class="markdown level1 summary"></div>
@@ -1541,7 +1607,7 @@ public HVRSocketFilter[] SocketFilters</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_SpawnedPrefab.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.SpawnedPrefab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L93">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L100">View Source</a>
   </span>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_SpawnedPrefab" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.SpawnedPrefab">SpawnedPrefab</h4>
   <div class="markdown level1 summary"></div>
@@ -1573,7 +1639,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_AllowSwap.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.AllowSwap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L115">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L122">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_AllowSwap_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.AllowSwap*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_AllowSwap" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.AllowSwap">AllowSwap</h4>
@@ -1605,7 +1671,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanAddGrabbable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanAddGrabbable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L121">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L128">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanAddGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanAddGrabbable*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanAddGrabbable" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanAddGrabbable">CanAddGrabbable</h4>
@@ -1635,7 +1701,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanInteract.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanInteract%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L117">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L124">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanInteract_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanInteract*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanInteract" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanInteract">CanInteract</h4>
@@ -1665,7 +1731,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsGrabActivated.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsGrabActivated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L112">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L119">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsGrabActivated_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsGrabActivated*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsGrabActivated" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsGrabActivated">IsGrabActivated</h4>
@@ -1697,7 +1763,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsHoldActive.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsHoldActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L113">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L120">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsHoldActive_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsHoldActive*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsHoldActive" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsHoldActive">IsHoldActive</h4>
@@ -1729,7 +1795,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsSocket.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsSocket%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L119">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L126">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsSocket_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsSocket*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsSocket" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsSocket">IsSocket</h4>
@@ -1761,7 +1827,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_LinkedGrabbable.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.LinkedGrabbable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L110">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L117">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_LinkedGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.LinkedGrabbable*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_LinkedGrabbable" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.LinkedGrabbable">LinkedGrabbable</h4>
@@ -1793,7 +1859,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrab_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanGrab(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L379">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L388">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrab_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanGrab*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrab_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanGrab(HurricaneVR.Framework.Core.HVRGrabbable)">CanGrab(HVRGrabbable)</h4>
@@ -1842,7 +1908,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrabbableBeRemoved_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanGrabbableBeRemoved(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L726">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L735">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrabbableBeRemoved_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanGrabbableBeRemoved*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrabbableBeRemoved_HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanGrabbableBeRemoved(HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber)">CanGrabbableBeRemoved(HVRHandGrabber)</h4>
@@ -1889,7 +1955,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrabEx_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanGrabEx(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L395">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L404">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrabEx_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanGrabEx*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanGrabEx_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanGrabEx(HurricaneVR.Framework.Core.HVRGrabbable)">CanGrabEx(HVRGrabbable)</h4>
@@ -1937,7 +2003,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanHover_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanHover(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L247">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L256">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanHover_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanHover*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CanHover_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CanHover(HurricaneVR.Framework.Core.HVRGrabbable)">CanHover(HVRGrabbable)</h4>
@@ -1986,7 +2052,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckAutoSpawn.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CheckAutoSpawn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L187">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L196">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckAutoSpawn_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CheckAutoSpawn*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckAutoSpawn" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CheckAutoSpawn">CheckAutoSpawn()</h4>
@@ -2001,7 +2067,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckGrab.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CheckGrab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L371">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L380">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckGrab_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CheckGrab*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckGrab" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CheckGrab">CheckGrab()</h4>
@@ -2018,7 +2084,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckHover.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CheckHover%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L220">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L229">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckHover_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CheckHover*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CheckHover" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CheckHover">CheckHover()</h4>
@@ -2050,7 +2116,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_CleanupRigidBody_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.CleanupRigidBody(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L603">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L612">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CleanupRigidBody_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CleanupRigidBody*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_CleanupRigidBody_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.CleanupRigidBody(HurricaneVR.Framework.Core.HVRGrabbable)">CleanupRigidBody(HVRGrabbable)</h4>
@@ -2082,7 +2148,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetDistanceToGrabber_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetDistanceToGrabber(UnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L763">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L772">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetDistanceToGrabber_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetDistanceToGrabber*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetDistanceToGrabber_UnityEngine_Vector3_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetDistanceToGrabber(UnityEngine.Vector3)">GetDistanceToGrabber(Vector3)</h4>
@@ -2130,7 +2196,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetPositionOffset_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetPositionOffset(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L504">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L513">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetPositionOffset_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetPositionOffset*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetPositionOffset_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetPositionOffset(HurricaneVR.Framework.Core.HVRGrabbable)">GetPositionOffset(HVRGrabbable)</h4>
@@ -2177,7 +2243,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetRotationOffset_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetRotationOffset(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L511">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L520">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetRotationOffset_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetRotationOffset*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetRotationOffset_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetRotationOffset(HurricaneVR.Framework.Core.HVRGrabbable)">GetRotationOffset(HVRGrabbable)</h4>
@@ -2224,7 +2290,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetSquareDistanceToGrabber_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetSquareDistanceToGrabber(UnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L773">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L782">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetSquareDistanceToGrabber_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetSquareDistanceToGrabber*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetSquareDistanceToGrabber_UnityEngine_Vector3_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetSquareDistanceToGrabber(UnityEngine.Vector3)">GetSquareDistanceToGrabber(Vector3)</h4>
@@ -2272,7 +2338,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetTargetPosition_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetTargetPosition(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L518">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L527">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetTargetPosition_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetTargetPosition*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetTargetPosition_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetTargetPosition(HurricaneVR.Framework.Core.HVRGrabbable)">GetTargetPosition(HVRGrabbable)</h4>
@@ -2319,7 +2385,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetTargetRotation_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetTargetRotation(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L531">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L540">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetTargetRotation_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetTargetRotation*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GetTargetRotation_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GetTargetRotation(HurricaneVR.Framework.Core.HVRGrabbable)">GetTargetRotation(HVRGrabbable)</h4>
@@ -2366,7 +2432,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabTimeoutRoutine_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.GrabTimeoutRoutine(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L740">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L749">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabTimeoutRoutine_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GrabTimeoutRoutine*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_GrabTimeoutRoutine_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.GrabTimeoutRoutine(HurricaneVR.Framework.Core.HVRGrabbable)">GrabTimeoutRoutine(HVRGrabbable)</h4>
@@ -2413,7 +2479,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_HandleRigidBodyGrab_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.HandleRigidBodyGrab(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L561">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L570">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_HandleRigidBodyGrab_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.HandleRigidBodyGrab*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_HandleRigidBodyGrab_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.HandleRigidBodyGrab(HurricaneVR.Framework.Core.HVRGrabbable)">HandleRigidBodyGrab(HVRGrabbable)</h4>
@@ -2445,7 +2511,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsValid_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsValid(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L421">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L430">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsValid_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsValid*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_IsValid_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.IsValid(HurricaneVR.Framework.Core.HVRGrabbable)">IsValid(HVRGrabbable)</h4>
@@ -2492,7 +2558,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnAfterHover_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnAfterHover(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L456">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L465">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnAfterHover_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnAfterHover*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnAfterHover_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnAfterHover(HurricaneVR.Framework.Core.HVRGrabbable)">OnAfterHover(HVRGrabbable)</h4>
@@ -2526,7 +2592,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnBeforeHover_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnBeforeHover(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L450">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L459">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnBeforeHover_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnBeforeHover*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnBeforeHover_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnBeforeHover(HurricaneVR.Framework.Core.HVRGrabbable)">OnBeforeHover(HVRGrabbable)</h4>
@@ -2560,7 +2626,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnGrabbableParented_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnGrabbableParented(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L544">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L553">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnGrabbableParented_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnGrabbableParented*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnGrabbableParented_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnGrabbableParented(HurricaneVR.Framework.Core.HVRGrabbable)">OnGrabbableParented(HVRGrabbable)</h4>
@@ -2592,7 +2658,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRGrabArgs_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnGrabbed(HurricaneVR.Framework.Core.Grabbers.HVRGrabArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L462">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L471">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnGrabbed_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnGrabbed*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnGrabbed_HurricaneVR_Framework_Core_Grabbers_HVRGrabArgs_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnGrabbed(HurricaneVR.Framework.Core.Grabbers.HVRGrabArgs)">OnGrabbed(HVRGrabArgs)</h4>
@@ -2626,7 +2692,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHandGrabberEntered.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHandGrabberEntered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L315">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L324">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHandGrabberEntered_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHandGrabberEntered*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHandGrabberEntered" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHandGrabberEntered">OnHandGrabberEntered()</h4>
@@ -2641,7 +2707,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHandGrabberExited.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHandGrabberExited%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L327">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L336">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHandGrabberExited_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHandGrabberExited*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHandGrabberExited" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHandGrabberExited">OnHandGrabberExited()</h4>
@@ -2656,7 +2722,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverEnter_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHoverEnter(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L279">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L288">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverEnter_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHoverEnter*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverEnter_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHoverEnter(HurricaneVR.Framework.Core.HVRGrabbable)">OnHoverEnter(HVRGrabbable)</h4>
@@ -2690,7 +2756,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverExit_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHoverExit(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L357">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L366">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverExit_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHoverExit*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverExit_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHoverExit(HurricaneVR.Framework.Core.HVRGrabbable)">OnHoverExit(HVRGrabbable)</h4>
@@ -2724,7 +2790,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverGrabbableReleased_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHoverGrabbableReleased(HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase%2CHurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L339">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L348">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverGrabbableReleased_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHoverGrabbableReleased*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnHoverGrabbableReleased_HurricaneVR_Framework_Core_Grabbers_HVRGrabberBase_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnHoverGrabbableReleased(HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase,HurricaneVR.Framework.Core.HVRGrabbable)">OnHoverGrabbableReleased(HVRGrabberBase, HVRGrabbable)</h4>
@@ -2761,7 +2827,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnReleased_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnReleased(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L688">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L697">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnReleased_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnReleased*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_OnReleased_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.OnReleased(HurricaneVR.Framework.Core.HVRGrabbable)">OnReleased(HVRGrabbable)</h4>
@@ -2795,7 +2861,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlaySFX_UnityEngine_AudioClip_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.PlaySFX(UnityEngine.AudioClip)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L666">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L675">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlaySFX_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.PlaySFX*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlaySFX_UnityEngine_AudioClip_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.PlaySFX(UnityEngine.AudioClip)">PlaySFX(AudioClip)</h4>
@@ -2827,7 +2893,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlaySocketedSFX_HurricaneVR_Framework_Core_Sockets_HVRSocketable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.PlaySocketedSFX(HurricaneVR.Framework.Core.Sockets.HVRSocketable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L631">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L640">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlaySocketedSFX_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.PlaySocketedSFX*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlaySocketedSFX_HurricaneVR_Framework_Core_Sockets_HVRSocketable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.PlaySocketedSFX(HurricaneVR.Framework.Core.Sockets.HVRSocketable)">PlaySocketedSFX(HVRSocketable)</h4>
@@ -2859,7 +2925,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlayUnsocketedSFX_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.PlayUnsocketedSFX(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L650">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L659">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlayUnsocketedSFX_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.PlayUnsocketedSFX*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_PlayUnsocketedSFX_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.PlayUnsocketedSFX(HurricaneVR.Framework.Core.HVRGrabbable)">PlayUnsocketedSFX(HVRGrabbable)</h4>
@@ -2891,7 +2957,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_PositionGrabbable_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.PositionGrabbable(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L551">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L560">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_PositionGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.PositionGrabbable*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_PositionGrabbable_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.PositionGrabbable(HurricaneVR.Framework.Core.HVRGrabbable)">PositionGrabbable(HVRGrabbable)</h4>
@@ -2923,7 +2989,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_RotateGrabbable_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.RotateGrabbable(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L556">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L565">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_RotateGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.RotateGrabbable*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_RotateGrabbable_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.RotateGrabbable(HurricaneVR.Framework.Core.HVRGrabbable)">RotateGrabbable(HVRGrabbable)</h4>
@@ -2955,7 +3021,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_Start.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L133">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L140">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_Start_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.Start*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_Start" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.Start">Start()</h4>
@@ -2972,7 +3038,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_TryGrab_HurricaneVR_Framework_Core_HVRGrabbable_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.TryGrab(HurricaneVR.Framework.Core.HVRGrabbable%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L747">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L756">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_TryGrab_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.TryGrab*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_TryGrab_HurricaneVR_Framework_Core_HVRGrabbable_System_Boolean_System_Boolean_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.TryGrab(HurricaneVR.Framework.Core.HVRGrabbable,System.Boolean,System.Boolean)">TryGrab(HVRGrabbable, Boolean, Boolean)</h4>
@@ -3029,7 +3095,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_Update.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L208">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L217">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_Update_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.Update*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_Update" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.Update">Update()</h4>
@@ -3046,7 +3112,7 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
     <a href="https://github.com/cloudwalker2020/HurricaneVR/new/Development/apiSpec/new?filename=HurricaneVR_Framework_Core_Grabbers_HVRSocket_UpdateScale_HurricaneVR_Framework_Core_HVRGrabbable_.md&amp;value=---%0Auid%3A%20HurricaneVR.Framework.Core.Grabbers.HVRSocket.UpdateScale(HurricaneVR.Framework.Core.HVRGrabbable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L673">View Source</a>
+    <a href="https://github.com/cloudwalker2020/HurricaneVR/blob/Development/Assets/HurricaneVR/Framework/Scripts/Core/Grabbers/HVRSocket.cs/#L682">View Source</a>
   </span>
   <a id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_UpdateScale_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.UpdateScale*"></a>
   <h4 id="HurricaneVR_Framework_Core_Grabbers_HVRSocket_UpdateScale_HurricaneVR_Framework_Core_HVRGrabbable_" data-uid="HurricaneVR.Framework.Core.Grabbers.HVRSocket.UpdateScale(HurricaneVR.Framework.Core.HVRGrabbable)">UpdateScale(HVRGrabbable)</h4>
@@ -3075,10 +3141,31 @@ public SocketSpawnEvent SpawnedPrefab</code></pre>
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_GetRelativeValues_UnityEngine_Component_UnityEngine_Transform_UnityEngine_Vector3__UnityEngine_Quaternion__">HVRUtilities.GetRelativeValues(Component, Transform, out Vector3, out Quaternion)</a>
+  </div>
+  <div>
+      <a class="xref" href="HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_GetRelativeValues_UnityEngine_Component_UnityEngine_Component_UnityEngine_Vector3__UnityEngine_Quaternion__">HVRUtilities.GetRelativeValues(Component, Component, out Vector3, out Quaternion)</a>
+  </div>
+  <div>
       <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetRigidbody_UnityEngine_MonoBehaviour_">VRUtilities.GetRigidbody(MonoBehaviour)</a>
   </div>
   <div>
       <a class="xref" href="HurricaneVR.Framework.Core.Utils.VRUtilities.html#HurricaneVR_Framework_Core_Utils_VRUtilities_GetCopyOf__1_UnityEngine_Component___0_">VRUtilities.GetCopyOf&lt;T&gt;(Component, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteNextUpdate_UnityEngine_MonoBehaviour_System_Action_">CoroutineExtensions.ExecuteNextUpdate(MonoBehaviour, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterSeconds_UnityEngine_MonoBehaviour_System_Action_System_Single_">CoroutineExtensions.ExecuteAfterSeconds(MonoBehaviour, Action, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterSecondsUnscaled_UnityEngine_MonoBehaviour_System_Action_System_Single_">CoroutineExtensions.ExecuteAfterSecondsUnscaled(MonoBehaviour, Action, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterFixedUpdate_UnityEngine_MonoBehaviour_System_Action_">CoroutineExtensions.ExecuteAfterFixedUpdate(MonoBehaviour, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html#Assets_HurricaneVR_Framework_Shared_Utilities_CoroutineExtensions_ExecuteAfterFixedUpdates_UnityEngine_MonoBehaviour_System_Action_System_Int32_">CoroutineExtensions.ExecuteAfterFixedUpdates(MonoBehaviour, Action, Int32)</a>
   </div>
 </article>
           </div>

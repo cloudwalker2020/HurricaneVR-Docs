@@ -4,12 +4,3972 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.HurricaneVR.Framework.Shared.Utilities.CoroutineExtensions.html",
+          "hash": "0/1SEF1jyIHmVec5r9d9SNAr3PIi7lLdvYJ9lPf/5Ys="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.HurricaneVR.Framework.Shared.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.HurricaneVR.Framework.Shared.Utilities.html",
+          "hash": "DRDOqwsRe+IInWn5i13z9/jJ4S2qwZ1TaCl6QRasEYU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.CollisionEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.CollisionEventType.html",
+          "hash": "MI+/GimOiW5M6Pfra0iW5GpeZMwTlaU/Wcrt1LGSahc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.Creators.HVRPhysicsLeverCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.Creators.HVRPhysicsLeverCreator.html",
+          "hash": "koe9D0yKMNuwevv78iaDHKclBGcD9vfGCR8AvqG852s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.Creators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.Creators.html",
+          "hash": "OgX9ZtsXoSiJhJOom0Qkjb7kQPXVm1GThF9FyknmLno="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRButton.html",
+          "hash": "LCbtRpyI3tc4sm547YfVf2WxD+GcGt4cB66wk4n4zkA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRButtonEvent.html",
+          "hash": "JMTEbO0zj3+1yAN7HZQ8NRg8Qu+IdtCrBaJ4umGrocg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRCenterOfMassOverride.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRCenterOfMassOverride.html",
+          "hash": "ZxRhpWkYp8NHZPidyFvGX9cz0TLiFSyKxla7wY4sevM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRClimbable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRClimbable.html",
+          "hash": "gP7ZauWq28G3p9ck2KAm+7g1bJ/RUxUWX8xiOaWB8ko="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRCollisionEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRCollisionEvents.html",
+          "hash": "XayTmJVJJugJUxzfNi/OuqcPJ4ZFXjkoiwYOEZvlu5M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRCollisionMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRCollisionMonitor.html",
+          "hash": "y2KbUPmXZxBnU9LtL1S43AaQVf27ZLQ6tqzxZn4Txn0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRControllerOffset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRControllerOffset.html",
+          "hash": "ejYf0uHt+dxGrn6qHUVqaVNln8LuNULhomvH0or+wA0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRControllerOffsets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRControllerOffsets.html",
+          "hash": "5hgi6EsiVasKo1npmbMmHhKT6pKjXFA6H1DRCSXIzqk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRDamageHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRDamageHandler.html",
+          "hash": "0SUq+OCiIPjeEi7dcSDAGt6abhI22gmCXYDVjhdEyUQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRDamageHandlerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRDamageHandlerBase.html",
+          "hash": "A6y/ZXyXYJWVq7+lXVl3clg0L1ahhlRBkYboOhAX25A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRDamageProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRDamageProvider.html",
+          "hash": "vOvYg6cxrkGK7b+SmvM8L19AsD1qdni2Af2GBHIf1IQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRDestroyListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRDestroyListener.html",
+          "hash": "3NjzfE//7OxiBVMqtZx4qMlWhmUtgP2tRXsZv6tm9ZM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRDestroyTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRDestroyTimer.html",
+          "hash": "t39vdJ7crr/coztE6llpBtSPypRyZhQoRE/l0mjCWBw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRDestroyedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRDestroyedEvent.html",
+          "hash": "fGcIFb7Nzjqonr7W5C4vYzPtkk39IAvOjRHDI1KN5XY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRDestructible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRDestructible.html",
+          "hash": "WJ5ZT1GG7U5pzJLrrzYZnTBPK7hbifKVuRGObGxZsjM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRDevicePoseOffset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRDevicePoseOffset.html",
+          "hash": "D6nerIOefiaN1wEHYXjKvi6PHkPN9vTr4g1PZGn+a9Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRDial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRDial.html",
+          "hash": "m3zgPEwG9kDVh5ghSAfEiowI4sH42coaow9KZmJE5ns="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRDontDestroy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRDontDestroy.html",
+          "hash": "z3h2iomPw1VWUlXoLm3ux4cBb/5E0jjn4EsyOY88ttE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRGrabbableHoverBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRGrabbableHoverBase.html",
+          "hash": "Fobb8Bh8AkZwp53cKtl8yfzRPDGlJ2Zy6AuXmqETTjo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRGrabbableImpactHaptics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRGrabbableImpactHaptics.html",
+          "hash": "GdmlTye16R1zubDvQ27efp027Yy0XGOJsnPptKE7UVk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRHandImpactHaptics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRHandImpactHaptics.html",
+          "hash": "DtstS01UC/lPLYfBXCtSuEHP0NpcmvVWhS7v4pcuoTo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRHandPoseRecorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRHandPoseRecorder.html",
+          "hash": "a1TSpYbCuAQ3dvKpSlbdH8tDIcwq7fGUwI25ktRBpic="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRHoverPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRHoverPosition.html",
+          "hash": "Jfu+g8t0HFz0py2yFCq+lZWcW3Bysy5boAnjGBAkwso="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRImpactHaptics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRImpactHaptics.html",
+          "hash": "O2qXpGS60G7BEk71mlqdYTpAcBBPQmV8uoFZ9RoB0Z4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRImpactHapticsBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRImpactHapticsBase.html",
+          "hash": "WYWwt81MeTr7oxyFUfXcblE4qKUaYInKkyHhot3U2Q4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRLever.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRLever.html",
+          "hash": "/YPEf9b4Y+GLz0rZVjgKNbVMYToLPdtXTNwSkoD/vr4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRMeshGlowHighlight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRMeshGlowHighlight.html",
+          "hash": "1vj0pb7Cz5aMU86lF2MWS7TWQT1uihuRYYA3yzU/Zn8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRMeshRendererHighlight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRMeshRendererHighlight.html",
+          "hash": "J26JSge2Yyr7JZke7MewWTXtLHRDzHCtZScjGNs0GoM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRParentOnStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRParentOnStart.html",
+          "hash": "2FTaw24oEYwniIw3KgMDYxaLxr2Rm2GRkC/ZRgzvV7M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsButton.html",
+          "hash": "m7XddtD+LEPVr4C5PVRPVSvHe0OFOFLLA3GvSVy10dk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsDial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsDial.html",
+          "hash": "LiARvKxLQgg0k5wGAdBPuZb++MBAx4XwZSeJjNx7qIw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsDoor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsDoor.html",
+          "hash": "pDQT1nYVR2yQQyKIKCJf2pIYVv0MBboQreAj7v+4QHs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsDrawer.html",
+          "hash": "JwUniieDteXXpfimotLy/lEZZgf8YQLC9CUK2xdA8K8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsLever.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsLever.html",
+          "hash": "0Fh7SdLz91ZF1gOnToGZt0jSvzGbYf6DcKMTAFxOz/Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRRigidBodyOverrides.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRRigidBodyOverrides.html",
+          "hash": "9Jg4D/W2g0t7ZI4EZCIT2h8HTzEEAdWcliDc6kOzF5g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRRigidbodyLocker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRRigidbodyLocker.html",
+          "hash": "hWf+lYVQa/03Lizb/sQwdKPNPbAwMjRcUNdCzWR0abs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRRingHighlight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRRingHighlight.html",
+          "hash": "fOnH1Xlaty6+ybuPGRaSMq3WE8eya0oqNessl0hnNuQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRRotationLimiter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRRotationLimiter.html",
+          "hash": "VmA/JR7dzB0Zsm+n3p308hXQUGY7hzrB5WZX1tsqebg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRRotationSFX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRRotationSFX.html",
+          "hash": "9wZvlkZG07uHTsjjoOA1Dod4q3tORkph8rATXifPkMI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRRotationTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRRotationTracker.html",
+          "hash": "VVaJZhiAhIIPaTWY6j/RcODHrpBEiaBirCQuPX9ABcg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRScaleHighlight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRScaleHighlight.html",
+          "hash": "mRXPwGQazxn1Ad8+koy/ushj1gOKG4hh+1cFfIeu4tg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRThrowingCenterOfMass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRThrowingCenterOfMass.html",
+          "hash": "HxG7NDoHXNugka1wUG2kOSb1jZ1ZWt2VWazq6xO6QZk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.HVRTwoHandStrength.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.HVRTwoHandStrength.html",
+          "hash": "cDzEGXDOPwcHf55mzLOZNarlnuFUjiCFXTAl9du01Js="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.LockOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.LockOptions.html",
+          "hash": "liWz8FIVmUOLNE3wGTMc5+7eX+N7KJubDL8KkSTn5d8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.RotationTrackerAngleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.RotationTrackerAngleEvent.html",
+          "hash": "UCiQ8H6w2fCr7S1t276OFRdPL53LxK8i7oKPFnG4pcU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.RotationTrackerStepEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.RotationTrackerStepEvent.html",
+          "hash": "eLkg4BwGPtT0yBfh8o9aEhnS6jpxWsp0RD9QJX8MYpo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.VRButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.VRButtonEvent.html",
+          "hash": "OAEioQLEUwB1toGZgN4nsY8yit062JlehEe8+i6WCNo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Components.html",
+          "hash": "n0bceXyzlXGNO2v/18rLsu/FKtIdwLtqlYr1UgLLFS4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRControllerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRControllerEvent.html",
+          "hash": "ZEa5DJdDT87YUTlVRAopIYY74FWVR+4/blYXGbomatQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRControllerEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRControllerEvents.html",
+          "hash": "EFoFpozM/58iJ3btUijMGkq6L0gMuEUq3NNvXTstF3c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRForceGrabActivation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRForceGrabActivation.html",
+          "hash": "qeVn1PhbOO2ySerxa0YCgdw4kWDU6BV7LbY3G89jQMw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRGlobalInputs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRGlobalInputs.html",
+          "hash": "pGwQxQsX3VwmFSSipDjY3ahLQrZXGpX2PQ7PulI91ko="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRInputAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRInputAction.html",
+          "hash": "SOPJaOxFhAuQDB0kqf2EdS1/k7X+Du5V08ap1y8YrQc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRInputManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRInputManager.html",
+          "hash": "YvRqvWwo12R2cXVERt4SWVxIj4Lk6Iu3IfapEBBNMuQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRPlayerInputs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRPlayerInputs.html",
+          "hash": "3AxW/HssEEH3B7tHUv+zITGLBRm7M+6r+gpUxffDmaA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRTrackedController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRTrackedController.html",
+          "hash": "lvA+8PjpSztflH6LXK83QLzMv1SWb4930HS+RW0EouE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRXRInputController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRXRInputController.html",
+          "hash": "lSxCk+9qJJGsx1vKDtItDFCR31BF5L+XM/LoT57SGl8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRGripButtonEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRGripButtonEvents.html",
+          "hash": "DKNfHqNxRc7/WOEFDPHPoKO2/eDfTXAMRZMBFEeKQso="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRJoystickButtonEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRJoystickButtonEvents.html",
+          "hash": "SSSrG61kohGxyvACHBWvV26s1WrntUHQt09gBFQ0HhU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRJoystickTouchEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRJoystickTouchEvents.html",
+          "hash": "dVIbcyIVTZKWab3DthPxDz4shIwBczB5+x3cPTI4nGQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRMenuButtonEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRMenuButtonEvents.html",
+          "hash": "k1s1UNKFKntXpWFat/JE+N22pbL7ezuND7M5dcyxd1o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRPrimaryButtonEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRPrimaryButtonEvents.html",
+          "hash": "EpNy/fedGHv5uvuNr7A8eW/jarZJa6TwY1FGmI/ZnNE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRPrimaryTouchButtonEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRPrimaryTouchButtonEvents.html",
+          "hash": "6Kjur3dtC/LJOjUlNk58XEqzHORXXfJSkeH6CyvnmkE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRSecondaryButtonEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRSecondaryButtonEvents.html",
+          "hash": "+lrUrsRH/I1VFxFwy+RMxGaZArGrcL7JbctMr+E/n8Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRSecondaryTouchButtonEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRSecondaryTouchButtonEvents.html",
+          "hash": "Srfp2NQy6n76BoISvak3hO9NJ25bhKNCXhhiPbUoK6U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRThumbTouchEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRThumbTouchEvents.html",
+          "hash": "jCA/3pNVJoVqcfgMvcM0nGHJXa9gWFqYkcSoyyviMIU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadDownEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadDownEvents.html",
+          "hash": "c/ObBFwwlXQ9xSB3DXKO2+corP+G2SizoE2WJrUdC3E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadLeftEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadLeftEvents.html",
+          "hash": "RxDD+hvc+VqODXQ6TAn9tEUs6Ofbr1j8H5FzfBnHl1k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadRightEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadRightEvents.html",
+          "hash": "SHUrSA4OWnz/53IKRAhpZALMiuEYRsUDyI/YxfA//KE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadTouchEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadTouchEvents.html",
+          "hash": "cm/qCw/xsyUtW/dOkMHUnyxz5c16vKaRyOsiipJZxPk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadUpEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadUpEvents.html",
+          "hash": "sPxMOaMmcPCURdwzXdnA643IEiP39QPNcW5sVykAp1Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackpadButtonEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackpadButtonEvents.html",
+          "hash": "cBDIHwhpKv1A34C92oCa0v841Ox1/mNaGt5BBN9CZNM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTriggerButtonEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTriggerButtonEvents.html",
+          "hash": "Sh2pe81GRilFf07jewYnQGOG9nc8OIsRv5L6ycNubPs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTriggerTouchEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTriggerTouchEvents.html",
+          "hash": "QlxHTfE57NT4yubfkAUjCGdsxeSfhtg81E2cgcXEM2Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.html",
+          "hash": "rnB4cAVI4ygavsamM++2K+8CeB+S0Nlzof9IBMXUvm0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.VRMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.VRMode.html",
+          "hash": "8krIoo5RuT8vyePxFUcN+gyPXJiQ2q14d0Ank4klRiA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.ControllerInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.ControllerInput.html",
+          "hash": "2Vo5hb1oNvXBLK8RK3/48FDxMONGivXJY5b17jrtz68="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRForceGrabberBag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRForceGrabberBag.html",
+          "hash": "0zl+E6cKV9llOU1cTL21ipOTX2anr3ZIKEggdVV4hoM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRGrabbableBag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRGrabbableBag.html",
+          "hash": "AYNrGLDxuY04O2mEr3FQGsWQE4ABj4X8Cn51YMCIgys="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRSocketBag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRSocketBag.html",
+          "hash": "K1cZxsDMT2p3TL/hajeVCuZbmvJMTLJfePaeal5TltM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag.html",
+          "hash": "85UOcjwToyqFz3k3QokfGCWYNjLOx8jBWubpWniQjuI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Bags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Bags.html",
+          "hash": "g33ZqJki4LJF3xIU8/95uRZ0I/agiUNbdQ0yucEBH8c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.DialSteppedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.DialSteppedEvent.html",
+          "hash": "4LNFr2zQABi+HWgM/XvMAUN9uIjAmm5dmxNMsqZzIj4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.DialTurnedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.DialTurnedEvent.html",
+          "hash": "pq0IlADp6gM4ny2UFDGjQsA0vQ64rGrCFA9FYaybTIM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.GrabBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.GrabBehaviour.html",
+          "hash": "MNCHkJoU8RjQTb8ljck692BsbC0lTcsT4774OwcyKao="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.DynamicPoseGrabIndicator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.DynamicPoseGrabIndicator.html",
+          "hash": "wI/JGZscx0jp4fhu4SXfhNM1Hi/5MNQpVDc8OlY08To="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRCloneDelete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRCloneDelete.html",
+          "hash": "xjQSVqsRWURBRuBZMu9M4bGW8cMhHfY/DeXg67JWdmw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRForceGrabMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRForceGrabMode.html",
+          "hash": "yxI4vYB9VRw0IPvVQgyI/BGLA074oqXA6uyPwwHj+X8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber.html",
+          "hash": "tvDqh0D3BIt9slQwz+AE9lLlW+P+FlRRGQUZ7uQZKsg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRGrabArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRGrabArgs.html",
+          "hash": "GLXdj3sKgu9Ufpy0a/B8ajykp2P9KNRt1BlLXP4ZUXw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html",
+          "hash": "qucNkYPgS5KrQMiYGqBN1L6NNMNwc2SzX0Nw4AIFJ8M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabOnStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabOnStart.html",
+          "hash": "8Yyh0Q9zSuAeSaUhRlLTESjFfgRwTMXW6r6moQhMpTA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html",
+          "hash": "L7zSttBXp+gKQwyOaHAwmq2VqIqSajvZoOmyD+g0T8c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRSocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRSocket.html",
+          "hash": "yNpwG6s2HRViKXGHVynzH5w+ygVs7LpfCoI7xbtTQCs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRSocketContainerGrabber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRSocketContainerGrabber.html",
+          "hash": "SStkE5MmaMSpyBMdzMsIgc04IP4+neAYkv2MiiNL3L0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.SocketCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.SocketCondition.html",
+          "hash": "sOIElkCGuNPts7THjMY9Hz4nD7Zy+nro1HAmKpJs524="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.SocketHoldType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.SocketHoldType.html",
+          "hash": "V53nROGUxR1srGABtw/pdS7Rt+3lfsuMEsOZCeG0esc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.SocketSpawnEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.SocketSpawnEvent.html",
+          "hash": "YA9at1xzvxwPjkiNeHmfaJM17nZQ3UGkcEBqws5h8H4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Grabbers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.html",
+          "hash": "U3TOOcsG0NWuIO4vxdhMtZIzmoT2bdfAvOhfV+C39Co="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.GrabpointFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.GrabpointFilter.html",
+          "hash": "CUpABrwLmP15hWwYFfRYKdefNczZV/byR+UzRs0c+oQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HVRForceGrabberLaser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HVRForceGrabberLaser.html",
+          "hash": "9Rti4bDgXG+7Umtpl1OSn2QxmC8t5b03daYunNw5hQU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HVRGrabPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HVRGrabPoints.html",
+          "hash": "TyX/t8ZeBdgAJ1Ws8W0GigJ5XjscDf6y3WtpumNB5lo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HVRGrabbable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HVRGrabbable.html",
+          "hash": "6dLPX47kS4yXbh1jR7YYodHsXFO0+ev8CvzQKC2/EF0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HVRGrabbableChild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HVRGrabbableChild.html",
+          "hash": "L+Xpr9+Scit7DkNJ5cndlhtur0EsOeq+x3Q8NIlvC9I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HVRGrabberManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HVRGrabberManager.html",
+          "hash": "5baiNDLORHrfswlSLX1fRiRk/WzJk5h6HCn04skyHok="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HVRHandGrabEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HVRHandGrabEvent.html",
+          "hash": "JVknDSS71zZQZtRkNcc/RFE1Wj7RMIdVNqsc+2bgqbc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HVRHandPhysics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HVRHandPhysics.html",
+          "hash": "vS5OAhOrgqS3R5/9K0kz7HN/HnFq2yAFpTpHq812aQQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HVRManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HVRManager.html",
+          "hash": "aJkG7AvoAjpd9/U1O60DRGH2K5JG6bx4/88qhnP8Z6M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HVRPhysicsGrabbable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HVRPhysicsGrabbable.html",
+          "hash": "Gpr5vmp9RWpeWLmNDlcRpfpDKM79iynRt3mxKOlOqbY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HVRRequireOtherGrabbable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HVRRequireOtherGrabbable.html",
+          "hash": "fIcW7XLb+qWNdt5aAQw1vYWLtPrFHdkVze86khpbiIg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HVRSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HVRSettings.html",
+          "hash": "FgVTRGIBuc9jdvw76Mf+ioOvDUZDLdubN6H2CPkUVdI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.BlendType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.BlendType.html",
+          "hash": "giBAhZn4sf5+feFdXEDlHQ1ew+e2Nlrtk+7jrnIHTdo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.Data.HVRHandPoseData.html",
+          "hash": "V9pbal/QhFvmLJ97TWf6X0QvYkal1J9OpXuH5dZVECs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.Data.HVRPosableBoneData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.Data.HVRPosableBoneData.html",
+          "hash": "Ujb7fVK0Msp1PAI4axKcXtEZbNT9D8lXilHoMW7EoxA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.Data.HVRPosableFingerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.Data.HVRPosableFingerData.html",
+          "hash": "egiZ97iPcA6BLVGLAodmHn+YMfwLWBhQRVjj3NZ7L4M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.Data.html",
+          "hash": "G/BLqbeSLompibx212HTTNUf48zWXgcwTbLZv8pF4fg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.FingerMirrorPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.FingerMirrorPosition.html",
+          "hash": "Uw+D+uA6wbP6xXyHHVumkFFpETcqazGanSXeZypbu6I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.FingerMirrorRotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.FingerMirrorRotation.html",
+          "hash": "O13lxm80O0fAn6w+8nLnN+itJ7N6wMj/e2+NtzdnGS0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRAnimationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRAnimationParameters.html",
+          "hash": "ovL7XYBt2yKkywvUliDZiykjD7bex26NchtLYCUOxV4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRFingerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRFingerType.html",
+          "hash": "OYoF6O3geJB67pfxqdwWKyqZRtgVOMrbnpxm34m09tM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRGrabPointSwapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRGrabPointSwapper.html",
+          "hash": "qW0ZbaL3ZrCB+HrqT2zgdWQgy+I15kxxtMq6pGvk/hA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandAnimator.html",
+          "hash": "zi+0JkDdgb9Cby8Fu3BezQDuaNvBg6+vo7+s5cWpEWo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandMirrorSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandMirrorSettings.html",
+          "hash": "Z5wILd3NOGysOj+FWVeCBcTMJYt6XFG45KjMj4XiWpE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandMirrorer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandMirrorer.html",
+          "hash": "cPEWISpdLuOZwjit7VPwBhwgn0LIlRggELzbEWiG+lA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandPose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandPose.html",
+          "hash": "EIxwFQn/XGh8RZ1Z1wJgVBzQ9/fNc6Bm7v9/edX2lBY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandPoseBlend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandPoseBlend.html",
+          "hash": "7Lxb5iR7poQ0qwX1yFp/Zr22OvW5VWZ9DDMe+ObrLCo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandPoseMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandPoseMask.html",
+          "hash": "qvI7kMrkAz2uEBzIZMzJtaBbQGhbr9i2aJNqfXdThew="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandPoser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandPoser.html",
+          "hash": "FhdEhoLJGhUjsKrSaIypnELAI74/ropbK3Wcf0OnIzA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRIKTargets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRIKTargets.html",
+          "hash": "WBmvMVB6xxUs1qXfSs4xXWY0bEZKf6Cnnpw/QiAnrF0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRJointMirrorSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRJointMirrorSetting.html",
+          "hash": "dcwhgZFXzW7OGWToSbcytNfFuZ9CQj3woDDqr6TUfp0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPhysicsPoser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPhysicsPoser.html",
+          "hash": "+Y3SqryNJDcp05orL/EYUrmVH5o9AWAVI3sB/lpxHwY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPosableBone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPosableBone.html",
+          "hash": "pYSBTfKfGE951/8xVeND3epahCh85To5E7JYBMdz3sc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPosableFinger.html",
+          "hash": "+alEepgL0m7Vdq3d9Hf3qDYBry0jRWm/TdqhEj8NYkw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPosableGrabPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPosableGrabPoint.html",
+          "hash": "SmLGeoQusisgq+0TF8VLcEfQFK47qoLJ7DqVM0EmpsE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.html",
+          "hash": "iOUvov9DOyx9RfCBEwTjFKs8NMkALVs6A2avIe5F4fo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.MirrorAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.MirrorAxis.html",
+          "hash": "N36zAmSaF2Nehk/1gaJpPvEgps3PsrtbALMJI+XmUBw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.PoserGrabPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.PoserGrabPoints.html",
+          "hash": "ABcs2W64Vi06DRIzW1fcSUEUbBm7zGE/jleJgHDnw88="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.HandPoser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.html",
+          "hash": "AY2m9RCIE4dDTU9SEjvWmG2qTCjSBEWdMoavgHF+VKw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.LeverMovedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.LeverMovedEvent.html",
+          "hash": "vsmdM5LZlFsne9wgNsDBQm/PJuxbj8TYK5EAfX+cx0c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.LeverSteppedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.LeverSteppedEvent.html",
+          "hash": "xc7wI9WI0Uc7EcWxpA+8XCRdWVQqz1jbds9xq2OMw2g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.AfterTeleportOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.AfterTeleportOptions.html",
+          "hash": "Glq2Sr3CKYcXa1aS5m9xFQ1WLAs3yAATR6t966nfUaY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.BeforeTeleportOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.BeforeTeleportOptions.html",
+          "hash": "yXTFFJWeqKQkx7bJli1v7kRmzYVGyOhvWlZWWKI5BFc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.GrabbableCollisionTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.GrabbableCollisionTracker.html",
+          "hash": "QaftbwImFKEl3czEfYcTzSUbOLAuWIt223azHFNXAnU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.GrabbableStuck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.GrabbableStuck.html",
+          "hash": "4wVafWyuK0IT/C9nZNS5JwRI8GI2t+qpbWYBQqjTCjs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRCamera.html",
+          "hash": "z6mMzwWQZwY/hx7QWvzyZb0LM6t1BsVUOhGQqjCpho0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRCameraRig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html",
+          "hash": "Y9xuzrtOfNAETuFhW+6fieJl2A7+twb4WteWIpluWto="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRCanvasFade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRCanvasFade.html",
+          "hash": "emMDz+RU7hAN5hQM6ftK/5y0mqnyG1/AT8BJa6ys8jY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRDebugCalibrate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRDebugCalibrate.html",
+          "hash": "9s/DqWOJ3fvksOM3bS0b0LGvTcQ3wxbWSFR2iifJDR8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRGhostHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRGhostHand.html",
+          "hash": "rhXq9oigNzATpPmSK4jDq/H4xY1uEcLM7Xs1ZO0IVO8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRGlobalFadeFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRGlobalFadeFinder.html",
+          "hash": "y/VF7CQaq0e6jEjlDKSldGIqfPadA6rW3cV9gYRWVM8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRHandStrengthHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRHandStrengthHandler.html",
+          "hash": "hK322SnaBm4mPo0WWKKQScqpGw+qc+EyERwnAyXllmw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRHeadCollision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRHeadCollision.html",
+          "hash": "1Jj1hlD2j9jgug18U4Vyoa8I447A6orAJ+k9VO8cLA8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRInvalidTeleport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRInvalidTeleport.html",
+          "hash": "gHzRWSa5hYG5ml5AROgnCJyvzwvDj28JMNIFiBuzYjg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRJointHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRJointHand.html",
+          "hash": "dJ96zJRrNNdbeNgDYF3tuF30T7MdTU/mQbwy+0Cz1v0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRPhysicsHands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRPhysicsHands.html",
+          "hash": "gfagRkxgPN+/ytAKhpDzG2D02tjUUnr/+WVlQx33iiE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRPlayerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRPlayerController.html",
+          "hash": "e5xrH4VXmTcuMEovjIvTWkqGTud5tLznYrBmsDtP8zY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRPlayerWaist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRPlayerWaist.html",
+          "hash": "dAV660nZiCZg1cDLt1SWy69zKxDP6vl3OtS/zuQDspI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRScreenFade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRScreenFade.html",
+          "hash": "2cFSM6Gi9j2g9BKCM34gCGH9b2a0ZljV1mQKNSUb554="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRSitStand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRSitStand.html",
+          "hash": "VSUfGQNJRXHBr9RG30Wb+dflL9qp3dLe6RphTo1RLgI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportCollisonHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportCollisonHandler.html",
+          "hash": "7ZG+RglHT/7Oms9Desv5K4xG9ngWU9NbvieGkBUekoc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportCurve.html",
+          "hash": "OoFTB39/jF8shKF5OHqVoo56gU64ufDSOuMA9mcWS4o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportMarker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportMarker.html",
+          "hash": "0ZV3jJBNT5B0DSmMoDhqh66eCmIodSy5IiMhHwn49z8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportMarkerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportMarkerBase.html",
+          "hash": "lH83ywFVesuG9s1VZPjgJNZNLsB1SRsIScfl2jTs008="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportOptions.html",
+          "hash": "VuNWxJwuPHCMA8pWlXtBbExA9fDi640GrAFnxAAQclc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleporter.html",
+          "hash": "q5Esxl6flN45yGJyB8I61bnzx5TRZSo4WPxEyIrVPvE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.MaxDistanceBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.MaxDistanceBehaviour.html",
+          "hash": "8GxZqLUqi4Q8NMPyESx/hctz76YJHQdOfn59sykN6Jk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.PlayerDirectionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.PlayerDirectionMode.html",
+          "hash": "DYkV4XcICHR9mb7yFwi7YUSMtpQkwdnP2ZO/C28mtyM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.RotationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.RotationType.html",
+          "hash": "Y53vqf0xwQA6ZkjLjhd1ebjVivq8cFyaEKFujO3V2R8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.TeleportPositionUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.TeleportPositionUpdate.html",
+          "hash": "BppUP30hz9QDKuPKWC45v/lUEeqYMkUT8A+iXHfUChw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.TeleportState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.TeleportState.html",
+          "hash": "vWI2tEl4gH3NPQEeDtpkgoPS1GmFEGLHGFHKKIBrUgk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Player.html",
+          "hash": "EJtUoLktir3wE+56SuMy/g8KfFj7t4e8XBQ8Cu3NGQU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.ForcePullRotationTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.ForcePullRotationTrigger.html",
+          "hash": "zAyKt2g7AtOhRMlMFJ4DWCjemyV9mmFr3VXsP+l2Ljs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.ForceRotationStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.ForceRotationStyle.html",
+          "hash": "DW8zFgJSIsHJvyrr7dvKxdtdhOvc4UoUKXfO+DStCGc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRAngularJointDrive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRAngularJointDrive.html",
+          "hash": "aAeZKCfHuwf8Vno6gJnIpj04w4uZbO7dF9jVNkQusMo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html",
+          "hash": "mZpmIVJSpt+E7L+A3mvwbU9xF9uGMJ3aKTkXc+UM6co="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRJointDrive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRJointDrive.html",
+          "hash": "bN2zRChV1ACoFdVLYXvFS/XqEuKbXv1R9Oz24k6MDus="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRJointSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRJointSettings.html",
+          "hash": "vx3nE/tNt7aHDinSmUiHgTVdsJLLMAaWmAmsNEPhZ0s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRRecoilSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRRecoilSettings.html",
+          "hash": "3A354arG1QZB4J+Zz3aRNTq6+jFvwPrev1N4q5ddsdQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRSoftJointLimit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRSoftJointLimit.html",
+          "hash": "Myt/Z2STtApsT/CQPxUicBIuRUggAc+4Wf54Yapg6iY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRSoftJointLimitSpring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRSoftJointLimitSpring.html",
+          "hash": "k60A8ThxrbQg3qMEfQK6Mtdn4D8zssVNKCwUPbHaxSc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.JointApply.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.JointApply.html",
+          "hash": "LH80ih52sGP+v403UStXINEAlKdumkks/fFp+n6c+b4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.html",
+          "hash": "th7bLAxryVXJAG2D33NOUKeNuD+kQyaDTXvpcxLiep8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumFlagsSocketFilter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumFlagsSocketFilter-1.html",
+          "hash": "7Gp3Lv9MJ3D8tnVS4tcXa4Kkpc5GIKY9+Qhl6DrKR1s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumFlagsSocketable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumFlagsSocketable-1.html",
+          "hash": "NW0e0vaofcfDmIYMeX5D3jkFu3s1q27ip3A6oq4tiwE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumSocketFilter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumSocketFilter-1.html",
+          "hash": "u5rWw4lh4dcQMjjs9kgCbDvRRkWfxeM0jvesSAn7kbE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumSocketable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumSocketable-1.html",
+          "hash": "Z6bWKfeK8mXlptV4wsIRo43BSxkHsude+c20zRg+tW4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRGrabbableSocketExcluder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRGrabbableSocketExcluder.html",
+          "hash": "1XiF6gu79aFVS0ugQCKzVKGTyjFMyLJ2DP91saQ8u8w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRGrabbableSocketFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRGrabbableSocketFilter.html",
+          "hash": "IBqALBSA2vW/AvwvP0oBFtTKDfprSYVvk/0mXDvaWbA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketContainer.html",
+          "hash": "IMNIReYCVaUXfNWV7ho7cvw9I0mG4cHaArbPL465rYY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketFilter.html",
+          "hash": "Zoza4BXNQ5nbRa6gaSUCWfXriPP7/HJ80CDAA7FOJPk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketHoverAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketHoverAction.html",
+          "hash": "qkbZIm66PP5msCGfnfGzPIfmnwn+O/DGUIeZWoHFqjo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketHoverMaterial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketHoverMaterial.html",
+          "hash": "b3f5HRy1sgASSRbuw5RDAV9kW/ZmkybymWC4flb2dnw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketHoverScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketHoverScale.html",
+          "hash": "NalImGFwpqIPzJxNLm/wi3/QfD2SyIVuYoZs/d83enI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketable.html",
+          "hash": "WO2OQp/P9DsWPhm3uyN9yfGAdqL+rUKn3fxW9hegOMQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketableTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketableTag.html",
+          "hash": "kdG8brKCEswuq7N5ZE1ROq8t+VTxNmm2JZ+86/kEmD8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketableTags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketableTags.html",
+          "hash": "f200AsBfVED05ThD9wsirj8kBKKkLf84hBEnLUpX4Ng="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRStringSocketFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRStringSocketFilter.html",
+          "hash": "0YegbNaFU5KgQvsqK0Lg1mUqKYo9x8HcmMhYWk7ypaA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRStringSocketable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRStringSocketable.html",
+          "hash": "mwOoFd7l7n+eFfqB1z4AViSu6WpK6jV3UJY9NnBdweg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRTagSocketFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRTagSocketFilter.html",
+          "hash": "YQd+QmQ1XVxcQZMz+e5Li5bqkaV8QdD4k7qNJoiMbKo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRTagSocketable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRTagSocketable.html",
+          "hash": "XFotf5/oS+DibmWPMzwwBkXSoXo/0mIHVuEhcovRO1I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Sockets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Sockets.html",
+          "hash": "bPN/8NRcU16xJ8r7sKbz+AkXFKixkbXT3zDN0KF4OiA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRNotStabbable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRNotStabbable.html",
+          "hash": "ckjEOKaqbgyTZrVevH7OkEHiMDeWbqGIxCLo48gOSOs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabEvent.html",
+          "hash": "1tU6rExOO2gi0RPDvPvQqEDorgmrfc7BnK6Gwj5iAxk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabEvents.html",
+          "hash": "OQJx3UAbUD5cFwANcki2k7BnnpTm7sbFyF83fbSDrDY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabTracker.html",
+          "hash": "q5TKvIJhK+M1SnCkH8CHUjoBk+m8QICWcnpDNNA2NK4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabbable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabbable.html",
+          "hash": "XucdC0gMnBWzVswPLaDRCqeDPswHj8DBDdGG88uq9gk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabbableSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabbableSettings.html",
+          "hash": "93AmBmbqOxRr1iB+oGN4JMrJlPuToMP2P9KdW+n0Ixo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabber.html",
+          "hash": "DycZsmBTk5xXJ58SjmXGN6KJ4ZZVNHL2prfp/fJNEME="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabberSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabberSettings.html",
+          "hash": "6qxp4yX553gG52tUd2GuQUMGN4bJDKydAoOGGUcRfa8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Stabbing.StabArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.StabArgs.html",
+          "hash": "Gj1utWSk+qxN6FSOLgOQGUUeWj7wLC6kxqHIa+tXqU0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Stabbing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.html",
+          "hash": "H+NAHUi3N7B6MF3rmWf5sWEgy2e/fKX6L4j0tS9VFBs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.UI.HVRGraphicRaycaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.UI.HVRGraphicRaycaster.html",
+          "hash": "31qA2+vwi3sAkd8bWe6npCUN3s/ZO3bb5BryAW6DlMY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.UI.HVRInputModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.UI.HVRInputModule.html",
+          "hash": "UDGMZrCJU1h8wGCNHRIIbOjOn1RN5GA6I7qrKY+lD+s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.UI.HVRUIPointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.UI.HVRUIPointer.html",
+          "hash": "W9gerhlr6yWbOpepfP7ZHFmhB5VCnYPihQcUJ+CpPKc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.UI.html",
+          "hash": "SDFY1fBnHPq3n/2P6EQVqfbO699TO2ZAVzlAr0Now38="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.AxisLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.AxisLines.html",
+          "hash": "2Gv+dEYFfeTqxdwMLLgfy/lIeKDxmUPf2HTSLLigteg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.ConfigurableJointExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.ConfigurableJointExtensions.html",
+          "hash": "5+MAeq4Yli/xv2Zy7nIhIHb5UqqKuxdR4SsCLmRSDL4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.DebugTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.DebugTools.html",
+          "hash": "FOUkyPuf7YfJhYx2ASmaJa3HneGSd4Ip7oR/4YPzKVk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.DebugVR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.DebugVR.html",
+          "hash": "mHYDbPJXVl/utVsfREr5FDaoE9Il6M1ssicLoudsqvc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.DrawIfAttribute.DisablingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.DrawIfAttribute.DisablingType.html",
+          "hash": "maTJG3WGvyLAMFYsV+SU8U1lFzbxITmbCtVu3BLlGOA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.DrawIfAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.DrawIfAttribute.html",
+          "hash": "8F/1uVj7A2T2kA5fWsRJ1DyKHnH+8ejYwBTYqzfAaAM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.EnumFlagAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.EnumFlagAttribute.html",
+          "hash": "m76ya6jkYjXg7YB10SvQz5AZauOUICJlcMhNagXi9u4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.Extensions.html",
+          "hash": "jIyaHaMA7hw3LD4iVqvPRJRFLh83yUjXcR65BJYlwzg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRComments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRComments.html",
+          "hash": "RPGSVvYZSo4zPGS415YaXXJKAzk07T+iCz26RhYDd3k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRConstants.html",
+          "hash": "FR3J6IfJ6L0SVqMgOETa/Ns9vQFkNLIy0yDeINJaKCY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRHandColliderController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRHandColliderController.html",
+          "hash": "glTglMOn3uBH4qDnmqcgFFVZgh5LxEoOpDZQFU+IiPw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRJointUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRJointUtilities.html",
+          "hash": "bRTyxkwA6oWp0Yyo/D8dVFeOPJ2x5QMnf/kJzMA3PXo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRObjectCollisionDisabler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRObjectCollisionDisabler.html",
+          "hash": "s/SxrCfQI0LgQbGDUrrLDwcfwKjDB7CCsO+n7t9kL5c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRShoulderGrabber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRShoulderGrabber.html",
+          "hash": "F7kelj53zpXme52Dc4mHVKT18R+X2d5aIo03LO8NOcM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRShoulderSocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRShoulderSocket.html",
+          "hash": "gKjfhqMl48x7x9yHsTcVlUpDLjQ5vgfTGKVIqqnHOq4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRTimeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRTimeEvent.html",
+          "hash": "WmE/ZF3ehYVaB2q1KIwUBJFNBRW7I5AjACgZPlry2U0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRTimeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRTimeManager.html",
+          "hash": "ALrKZMfA0U5aL/1HEwIrGkvjw/iNj70pfS/mojIX3uY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html",
+          "hash": "SK/g/KDbQAstPutBJ+iqZfAr1gtLLYt/BO0x0kvP+lg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.PhysicsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.PhysicsExtensions.html",
+          "hash": "hzkYPyqHQIVTjVPehCMnLyufz/dNIBjthmvMshxfLm0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.SFXPlayer.PlayEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.SFXPlayer.PlayEvent.html",
+          "hash": "JYgyNyNbpyQNWUjpmAA6R1XuKT9TmbTFvW4iM9lGi+A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.SFXPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.SFXPlayer.html",
+          "hash": "h/97z+3KPgPNtz2Q8JvRnfpV/kLIOc1oZipxu71NHQ4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.VRUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.VRUtilities.html",
+          "hash": "k3nnw4S4nvMvv35wyPxbO6IaqoyMtPV40AEa0nRsqyo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.fts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.fts.html",
+          "hash": "TRoyCdT1hECmkC4lrO9/ymuMExTQ1mGrwhjOA2NWJ1Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.Utils.html",
+          "hash": "lRcXHkbhrAyfkFq4gAhcX4JX25HKMU57wss5xKoElFw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.VRGrabbableEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.VRGrabbableEvent.html",
+          "hash": "BmAK6ZihnzFVP1cvVIbto5RclG3Ii7ubDwRoD8Ptroo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.VRGrabberEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.VRGrabberEvent.html",
+          "hash": "XrRZM3vNsjaq/0xtflhtHnOuj2RF7WnrLYwyylTSLso="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.VRHandGrabberEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.VRHandGrabberEvent.html",
+          "hash": "blHIGA0bNxTuAevX0d3MxearbHaA8j+9w9TFyH9RSk0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.VRHandPoseEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.VRHandPoseEvent.html",
+          "hash": "KunWarQix0Mw6SZ09sCUL1ty9p2fT1X5j+PUGnWb41Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.VRSocketEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.VRSocketEvent.html",
+          "hash": "5Y2XRtoYLzXYpKVEkBMxGWrQQI22r/wmBxcgREXObhs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.html",
+          "hash": "hqtwLatVeBh0DhHBZVF078a262MbWEQTbnhSjxQNRwk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRAxis.html",
+          "hash": "VpO4EFzEZHg1KE9YwmwcgB42up+Fy1C984687UyjOBM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRButtonState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRButtonState.html",
+          "hash": "0enYxBR74IuDiEY0W8EEACqnvo68IcC/0uqzYs2wDkg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRButtons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRButtons.html",
+          "hash": "5mUZVBie8dpubth2VN0kKNL7qO1/hLWFCsUxVzMK/rw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRController.html",
+          "hash": "dG5jomiXAXR63/HCe5cEzP5PPhOxVjAwmmBVHSaHlhk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRControllerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRControllerType.html",
+          "hash": "uW/oo4pfY7dQxNfeKujnHjekqIIlpRdtLNm90BCrs/Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRFingerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRFingerSettings.html",
+          "hash": "DylxxMWwzfrm7JWXRP2eN5CVc1BnRwGc56fJwp+mjRY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRGrabControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRGrabControls.html",
+          "hash": "nP9qxmwY/GJsF0oSomXWPmAwzV57mF1JOlAS9JH73Ks="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRGrabDetection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRGrabDetection.html",
+          "hash": "wM9KsM5lg28TG4jea3bCC+w7UnXfCd3Co/OUvKucn54="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRGrabHaptics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRGrabHaptics.html",
+          "hash": "0D2obrQeZ4J67UAlqfZkRpW7EECcgJsng2Rf28h9dSs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRGrabTracking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRGrabTracking.html",
+          "hash": "wnKcPS0ftFfJatnnIXghYjLN9coaDjbBzLOYrRTEpSA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRGrabTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRGrabTrigger.html",
+          "hash": "4whn8+JbAY4++10jVh866JeE8yV2vyPWctAWfexGV7Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRHandSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRHandSide.html",
+          "hash": "W+w9/xdSKcHh64JBKnilph0XDcIQUnPgXHOBrhFIOrc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRHoldType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRHoldType.html",
+          "hash": "3l7XXFL4beRQVt5CIwL3H84J8v8HtshHWlvQXmED3yM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRInputSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRInputSettings.html",
+          "hash": "qkAt5dwUGeiSvIm/PacPkD7d1AF1/PqQwIkgqCTuf2c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRLayers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRLayers.html",
+          "hash": "3T790TMMwX4QnZIKpAfWMl/AFJ2jCFAuwf8BXXNSCg8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRRootFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRRootFinder.html",
+          "hash": "VR0rw+BFWGcdanqkmAbx8kBgS8IXom4UvFF2MxK7AcE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRSortMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRSortMode.html",
+          "hash": "5puhuY91DfhyT8gte/kUCQgQ081uRdMbYsi1TI+bLpY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRTouchWeight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRTouchWeight.html",
+          "hash": "Oh8J+U4uC7LDJn8WilKH2lu9dhn3WlfUzfNbRMqV9kI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HVRXRInputFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HVRXRInputFeatures.html",
+          "hash": "ikpdqismcx2Vblk7VABoTeiZ07o/+BVGO5En1MpQYps="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.HapticData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.HapticData.html",
+          "hash": "WaLeFQ8CufLI/GSEwGdplFgeg59DAQzstuY45+5ynfw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.InputAxes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.InputAxes.html",
+          "hash": "MuDqzS+FEd6TGiZfkoVIQRhHn7Tzm2juG0SY20zqJM0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.InputSDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.InputSDK.html",
+          "hash": "OgQyWgg0bEr3FWr3MxgEFyykVUHDF/Sd/f9VlJqFN/4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.InspectorButtonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.InspectorButtonAttribute.html",
+          "hash": "tW3Wcph2SwSL+p+h7hZkH+KwQggrvjfddG1pBjqX/xU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.PoseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.PoseType.html",
+          "hash": "+X74P63KOrDwmcOLDMAxyHacgJ8VRs57dD2+k/e8Qxc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.Utilities.CircularBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.Utilities.CircularBuffer-1.html",
+          "hash": "j9yUlupzyD5vKJiOIVMTiwlbaAxX/VUUspnAajc84kA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.Utilities.html",
+          "hash": "+688QFn6TfZrj1Ry2MGR/VcmEuD0+MerKesMdHdnek0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Shared.html",
+          "hash": "8ZjPYxyGNo6ved9GpzGE4rraAQL0vmm9cB6QQ4Yp/hs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRArrow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRArrow.html",
+          "hash": "l30D9FCozRgmNO4nYBoklQm1XU8MBNFp76VavaLQHtk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRArrowLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRArrowLoader.html",
+          "hash": "775BZghhawzdYiFE+Z/fiiHvRZmpW/pjd2QNVHYQgxk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRArrowPassthrough.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRArrowPassthrough.html",
+          "hash": "m92QWNFdYAErU41881oj+/I1/BqGtVfHWxJBTvRArLE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRBowAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRBowAnimator.html",
+          "hash": "YVpwsKp0YxgKW1U7qp6MOaqPWmijQwtjLX7nMU0vw28="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRBowBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRBowBase.html",
+          "hash": "aImq7/91ltE/mqXfPqfTjkdI6NlQFSSjYl6UvDM11gI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRBowEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRBowEvent.html",
+          "hash": "wm7ne+RvUgnzte9onBPUdDWU8fH1yfMYDF6dWAr2An4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRBowLimitStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRBowLimitStyle.html",
+          "hash": "POEtaBv0Jj5tOsoTpK4JY/7a+YdpHa6ogvprt20KfJ0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRNockingPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRNockingPoint.html",
+          "hash": "DFDAxauNZnMBNdfAo+Q9dgQ4f0pPbDbl6RvGrdHeXSk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRPhysicsBow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRPhysicsBow.html",
+          "hash": "07unYGxpQhSgCwBHCn7wwgj+8GVvfSoJSEGVyGhk2Cg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Bow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.html",
+          "hash": "ynjv5Tg1EQcJs+EDozBVRyaJfcjskWvTip/EA/DFqvs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.FireType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.FireType.html",
+          "hash": "n4o/BthF6SepFkI3EcKnpncBuQDkcPbkOFUs8yhsCoY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.GunHitEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.GunHitEvent.html",
+          "hash": "gIgwb8GcatsJjTc3K4npdiK0S5rYMZg2T+v/XDJMlvE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.CycleDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.CycleDirection.html",
+          "hash": "aDBgeme82JF8JjNesKPBFnDK3viaY5K7ZT5PP9fGtWo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRAutoDropMagazine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRAutoDropMagazine.html",
+          "hash": "W2tzyBgZ8kbqi/SMvftYD+5nTOC86LOww+VFNqLov48="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRAutomaticGun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRAutomaticGun.html",
+          "hash": "jlcHdr8KJ0ricFh/sPU9iPc703hT+6HCVHYXF0OMfnM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRBullet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRBullet.html",
+          "hash": "UrG81DKZWLXLdqecSZcKOvVNEnEFgf4PIy/nmrBWqeo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRBulletEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRBulletEmitter.html",
+          "hash": "xr7FpyXvz/weAg60di5g6Xih2KvQ0/YMfenu+bf0D2M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRCockingHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRCockingHandle.html",
+          "hash": "wn1KWeVk7SEFBB6dNKZdNgJWlXAg0EDchfRiVGV39mA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRCockingHandleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRCockingHandleType.html",
+          "hash": "q4iBCpJ0lVwtpM0ADgkzokfjkIF+yW4cNPRYRPEJ/X4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGrabMagazine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGrabMagazine.html",
+          "hash": "2RI0V4XZZXMHHVSrbe40k79ST/pDbatPY9j1RtjkbkA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunBase.html",
+          "hash": "X4Oi6i1LKrwSGS2YhWA3hfjm8B2GbTkKs8a7Y+xJD5s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunBolt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunBolt.html",
+          "hash": "3obIilVckuOKa1vebnxRtkj4srnDy84Evc1xlR9lAac="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunEmitterBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunEmitterBase.html",
+          "hash": "xi3rWACyAKPA4Sxit+r8eHMAUvskIoLBRVhJe/4qeug="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunHaptics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunHaptics.html",
+          "hash": "7rC0wi4L5ilWlL1NYjPkDo4dYoCnkEmsKf884q73sNo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunPart.html",
+          "hash": "vjOGTJUR+tp2CWNfF3VOAtHbVMj2E9PHtq7PxmYKdbA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRMagazineSocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRMagazineSocket.html",
+          "hash": "7+NawGpWealspdCQvOFFiA+7vSdx4JsM5HQXsPf8rzM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRPistol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRPistol.html",
+          "hash": "e1fibcLJ+UqyXpbmW3LkNBzJ5DvR2SbwRuCLB4rGOeA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRPooledEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRPooledEmitter.html",
+          "hash": "z959dfkaGkQ5L3FDcHaAhCPEEhULwBb37jZ8N3Sb+yM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRShotgun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRShotgun.html",
+          "hash": "cfqtY/IGeYAoubDYuqVE8aUSU7TfDNlSK23+qsBMq3Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRTriggerAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRTriggerAnimator.html",
+          "hash": "QGsr91O5XB6ZDAAUR//Dp//fMqEMFC9v80SA2WfJFUM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.PartFinders.HVRChamberedCasingFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.PartFinders.HVRChamberedCasingFinder.html",
+          "hash": "qyioCOSXPOICRYzDMJW2AqUtk2Bz7aIWqr1PCe8vmws="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.PartFinders.HVRChamberedRoundFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.PartFinders.HVRChamberedRoundFinder.html",
+          "hash": "m7k9tDvv5ow3d4uimTCJU8K6E4wYV6WR1KxFjtra6cE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.PartFinders.HVRMagazineFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.PartFinders.HVRMagazineFinder.html",
+          "hash": "yvxK7ggADCXdAL3WbDMSTqPOMx0+70rXe8u0jhR/cWo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.PartFinders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.PartFinders.html",
+          "hash": "iTOfF4pOOAYUl+T9oRathL5Xuo7ACKgc8N4UO8lStZc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.Guns.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.html",
+          "hash": "qPOVHir0meHnu7Jy7Q5b3PC4BJOJZUWSt/3KIc7H1UE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRAmmo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRAmmo.html",
+          "hash": "jMNGQTTyCRMHy4gkoI2pnomqkWMH9lBFzi1sDWHdSMU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRAmmoReleaseAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRAmmoReleaseAction.html",
+          "hash": "3oBUPuWsaFxW387ZPHJZd0Fxn85map5QcoJLSgcL88Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRAssaultRifle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRAssaultRifle.html",
+          "hash": "jWpuSILnJ/9ep/1LsYwFMfgKkQUTXbRD+xkhVMsaaU0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRBolt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRBolt.html",
+          "hash": "qS4+IbPVvaSWyn4KucKHujORGCzouIUxnZvrajRR2rY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRChargingHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRChargingHandle.html",
+          "hash": "/mgXbW2UHtxi4jZMM7J1H0mM4satjv/S+5x+jRCzZkI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRGunSounds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRGunSounds.html",
+          "hash": "AOFlto6i0tAZ7FgfMYaTX3an0W8EnGsigskeFQyVUBk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRPistol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRPistol.html",
+          "hash": "PVLXvlGdlLL6ixUqF7SE34g1ABeUSZYQNmWhhws0pCE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRPump.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRPump.html",
+          "hash": "+JIrCyoO6zvChzPT64ECBVgYsFgwALFV5lVJz9pQV/A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRRayCastGun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRRayCastGun.html",
+          "hash": "QuDvAH06qxcOjwtC5mQhMcxF8IkAiR0lKdbbQu3Omac="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRRecoil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRRecoil.html",
+          "hash": "3BXOxYxrhOujX0XY1YldkbpAHPQsp5uVJSLp9FTVRyU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRShotGun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRShotGun.html",
+          "hash": "7eBA8S9FOj7hVjHLopo8oRMH7VuKc40WQgIEau5yyvk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRShotGunType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRShotGunType.html",
+          "hash": "E5wOHFTS4iqkq7mE2DoXgU6dcePjjwpisOFUxHfuH/o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRShotgunAmmoSocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRShotgunAmmoSocket.html",
+          "hash": "mHF2Khe13xAgGQID+y4pqN0IRxHQRxvP5ZGCBB+jIOw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRShotgunMagazine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRShotgunMagazine.html",
+          "hash": "JSAA5MGMLyTcgQzxovTFw2ZNs1qCZJHcSujYKaFqNyU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.HVRSlide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.HVRSlide.html",
+          "hash": "B0OQ7T9gWWvUAnJCv5T1eXqBkxM8cI9xnkkqjWk4dGI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.UpRecoilType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.UpRecoilType.html",
+          "hash": "70sSliGPqws2ZsUKz5wYJd9L6NO2BkGssIxAnD7fAJI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Weapons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Weapons.html",
+          "hash": "8M3eIlZsBoasAboYsb3iST7RyEgBgy5AjTQYo808+4E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "bYbG4EUxhW5HC7UsZ3iYBTMbxFVy9t7o4cINTL536PE="
+          "hash": "+Ek7aPArt1LGtHF0NpvPNu1kr8r9F97oersder0DGrs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "z34fztwcWn2FwWyG0ZEEkzbVMuu8etwWqsFNmtY2K4k="
         }
       },
       "is_incremental": false,
@@ -131,55 +4091,46 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "2p971my190rx8B6mqPJNtKqogBKiQMUV98VGyl4eB14="
+          "hash": "cVLsBxYnEuL0UIxGP/hjW+XNlGor82iPwkilmtjd/Ag="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/detection.md",
       "output": {
         ".html": {
           "relative_path": "manual/detection.html",
-          "hash": "gnv44e9TXxtaZ7UDOzTfOtS/Baf80TP8EC6kgd0moIY="
+          "hash": "p8tLm9gkVJhlkv1DHLfsMamj+rjnJkXkjlYPe7cGHaM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/hands.md",
       "output": {
         ".html": {
           "relative_path": "manual/hands.html",
-          "hash": "oeLcToqs4SXoQdkb++9UNn0ja3Rg/vJ80QNVsplyZ40="
+          "hash": "sHFt67a0Vs6rCFXA7uqPxu+IpZ9iyCOZQLvtnAsNLVw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/hvrsettings.md",
       "output": {
         ".html": {
           "relative_path": "manual/hvrsettings.html",
-          "hash": "0E2+pTBIN7DapNUrNhonYtnmX9vvTdAhRtpP06HAVVE="
+          "hash": "fEwvVQ2UmGhk0YQ3Mx2faIXc3z6m8qJJQtC/M7bkyHU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -188,10 +4139,10 @@
       "output": {
         ".html": {
           "relative_path": "manual/integrations.html",
-          "hash": "DiBO8/92kQO1cdlj1LWGBVU0QOVPSsq/0aQ53hnb5W8="
+          "hash": "rJaHM0KGK0+gE+AIKJNJdgHXZbJfOWcebe4VXlrBX/A="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -200,100 +4151,82 @@
       "output": {
         ".html": {
           "relative_path": "manual/intro.html",
-          "hash": "cVNLw+asXX1xGuw2gdk62pMPgN4kVAapcBfVFWH+aOc="
+          "hash": "+12FEMBxeHA52APnEhHuToJWDgHWCDRlhjPQ+HvX3Qs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/jointsettings.md",
       "output": {
         ".html": {
           "relative_path": "manual/jointsettings.html",
-          "hash": "MrI40tGZ8IOjtHP/xDmtJ/J0ueCVSgduvPrY8HjBXDY="
+          "hash": "Xp6ICexxE3C/p26QSTFk0BDvXrFvw4ZcAs4xyA+H8O0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/rig/camerarig.md",
       "output": {
         ".html": {
           "relative_path": "manual/rig/camerarig.html",
-          "hash": "5Q3Xd4p9V5CIT3I4dWCQpC79Gg/vXXlyDH/3ROweUHE="
+          "hash": "Bcx8NwYTCfpXKRFnA7croHoMy5dvSGo8DmDSMLA9hFE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/rig/handbreakdown.md",
       "output": {
         ".html": {
           "relative_path": "manual/rig/handbreakdown.html",
-          "hash": "NhCw4m/W5pwsIMfTWeoF9YJUiHss2h27F2Lh3ZF8ou8="
+          "hash": "UysIWAerrC9CkvTwebb0eEcr4DhCkHyPXiDm3q3ag70="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/rig/physicshands.md",
       "output": {
         ".html": {
           "relative_path": "manual/rig/physicshands.html",
-          "hash": "mz6eocvxmaWWO0vRm4UPDR83tGDxPQFU8MRjKC2Z7N8="
+          "hash": "BukvMC3Pekg9Yntp/LndXuW8yCUSZZHiuoqpDa0MOgg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/rig/playercontroller.md",
       "output": {
         ".html": {
           "relative_path": "manual/rig/playercontroller.html",
-          "hash": "6ph3Y0nlz9BP4OSfPjd+v9YbU+G1FLvULyrI7jBZGDU="
+          "hash": "foLz1A4E9zyiuGck8l0cdGQD+r6iiTF4wX2i1hCeFy8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/scenesetup.md",
       "output": {
         ".html": {
           "relative_path": "manual/scenesetup.html",
-          "hash": "NHaB4Z2TJP046576i7MGZb4KGYbpBSTtgDTD40G9iaw="
+          "hash": "DC/uFO2rojGsTzjIsCJgyrG9fiJVgwtVsR0ZIDhV+tU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -302,10 +4235,10 @@
       "output": {
         ".html": {
           "relative_path": "manual/setup.html",
-          "hash": "oGEPo4IGRqq5jvafnZfCPQtMJ2NwKBqTChvcHfxGHw8="
+          "hash": "q4Kwlt21rsd6K2Vl7GniNxYJZNam6yrHwqXVj48nA9M="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -314,10 +4247,10 @@
       "output": {
         ".html": {
           "relative_path": "manual/setup_legacyvr.html",
-          "hash": "DdBeEcVqEJHDxmQt0Sx8tbtLNrA2kXKX3XqWkNe4b1o="
+          "hash": "Z2L89C+iXdFnaImetV66WG0/hf73czsOhkAWvEMBq04="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -326,10 +4259,10 @@
       "output": {
         ".html": {
           "relative_path": "manual/setup_project.html",
-          "hash": "hkl1//wkS/UucRiciFos67hejyqB/3BdPcpJOhwdJeg="
+          "hash": "hQExBoIT/ClUVon6fVQlkh/LjlcaxVJ/QHCqg9EQ6nM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -338,10 +4271,10 @@
       "output": {
         ".html": {
           "relative_path": "manual/setup_steamvr.html",
-          "hash": "Npft3HSax89xDpHW0SRTWQ8nVgwENoGaX4aBjlDsHdE="
+          "hash": "FhxxD9SN6HgGIas3t1DrwO0+V7bIfqv197KdEtH5jNE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -350,25 +4283,22 @@
       "output": {
         ".html": {
           "relative_path": "manual/setup_xrplugin.html",
-          "hash": "mDo7IvDiew9Hb13a+U+ISVGA9m1E73nUt4dWau1HPxU="
+          "hash": "UyvYeAf/UCXoqLJyUA0gPjmva24FyO+NjnNOAk4YS90="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/sockets.md",
       "output": {
         ".html": {
           "relative_path": "manual/sockets.html",
-          "hash": "ITS/WFpbQ36TjrKb2Fo525DpwWCFAjb5s7Gr7Elt8Y4="
+          "hash": "WrsAhElROsvNjtQIlJh8gu7F/9nJGGjFfzGSRL1UjsI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -389,7 +4319,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "bLqsCc1nmuE/1HlvsG/LXvPwNILNcKXt+8VCKqYIHDk="
+          "hash": "XvqLKDBPnpBFjVorUKQO4WSS4cgxnBIdzNX5GG5Fjwk="
         }
       },
       "is_incremental": false,
@@ -399,19 +4329,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 19,
-          "skipped_file_count": 0
+          "skipped_file_count": 19
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 329,
+          "skipped_file_count": 329
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
@@ -431,8 +4365,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
