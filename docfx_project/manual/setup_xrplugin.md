@@ -10,3 +10,11 @@
 :::image type="content" source="../images/xr_plugin_management.png" alt-text="xr plugin":::
 
 :::image type="content" source="../images/xr_plugin_projectsettings.png" alt-text="xrplugin":::
+
+## OpenXR Plugin 
+
+Make sure to expand the OpenXR Plugin so that you can find version 1.3 and higher. These are required for haptics to work and your project will not compile without the correct version.
+
+:::image type="content" source="../images/openxr_otherversions.PNG" alt-text="open":::
+
+:::image type="content" source="../images/openxr_13.PNG" alt-text="o":::
