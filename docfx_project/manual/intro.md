@@ -1,20 +1,21 @@
 # Getting Started
 
-- Follow the setup steps on the [Project Setup page](setup.md#project-and-packages-setup).
+- Follow the setup steps on the **[Project Setup page](setup.md#project-and-packages-setup)**.
 - Have a read through the documentation on critical pieces of the framework. 
-    - [Grab Detection](detection.md#grabbable-detection)
-    - [Hand Grabber](hands.md#hand-grabber)
-    - [Sockets](sockets.md#sockets)
+    - **[Scene Setup](scenesetup.md#scene-setup)**
+    - **[Grab Detection](detection.md#grabbable-detection)**
+    - **[Hand Grabber](hands.md#hand-grabber)**
+    - **[Sockets](sockets.md#sockets)**
 
-## Demonstration Scenes
+# Demonstration Scenes
 
 After your Unity VR environment has properly been setup, take a look and play through the provided example scenes to get an idea of what the framework is capable of,  what is required to make use of the framework, and what components and fields are required to achieve similar behaviours for your game.
 
 Scenes located in: /HurricaneVR/TechDemo/Scenes/
 
-### Examples Scene
+## Examples Scene
 
-Frequently updated with example stations to demonstrate how to use the various systems included with the toolkit.
+Example stations to demonstrate how to use the various systems included with the toolkit.
 
 - Physics doors, drawers, levers, buttons, and dial components.
 - Socket examples for inventory, weapons, keys, and place once style game behaviours.
@@ -27,13 +28,13 @@ Frequently updated with example stations to demonstrate how to use the various s
 - Posing and Grab points
 - Code driven teleporting and grabbing
 
-### Tech Demo Scene
+## Tech Demo Scene
 
 Small escape room style tech demo showcasing locked doors, keyed entry, climbing, sockets and events.
 
 /HurricaneVR/TechDemo/Scenes/scene_demo.scene
 
-### Barebones Scene
+## Barebones Scene
 
 Demonstration of the bare minimum required objects and components in your scene for the toolkit to function properly.
 

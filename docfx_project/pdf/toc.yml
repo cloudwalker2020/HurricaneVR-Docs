@@ -1,4 +1,2 @@
-- name: Articles
-  href: ../articles/toc.yml
-- name: Api Documentation
-  href: ../api/toc.yml
+- name: Manual
+  href: ../manual/toc.yml

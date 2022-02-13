@@ -7056,6 +7056,30 @@ references:
   commentId: F:HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag.UseColliderDistance
   fullName: HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag.UseColliderDistance
   nameWithType: HVRTriggerGrabbableBag.UseColliderDistance
+- uid: HurricaneVR.Framework.Core.BreakDistanceSource
+  name: BreakDistanceSource
+  href: api/HurricaneVR.Framework.Core.BreakDistanceSource.html
+  commentId: T:HurricaneVR.Framework.Core.BreakDistanceSource
+  fullName: HurricaneVR.Framework.Core.BreakDistanceSource
+  nameWithType: BreakDistanceSource
+- uid: HurricaneVR.Framework.Core.BreakDistanceSource.Controller
+  name: Controller
+  href: api/HurricaneVR.Framework.Core.BreakDistanceSource.html#HurricaneVR_Framework_Core_BreakDistanceSource_Controller
+  commentId: F:HurricaneVR.Framework.Core.BreakDistanceSource.Controller
+  fullName: HurricaneVR.Framework.Core.BreakDistanceSource.Controller
+  nameWithType: BreakDistanceSource.Controller
+- uid: HurricaneVR.Framework.Core.BreakDistanceSource.Hand
+  name: Hand
+  href: api/HurricaneVR.Framework.Core.BreakDistanceSource.html#HurricaneVR_Framework_Core_BreakDistanceSource_Hand
+  commentId: F:HurricaneVR.Framework.Core.BreakDistanceSource.Hand
+  fullName: HurricaneVR.Framework.Core.BreakDistanceSource.Hand
+  nameWithType: BreakDistanceSource.Hand
+- uid: HurricaneVR.Framework.Core.BreakDistanceSource.NoDistanceCheck
+  name: NoDistanceCheck
+  href: api/HurricaneVR.Framework.Core.BreakDistanceSource.html#HurricaneVR_Framework_Core_BreakDistanceSource_NoDistanceCheck
+  commentId: F:HurricaneVR.Framework.Core.BreakDistanceSource.NoDistanceCheck
+  fullName: HurricaneVR.Framework.Core.BreakDistanceSource.NoDistanceCheck
+  nameWithType: BreakDistanceSource.NoDistanceCheck
 - uid: HurricaneVR.Framework.Core.DialSteppedEvent
   name: DialSteppedEvent
   href: api/HurricaneVR.Framework.Core.DialSteppedEvent.html
@@ -8568,12 +8592,12 @@ references:
   isSpec: "True"
   fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CheckBreakDistance
   nameWithType: HVRHandGrabber.CheckBreakDistance
-- uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CheckBreakDistanceReached
-  name: CheckBreakDistanceReached()
-  href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_CheckBreakDistanceReached
-  commentId: M:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CheckBreakDistanceReached
-  fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CheckBreakDistanceReached()
-  nameWithType: HVRHandGrabber.CheckBreakDistanceReached()
+- uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CheckBreakDistanceReached(HurricaneVR.Framework.Core.HVRGrabbable)
+  name: CheckBreakDistanceReached(HVRGrabbable)
+  href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_CheckBreakDistanceReached_HurricaneVR_Framework_Core_HVRGrabbable_
+  commentId: M:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CheckBreakDistanceReached(HurricaneVR.Framework.Core.HVRGrabbable)
+  fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CheckBreakDistanceReached(HurricaneVR.Framework.Core.HVRGrabbable)
+  nameWithType: HVRHandGrabber.CheckBreakDistanceReached(HVRGrabbable)
 - uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CheckBreakDistanceReached*
   name: CheckBreakDistanceReached
   href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_CheckBreakDistanceReached_
@@ -8711,6 +8735,19 @@ references:
   isSpec: "True"
   fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CheckUnHover
   nameWithType: HVRHandGrabber.CheckUnHover
+- uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CleanupPull
+  name: CleanupPull()
+  href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_CleanupPull
+  commentId: M:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CleanupPull
+  fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CleanupPull()
+  nameWithType: HVRHandGrabber.CleanupPull()
+- uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CleanupPull*
+  name: CleanupPull
+  href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_CleanupPull_
+  commentId: Overload:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CleanupPull
+  isSpec: "True"
+  fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CleanupPull
+  nameWithType: HVRHandGrabber.CleanupPull
 - uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.CloneHandModel
   name: CloneHandModel
   href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_CloneHandModel
@@ -9699,19 +9736,6 @@ references:
   isSpec: "True"
   fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.PoseWorldRotation
   nameWithType: HVRHandGrabber.PoseWorldRotation
-- uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.PullGrabbable(HurricaneVR.Framework.Core.HVRGrabbable)
-  name: PullGrabbable(HVRGrabbable)
-  href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_PullGrabbable_HurricaneVR_Framework_Core_HVRGrabbable_
-  commentId: M:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.PullGrabbable(HurricaneVR.Framework.Core.HVRGrabbable)
-  fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.PullGrabbable(HurricaneVR.Framework.Core.HVRGrabbable)
-  nameWithType: HVRHandGrabber.PullGrabbable(HVRGrabbable)
-- uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.PullGrabbable*
-  name: PullGrabbable
-  href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_PullGrabbable_
-  commentId: Overload:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.PullGrabbable
-  isSpec: "True"
-  fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.PullGrabbable
-  nameWithType: HVRHandGrabber.PullGrabbable
 - uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.PullingSettings
   name: PullingSettings
   href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_PullingSettings
@@ -9901,6 +9925,19 @@ references:
   isSpec: "True"
   fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.Start
   nameWithType: HVRHandGrabber.Start
+- uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.StartPull
+  name: StartPull()
+  href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_StartPull
+  commentId: M:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.StartPull
+  fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.StartPull()
+  nameWithType: HVRHandGrabber.StartPull()
+- uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.StartPull*
+  name: StartPull
+  href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_StartPull_
+  commentId: Overload:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.StartPull
+  isSpec: "True"
+  fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.StartPull
+  nameWithType: HVRHandGrabber.StartPull
 - uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.StartPushing
   name: StartPushing()
   href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_StartPushing
@@ -10093,6 +10130,19 @@ references:
   isSpec: "True"
   fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.UpdateHolding
   nameWithType: HVRHandGrabber.UpdateHolding
+- uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.UpdatePullGrabbable
+  name: UpdatePullGrabbable()
+  href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_UpdatePullGrabbable
+  commentId: M:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.UpdatePullGrabbable
+  fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.UpdatePullGrabbable()
+  nameWithType: HVRHandGrabber.UpdatePullGrabbable()
+- uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.UpdatePullGrabbable*
+  name: UpdatePullGrabbable
+  href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_UpdatePullGrabbable_
+  commentId: Overload:HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.UpdatePullGrabbable
+  isSpec: "True"
+  fullName: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.UpdatePullGrabbable
+  nameWithType: HVRHandGrabber.UpdatePullGrabbable
 - uid: HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.UpdatePushing
   name: UpdatePushing()
   href: api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html#HurricaneVR_Framework_Core_Grabbers_HVRHandGrabber_UpdatePushing
@@ -13703,6 +13753,12 @@ references:
   commentId: F:HurricaneVR.Framework.Core.HVRGrabbable.BreakDistance
   fullName: HurricaneVR.Framework.Core.HVRGrabbable.BreakDistance
   nameWithType: HVRGrabbable.BreakDistance
+- uid: HurricaneVR.Framework.Core.HVRGrabbable.BreakDistanceSource
+  name: BreakDistanceSource
+  href: api/HurricaneVR.Framework.Core.HVRGrabbable.html#HurricaneVR_Framework_Core_HVRGrabbable_BreakDistanceSource
+  commentId: F:HurricaneVR.Framework.Core.HVRGrabbable.BreakDistanceSource
+  fullName: HurricaneVR.Framework.Core.HVRGrabbable.BreakDistanceSource
+  nameWithType: HVRGrabbable.BreakDistanceSource
 - uid: HurricaneVR.Framework.Core.HVRGrabbable.CanBeGrabbed
   name: CanBeGrabbed
   href: api/HurricaneVR.Framework.Core.HVRGrabbable.html#HurricaneVR_Framework_Core_HVRGrabbable_CanBeGrabbed
@@ -20338,12 +20394,24 @@ references:
   commentId: T:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings
   fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings
   nameWithType: HVRForcePullSettings
-- uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.Damper
-  name: Damper
-  href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_Damper
-  commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.Damper
-  fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.Damper
-  nameWithType: HVRForcePullSettings.Damper
+- uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.CounterGravityFactor
+  name: CounterGravityFactor
+  href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_CounterGravityFactor
+  commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.CounterGravityFactor
+  fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.CounterGravityFactor
+  nameWithType: HVRForcePullSettings.CounterGravityFactor
+- uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.DampDistance
+  name: DampDistance
+  href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_DampDistance
+  commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.DampDistance
+  fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.DampDistance
+  nameWithType: HVRForcePullSettings.DampDistance
+- uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.DampSpeed
+  name: DampSpeed
+  href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_DampSpeed
+  commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.DampSpeed
+  fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.DampSpeed
+  nameWithType: HVRForcePullSettings.DampSpeed
 - uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.DistanceThreshold
   name: DistanceThreshold
   href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_DistanceThreshold
@@ -20356,12 +20424,12 @@ references:
   commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.DynamicGrabThreshold
   fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.DynamicGrabThreshold
   nameWithType: HVRForcePullSettings.DynamicGrabThreshold
-- uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxForce
-  name: MaxForce
-  href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_MaxForce
-  commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxForce
-  fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxForce
-  nameWithType: HVRForcePullSettings.MaxForce
+- uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxAccelerationForce
+  name: MaxAccelerationForce
+  href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_MaxAccelerationForce
+  commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxAccelerationForce
+  fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxAccelerationForce
+  nameWithType: HVRForcePullSettings.MaxAccelerationForce
 - uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxMissAngularSpeed
   name: MaxMissAngularSpeed
   href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_MaxMissAngularSpeed
@@ -20374,6 +20442,12 @@ references:
   commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxMissSpeed
   fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxMissSpeed
   nameWithType: HVRForcePullSettings.MaxMissSpeed
+- uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxSpeed
+  name: MaxSpeed
+  href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_MaxSpeed
+  commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxSpeed
+  fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.MaxSpeed
+  nameWithType: HVRForcePullSettings.MaxSpeed
 - uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.RotateOverDistance
   name: RotateOverDistance
   href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_RotateOverDistance
@@ -20428,18 +20502,6 @@ references:
   commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.SlerpSpring
   fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.SlerpSpring
   nameWithType: HVRForcePullSettings.SlerpSpring
-- uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.Speed
-  name: Speed
-  href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_Speed
-  commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.Speed
-  fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.Speed
-  nameWithType: HVRForcePullSettings.Speed
-- uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.Spring
-  name: Spring
-  href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html#HurricaneVR_Framework_Core_ScriptableObjects_HVRForcePullSettings_Spring
-  commentId: F:HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.Spring
-  fullName: HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.Spring
-  nameWithType: HVRForcePullSettings.Spring
 - uid: HurricaneVR.Framework.Core.ScriptableObjects.HVRJointDrive
   name: HVRJointDrive
   href: api/HurricaneVR.Framework.Core.ScriptableObjects.HVRJointDrive.html
@@ -24332,6 +24394,19 @@ references:
   fullName.vb: HurricaneVR.Framework.Core.Utils.HVRUtilities.GetRandom(Of T)(T())
   nameWithType: HVRUtilities.GetRandom<T>(T[])
   nameWithType.vb: HVRUtilities.GetRandom(Of T)(T())
+- uid: HurricaneVR.Framework.Core.Utils.HVRUtilities.GetRelativeRotation(UnityEngine.Component,UnityEngine.Quaternion)
+  name: GetRelativeRotation(Component, Quaternion)
+  href: api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_GetRelativeRotation_UnityEngine_Component_UnityEngine_Quaternion_
+  commentId: M:HurricaneVR.Framework.Core.Utils.HVRUtilities.GetRelativeRotation(UnityEngine.Component,UnityEngine.Quaternion)
+  fullName: HurricaneVR.Framework.Core.Utils.HVRUtilities.GetRelativeRotation(UnityEngine.Component, UnityEngine.Quaternion)
+  nameWithType: HVRUtilities.GetRelativeRotation(Component, Quaternion)
+- uid: HurricaneVR.Framework.Core.Utils.HVRUtilities.GetRelativeRotation*
+  name: GetRelativeRotation
+  href: api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_GetRelativeRotation_
+  commentId: Overload:HurricaneVR.Framework.Core.Utils.HVRUtilities.GetRelativeRotation
+  isSpec: "True"
+  fullName: HurricaneVR.Framework.Core.Utils.HVRUtilities.GetRelativeRotation
+  nameWithType: HVRUtilities.GetRelativeRotation
 - uid: HurricaneVR.Framework.Core.Utils.HVRUtilities.GetRelativeValues(UnityEngine.Component,UnityEngine.Component,UnityEngine.Vector3@,UnityEngine.Quaternion@)
   name: GetRelativeValues(Component, Component, out Vector3, out Quaternion)
   href: api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_GetRelativeValues_UnityEngine_Component_UnityEngine_Component_UnityEngine_Vector3__UnityEngine_Quaternion__
@@ -24379,6 +24454,45 @@ references:
   isSpec: "True"
   fullName: HurricaneVR.Framework.Core.Utils.HVRUtilities.GetVector
   nameWithType: HVRUtilities.GetVector
+- uid: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInfinity(UnityEngine.Vector3)
+  name: IsInfinity(Vector3)
+  href: api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_IsInfinity_UnityEngine_Vector3_
+  commentId: M:HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInfinity(UnityEngine.Vector3)
+  fullName: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInfinity(UnityEngine.Vector3)
+  nameWithType: HVRUtilities.IsInfinity(Vector3)
+- uid: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInfinity*
+  name: IsInfinity
+  href: api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_IsInfinity_
+  commentId: Overload:HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInfinity
+  isSpec: "True"
+  fullName: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInfinity
+  nameWithType: HVRUtilities.IsInfinity
+- uid: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInvalid(UnityEngine.Vector3)
+  name: IsInvalid(Vector3)
+  href: api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_IsInvalid_UnityEngine_Vector3_
+  commentId: M:HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInvalid(UnityEngine.Vector3)
+  fullName: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInvalid(UnityEngine.Vector3)
+  nameWithType: HVRUtilities.IsInvalid(Vector3)
+- uid: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInvalid*
+  name: IsInvalid
+  href: api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_IsInvalid_
+  commentId: Overload:HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInvalid
+  isSpec: "True"
+  fullName: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsInvalid
+  nameWithType: HVRUtilities.IsInvalid
+- uid: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsNaN(UnityEngine.Vector3)
+  name: IsNaN(Vector3)
+  href: api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_IsNaN_UnityEngine_Vector3_
+  commentId: M:HurricaneVR.Framework.Core.Utils.HVRUtilities.IsNaN(UnityEngine.Vector3)
+  fullName: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsNaN(UnityEngine.Vector3)
+  nameWithType: HVRUtilities.IsNaN(Vector3)
+- uid: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsNaN*
+  name: IsNaN
+  href: api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_IsNaN_
+  commentId: Overload:HurricaneVR.Framework.Core.Utils.HVRUtilities.IsNaN
+  isSpec: "True"
+  fullName: HurricaneVR.Framework.Core.Utils.HVRUtilities.IsNaN
+  nameWithType: HVRUtilities.IsNaN
 - uid: HurricaneVR.Framework.Core.Utils.HVRUtilities.LogFormat(UnityEngine.Vector3)
   name: LogFormat(Vector3)
   href: api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html#HurricaneVR_Framework_Core_Utils_HVRUtilities_LogFormat_UnityEngine_Vector3_

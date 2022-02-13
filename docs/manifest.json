@@ -12,7 +12,7 @@
           "hash": "0/1SEF1jyIHmVec5r9d9SNAr3PIi7lLdvYJ9lPf/5Ys="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "DRDOqwsRe+IInWn5i13z9/jJ4S2qwZ1TaCl6QRasEYU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "MI+/GimOiW5M6Pfra0iW5GpeZMwTlaU/Wcrt1LGSahc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.Creators.HVRPhysicsLeverCreator.html",
-          "hash": "koe9D0yKMNuwevv78iaDHKclBGcD9vfGCR8AvqG852s="
+          "hash": "i/wVqbos1NDRL4RuXbNmgPcXm2rKB8Va9Vi819cTTJo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "OgX9ZtsXoSiJhJOom0Qkjb7kQPXVm1GThF9FyknmLno="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRButton.html",
-          "hash": "LCbtRpyI3tc4sm547YfVf2WxD+GcGt4cB66wk4n4zkA="
+          "hash": "7sX3yrUVMhuvhGTt832oczbr3y6Ofixfz/5DPKz56Gc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "JMTEbO0zj3+1yAN7HZQ8NRg8Qu+IdtCrBaJ4umGrocg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRCenterOfMassOverride.html",
-          "hash": "ZxRhpWkYp8NHZPidyFvGX9cz0TLiFSyKxla7wY4sevM="
+          "hash": "TexHut0/TrqolPunRWOlhZdltPQuGYdpEdo93rhV29M="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRClimbable.html",
-          "hash": "gP7ZauWq28G3p9ck2KAm+7g1bJ/RUxUWX8xiOaWB8ko="
+          "hash": "KebEh/N/ua87Qa8xPa3qMrjGp8UcOKiEmuz6y7F00Y4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRCollisionEvents.html",
-          "hash": "XayTmJVJJugJUxzfNi/OuqcPJ4ZFXjkoiwYOEZvlu5M="
+          "hash": "TgDlpMvkZSV22ILXh5gO1OL6wC3hGWo0UtrRbY0aqC8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRCollisionMonitor.html",
-          "hash": "y2KbUPmXZxBnU9LtL1S43AaQVf27ZLQ6tqzxZn4Txn0="
+          "hash": "wvEt5CwlBj66eRnomqnE706xzVJDvCHGVGb1tYWvUWo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRControllerOffset.html",
-          "hash": "ejYf0uHt+dxGrn6qHUVqaVNln8LuNULhomvH0or+wA0="
+          "hash": "sGKiDw1NRBXx+K21sTYdNmjzye5YKvuJs4M1OQPKQUs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -156,7 +156,7 @@
           "hash": "5hgi6EsiVasKo1npmbMmHhKT6pKjXFA6H1DRCSXIzqk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRDamageHandler.html",
-          "hash": "0SUq+OCiIPjeEi7dcSDAGt6abhI22gmCXYDVjhdEyUQ="
+          "hash": "6dTtXtpEWAYD0MNidBa8UsxONvmZ6prJCa7NicPQ114="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRDamageHandlerBase.html",
-          "hash": "A6y/ZXyXYJWVq7+lXVl3clg0L1ahhlRBkYboOhAX25A="
+          "hash": "xXk25+Vh+8IS528N9KKcFOq8te/T/i+nVVFnPO06sEk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRDamageProvider.html",
-          "hash": "vOvYg6cxrkGK7b+SmvM8L19AsD1qdni2Af2GBHIf1IQ="
+          "hash": "BzDb2bY6a6D+zHWnwdIwFVr7Ibz26HXdTsyiMPdiQSc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRDestroyListener.html",
-          "hash": "3NjzfE//7OxiBVMqtZx4qMlWhmUtgP2tRXsZv6tm9ZM="
+          "hash": "o4WLJMIK8ZTa5IujDM5Lj6hCB4LmY1mDsgzP+yaZb88="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRDestroyTimer.html",
-          "hash": "t39vdJ7crr/coztE6llpBtSPypRyZhQoRE/l0mjCWBw="
+          "hash": "8geB66OATEAbd138hj8WNfUWxtqMjaZZzMC6NdsYId8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -228,7 +228,7 @@
           "hash": "fGcIFb7Nzjqonr7W5C4vYzPtkk39IAvOjRHDI1KN5XY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRDestructible.html",
-          "hash": "WJ5ZT1GG7U5pzJLrrzYZnTBPK7hbifKVuRGObGxZsjM="
+          "hash": "5DLKmtqEW4pAx4rhHEW+65LY+jzuILjdq7JUh7NkaWc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -252,7 +252,7 @@
           "hash": "D6nerIOefiaN1wEHYXjKvi6PHkPN9vTr4g1PZGn+a9Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRDial.html",
-          "hash": "m3zgPEwG9kDVh5ghSAfEiowI4sH42coaow9KZmJE5ns="
+          "hash": "NULgCroXKcBK8m0Sg1CDEU3VknqOR1S6SoZ08yxl4F8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRDontDestroy.html",
-          "hash": "z3h2iomPw1VWUlXoLm3ux4cBb/5E0jjn4EsyOY88ttE="
+          "hash": "4IzitEAasjMhCbj5W99uv0iG4sGh4a/odf1/78BqsXQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRGrabbableHoverBase.html",
-          "hash": "Fobb8Bh8AkZwp53cKtl8yfzRPDGlJ2Zy6AuXmqETTjo="
+          "hash": "FFpQxk45pPEJKyy1vXvQz4co4FTvovSaoA0pbVMl3QE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRGrabbableImpactHaptics.html",
-          "hash": "GdmlTye16R1zubDvQ27efp027Yy0XGOJsnPptKE7UVk="
+          "hash": "Mi4OOjCQs30JpQALQVCzhgdvxg0nfK6rNx+5LsbSdek="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRHandImpactHaptics.html",
-          "hash": "DtstS01UC/lPLYfBXCtSuEHP0NpcmvVWhS7v4pcuoTo="
+          "hash": "zP0H7KuNoWHf/+Q7Wzc3uIPf/MVELLlU3N4i2itYV+E="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRHandPoseRecorder.html",
-          "hash": "a1TSpYbCuAQ3dvKpSlbdH8tDIcwq7fGUwI25ktRBpic="
+          "hash": "mQ2LX42J2Gw8rDzw1kcp6S7D8E/vd3cxedPp12cQXgI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -336,7 +336,7 @@
           "hash": "Jfu+g8t0HFz0py2yFCq+lZWcW3Bysy5boAnjGBAkwso="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -348,7 +348,7 @@
           "hash": "O2qXpGS60G7BEk71mlqdYTpAcBBPQmV8uoFZ9RoB0Z4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRImpactHapticsBase.html",
-          "hash": "WYWwt81MeTr7oxyFUfXcblE4qKUaYInKkyHhot3U2Q4="
+          "hash": "HRvFHa+Hjzk1O64vn/QR6qGeex1cQvmdZn/G/Y+VGYc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRLever.html",
-          "hash": "/YPEf9b4Y+GLz0rZVjgKNbVMYToLPdtXTNwSkoD/vr4="
+          "hash": "X2QAmB1ML/FQAOFmvjKWpqpX2ssq74k4CQgOg6/M2Oc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRMeshGlowHighlight.html",
-          "hash": "1vj0pb7Cz5aMU86lF2MWS7TWQT1uihuRYYA3yzU/Zn8="
+          "hash": "ZSBemf0hpdID/g0YXzOcoivU9Eo+ArJdsDpFkY7Qn04="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRMeshRendererHighlight.html",
-          "hash": "J26JSge2Yyr7JZke7MewWTXtLHRDzHCtZScjGNs0GoM="
+          "hash": "qxxBoVW/B5yPyn0MExq2rZ4SUFWbrVE8wXUVyfXAw/s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRParentOnStart.html",
-          "hash": "2FTaw24oEYwniIw3KgMDYxaLxr2Rm2GRkC/ZRgzvV7M="
+          "hash": "evwCcA+cItImUfIZ67RBHBDG22ZMAg9P6EF8T2Gjqt4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -417,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsButton.html",
-          "hash": "m7XddtD+LEPVr4C5PVRPVSvHe0OFOFLLA3GvSVy10dk="
+          "hash": "jLbTVn6PhKbVS42xWZkjROknaYxYN1DDB3yWpYASGTM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -429,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsDial.html",
-          "hash": "LiARvKxLQgg0k5wGAdBPuZb++MBAx4XwZSeJjNx7qIw="
+          "hash": "cH4/ujB5vRnUUl0FXzH2zjN4qj/k4w3z7V8nCYC/Q30="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -441,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsDoor.html",
-          "hash": "pDQT1nYVR2yQQyKIKCJf2pIYVv0MBboQreAj7v+4QHs="
+          "hash": "DXMq1ryGkFRZ30FUrCyroA5c7eTs2p69lzAaPfQp/Hg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsDrawer.html",
-          "hash": "JwUniieDteXXpfimotLy/lEZZgf8YQLC9CUK2xdA8K8="
+          "hash": "Dr4jETV3XCHjUa3ubhV/fEEdw3vu6xBdCljtBkHkjqw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -465,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRPhysicsLever.html",
-          "hash": "0Fh7SdLz91ZF1gOnToGZt0jSvzGbYf6DcKMTAFxOz/Q="
+          "hash": "c/fVj7cdTEKDg8QNbkS/jgmwn4A8Ug6R/2FLSjTr8mI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -477,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRRigidBodyOverrides.html",
-          "hash": "9Jg4D/W2g0t7ZI4EZCIT2h8HTzEEAdWcliDc6kOzF5g="
+          "hash": "Bhq/bRw466q3zmYqX9+ptyDVSDL+F1Pc/AjicOMKBM0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRRigidbodyLocker.html",
-          "hash": "hWf+lYVQa/03Lizb/sQwdKPNPbAwMjRcUNdCzWR0abs="
+          "hash": "3tEL/gVRTVyRZQfP/5+AqZvxxfjxTC6Oef2Y5qrxdRc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -501,10 +501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRRingHighlight.html",
-          "hash": "fOnH1Xlaty6+ybuPGRaSMq3WE8eya0oqNessl0hnNuQ="
+          "hash": "gedzBM3UaT3yQRkOmXknhVYHBxqDYj6V4pxDotRicFc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRRotationLimiter.html",
-          "hash": "VmA/JR7dzB0Zsm+n3p308hXQUGY7hzrB5WZX1tsqebg="
+          "hash": "6xYGr2gb0d0r2vLBXfNzOfecOKKi4z6K0HOZfh1jcK4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -525,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRRotationSFX.html",
-          "hash": "9wZvlkZG07uHTsjjoOA1Dod4q3tORkph8rATXifPkMI="
+          "hash": "iPSkIlF65sbzzFk2onMIY7YgYLX9+KKWrYisBuOB1Aw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -537,10 +537,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRRotationTracker.html",
-          "hash": "VVaJZhiAhIIPaTWY6j/RcODHrpBEiaBirCQuPX9ABcg="
+          "hash": "l9di1W6wtFZpllpV1L71YV3EpOCLLTAHyA9zXImUttk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -549,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRScaleHighlight.html",
-          "hash": "mRXPwGQazxn1Ad8+koy/ushj1gOKG4hh+1cFfIeu4tg="
+          "hash": "HWKBz+cbT6wOPuqmbmiq5g69gAx0xjbs6gPYzkhx4Ww="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -561,10 +561,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRThrowingCenterOfMass.html",
-          "hash": "HxG7NDoHXNugka1wUG2kOSb1jZ1ZWt2VWazq6xO6QZk="
+          "hash": "Iey+HbIxcy1rjbBNsIatME43Byu6+tCLk3Jx/syenqo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -573,10 +573,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Components.HVRTwoHandStrength.html",
-          "hash": "cDzEGXDOPwcHf55mzLOZNarlnuFUjiCFXTAl9du01Js="
+          "hash": "RlnTnYM/Dp0zNKztMXezzDdqGnB9N8jcnNaIb+POeDg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -588,7 +588,7 @@
           "hash": "liWz8FIVmUOLNE3wGTMc5+7eX+N7KJubDL8KkSTn5d8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -600,7 +600,7 @@
           "hash": "UCiQ8H6w2fCr7S1t276OFRdPL53LxK8i7oKPFnG4pcU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -612,7 +612,7 @@
           "hash": "eLkg4BwGPtT0yBfh8o9aEhnS6jpxWsp0RD9QJX8MYpo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -624,7 +624,7 @@
           "hash": "OAEioQLEUwB1toGZgN4nsY8yit062JlehEe8+i6WCNo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -636,7 +636,7 @@
           "hash": "n0bceXyzlXGNO2v/18rLsu/FKtIdwLtqlYr1UgLLFS4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -648,7 +648,7 @@
           "hash": "ZEa5DJdDT87YUTlVRAopIYY74FWVR+4/blYXGbomatQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -657,10 +657,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRControllerEvents.html",
-          "hash": "EFoFpozM/58iJ3btUijMGkq6L0gMuEUq3NNvXTstF3c="
+          "hash": "/nPrGDs59xGWUK9SLgJLqhXhyVJUlDLIxP9CM2PxTLQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -672,7 +672,7 @@
           "hash": "qeVn1PhbOO2ySerxa0YCgdw4kWDU6BV7LbY3G89jQMw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -681,10 +681,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRGlobalInputs.html",
-          "hash": "pGwQxQsX3VwmFSSipDjY3ahLQrZXGpX2PQ7PulI91ko="
+          "hash": "kL9S6F8R1uq+CwpletEkzoKiRBjbvD1Z0WkWjbqkXbE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -693,10 +693,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRInputAction.html",
-          "hash": "SOPJaOxFhAuQDB0kqf2EdS1/k7X+Du5V08ap1y8YrQc="
+          "hash": "LN7HykfM8QZauta6PHnWJG7HWzJAVc5X8QEefIASIKk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -705,10 +705,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRInputManager.html",
-          "hash": "YvRqvWwo12R2cXVERt4SWVxIj4Lk6Iu3IfapEBBNMuQ="
+          "hash": "nASuTGmBxl5BmOVJz0WM2g4EcLvZsprdcpzIAsrl8uM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -717,10 +717,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRPlayerInputs.html",
-          "hash": "3AxW/HssEEH3B7tHUv+zITGLBRm7M+6r+gpUxffDmaA="
+          "hash": "bitTXNogizE3mKkbL58JVZ5h/1u4YzBT9U19PeuVhs0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -729,10 +729,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRTrackedController.html",
-          "hash": "lvA+8PjpSztflH6LXK83QLzMv1SWb4930HS+RW0EouE="
+          "hash": "4pBFIkqv58oF3WkX3VBDhVyXG+0SB+mxS5a+DSTSHyo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -741,10 +741,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.HVRXRInputController.html",
-          "hash": "lSxCk+9qJJGsx1vKDtItDFCR31BF5L+XM/LoT57SGl8="
+          "hash": "ccq/3WVfpiOln5Zwc9Xt7FAHB0pOh5er9lPylYydExQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -753,10 +753,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRGripButtonEvents.html",
-          "hash": "DKNfHqNxRc7/WOEFDPHPoKO2/eDfTXAMRZMBFEeKQso="
+          "hash": "2cgKn49K1MWNt6KlN7m13HQy92hmA92yuGcBbygtaoY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -765,10 +765,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRJoystickButtonEvents.html",
-          "hash": "SSSrG61kohGxyvACHBWvV26s1WrntUHQt09gBFQ0HhU="
+          "hash": "goVi9bivRMfL16v1lS/pgTSELYSUCMRpobrCNPVWGkc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -777,10 +777,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRJoystickTouchEvents.html",
-          "hash": "dVIbcyIVTZKWab3DthPxDz4shIwBczB5+x3cPTI4nGQ="
+          "hash": "iez1O0U2bQ58/wB5++cJuP0LUpk1aglhDQARhclI0bI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -789,10 +789,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRMenuButtonEvents.html",
-          "hash": "k1s1UNKFKntXpWFat/JE+N22pbL7ezuND7M5dcyxd1o="
+          "hash": "/wvP7UX0uKCsiv6TYmqNtzYjSJPl3rL/JNhpouWHgCo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -801,10 +801,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRPrimaryButtonEvents.html",
-          "hash": "EpNy/fedGHv5uvuNr7A8eW/jarZJa6TwY1FGmI/ZnNE="
+          "hash": "ljyoaxZlo2284o21SMp3V7zQR8txm02vuV8sf0ZoGCU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -813,10 +813,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRPrimaryTouchButtonEvents.html",
-          "hash": "6Kjur3dtC/LJOjUlNk58XEqzHORXXfJSkeH6CyvnmkE="
+          "hash": "xGhC1BV1pNYW0WCkxWWePP3kfzE1Ogc3yFXp6de1YrY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -825,10 +825,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRSecondaryButtonEvents.html",
-          "hash": "+lrUrsRH/I1VFxFwy+RMxGaZArGrcL7JbctMr+E/n8Y="
+          "hash": "WVwf1DRis/BAtCzL26EUI0xRY/QqWSVzKiIX5e7tR6I="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -837,10 +837,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRSecondaryTouchButtonEvents.html",
-          "hash": "Srfp2NQy6n76BoISvak3hO9NJ25bhKNCXhhiPbUoK6U="
+          "hash": "gJUpanvwOPIxSqpAPfv0FmZws6FTYjybFRhRubAUfGo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -849,10 +849,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRThumbTouchEvents.html",
-          "hash": "jCA/3pNVJoVqcfgMvcM0nGHJXa9gWFqYkcSoyyviMIU="
+          "hash": "CY8LU2KpwWNix70YgOisVNVwqXfRc67jSJWG8AxjY8g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -861,10 +861,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadDownEvents.html",
-          "hash": "c/ObBFwwlXQ9xSB3DXKO2+corP+G2SizoE2WJrUdC3E="
+          "hash": "/eOCqgZCYZIXCbjBjHTBHuSJo9m2Ayhdiw0MVZ6YAF4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -873,10 +873,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadLeftEvents.html",
-          "hash": "RxDD+hvc+VqODXQ6TAn9tEUs6Ofbr1j8H5FzfBnHl1k="
+          "hash": "uP+SssNI+1dc4/oiY71j40QDds+lxq6SEBEtpWOCYp0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -885,10 +885,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadRightEvents.html",
-          "hash": "SHUrSA4OWnz/53IKRAhpZALMiuEYRsUDyI/YxfA//KE="
+          "hash": "5yUbITZ++i7GrZ7ap+EnAPpUfvGwPtJPWHOgpZ6Cb1k="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -897,10 +897,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadTouchEvents.html",
-          "hash": "cm/qCw/xsyUtW/dOkMHUnyxz5c16vKaRyOsiipJZxPk="
+          "hash": "fJhZUivSD1DuB9L0VXN7yjvNyT/KRZCu8ecuPwdeEls="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -909,10 +909,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackPadUpEvents.html",
-          "hash": "sPxMOaMmcPCURdwzXdnA643IEiP39QPNcW5sVykAp1Y="
+          "hash": "XpFg0BKFx67LkRuJfBHZaxMqa7WvUF0FZGIe15lnFaQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -921,10 +921,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTrackpadButtonEvents.html",
-          "hash": "cBDIHwhpKv1A34C92oCa0v841Ox1/mNaGt5BBN9CZNM="
+          "hash": "s1HILNjN2bP+Z07SvNPjK6f5Q0DvVlRJlxlmwAlA9Qc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -933,10 +933,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTriggerButtonEvents.html",
-          "hash": "Sh2pe81GRilFf07jewYnQGOG9nc8OIsRv5L6ycNubPs="
+          "hash": "4eEDQGwsGuXhPOQkQ3rMolxRGj9Iq+f2YiR/IlX57GM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -945,10 +945,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.ControllerInput.InputEvents.HVRTriggerTouchEvents.html",
-          "hash": "QlxHTfE57NT4yubfkAUjCGdsxeSfhtg81E2cgcXEM2Q="
+          "hash": "RIwIIo07FKwuICBrUTgtD8uxBUr3jfw9B3EHG3NpM7s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -960,7 +960,7 @@
           "hash": "rnB4cAVI4ygavsamM++2K+8CeB+S0Nlzof9IBMXUvm0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -972,7 +972,7 @@
           "hash": "8krIoo5RuT8vyePxFUcN+gyPXJiQ2q14d0Ank4klRiA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -984,7 +984,7 @@
           "hash": "2Vo5hb1oNvXBLK8RK3/48FDxMONGivXJY5b17jrtz68="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -993,10 +993,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRForceGrabberBag.html",
-          "hash": "0zl+E6cKV9llOU1cTL21ipOTX2anr3ZIKEggdVV4hoM="
+          "hash": "+l5zeCHLLrWhS6pkTxh1fJd52/6DLQdRHKO4sw1+HFw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1005,10 +1005,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRGrabbableBag.html",
-          "hash": "AYNrGLDxuY04O2mEr3FQGsWQE4ABj4X8Cn51YMCIgys="
+          "hash": "54Nu7MdBNoP+OlHiAbQtvAPaYysMwdHXOe+dMHZyEDY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1017,10 +1017,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRSocketBag.html",
-          "hash": "K1cZxsDMT2p3TL/hajeVCuZbmvJMTLJfePaeal5TltM="
+          "hash": "nqFvOUP6NcpmHHik+ofAnVJyluHUoxALAHS/nGroVNU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1029,10 +1029,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag.html",
-          "hash": "85UOcjwToyqFz3k3QokfGCWYNjLOx8jBWubpWniQjuI="
+          "hash": "DRN0HK1fXT2IrUzHY8NNRs4PRb+7mPMoAGDiSvRKpYM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1044,7 +1044,19 @@
           "hash": "g33ZqJki4LJF3xIU8/95uRZ0I/agiUNbdQ0yucEBH8c="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HurricaneVR.Framework.Core.BreakDistanceSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HurricaneVR.Framework.Core.BreakDistanceSource.html",
+          "hash": "gMPVOvK1MWBFgT5xT/c5qBH9wKeAM2ThChscUNWOw9A="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1056,7 +1068,7 @@
           "hash": "4LNFr2zQABi+HWgM/XvMAUN9uIjAmm5dmxNMsqZzIj4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1068,7 +1080,7 @@
           "hash": "pq0IlADp6gM4ny2UFDGjQsA0vQ64rGrCFA9FYaybTIM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1080,7 +1092,7 @@
           "hash": "MNCHkJoU8RjQTb8ljck692BsbC0lTcsT4774OwcyKao="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1089,10 +1101,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.DynamicPoseGrabIndicator.html",
-          "hash": "wI/JGZscx0jp4fhu4SXfhNM1Hi/5MNQpVDc8OlY08To="
+          "hash": "9qB2dLs1kEFAmcx3Hs4cZNLsRootcKAMW8TQnrvIuO4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1101,10 +1113,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRCloneDelete.html",
-          "hash": "xjQSVqsRWURBRuBZMu9M4bGW8cMhHfY/DeXg67JWdmw="
+          "hash": "wZNA/FoyFAjSB/V7/WhowmXHp7rRN/WrYltiH9omsC4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1113,10 +1125,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRForceGrabMode.html",
-          "hash": "yxI4vYB9VRw0IPvVQgyI/BGLA074oqXA6uyPwwHj+X8="
+          "hash": "vGJSSemluuSRrEvIIdwwqKG/DcypzfwP8/UODNzI5vo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1125,10 +1137,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRForceGrabber.html",
-          "hash": "tvDqh0D3BIt9slQwz+AE9lLlW+P+FlRRGQUZ7uQZKsg="
+          "hash": "l+h9MgYuhtxxNXvh6Ljcnl1WR+04K4SZv5aHd1wm6j0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1140,7 +1152,7 @@
           "hash": "GLXdj3sKgu9Ufpy0a/B8ajykp2P9KNRt1BlLXP4ZUXw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1149,10 +1161,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRGrabberBase.html",
-          "hash": "qucNkYPgS5KrQMiYGqBN1L6NNMNwc2SzX0Nw4AIFJ8M="
+          "hash": "8Dg4ZcGFmsQXShKxFP8CouleIFitJWqYYhKoRNQrqys="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1161,10 +1173,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabOnStart.html",
-          "hash": "8Yyh0Q9zSuAeSaUhRlLTESjFfgRwTMXW6r6moQhMpTA="
+          "hash": "BNKSOyiBz6bSjE9OruuCYCLP9bm54Ef0qLumkH8CKQE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1173,10 +1185,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber.html",
-          "hash": "L7zSttBXp+gKQwyOaHAwmq2VqIqSajvZoOmyD+g0T8c="
+          "hash": "OoRCNShjI+3au11YPImFA0/sBviFivqhiqXzxOT4wgY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1185,10 +1197,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRSocket.html",
-          "hash": "yNpwG6s2HRViKXGHVynzH5w+ygVs7LpfCoI7xbtTQCs="
+          "hash": "EpTlMMh0ubNLzNq82pmmHdNO705aOx2PUURPiH/i3sQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1197,10 +1209,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Grabbers.HVRSocketContainerGrabber.html",
-          "hash": "SStkE5MmaMSpyBMdzMsIgc04IP4+neAYkv2MiiNL3L0="
+          "hash": "cmTPeeOuuYgO5OuiODR3VJSp2ymE5/Y804529QpHvgE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1212,7 +1224,7 @@
           "hash": "sOIElkCGuNPts7THjMY9Hz4nD7Zy+nro1HAmKpJs524="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1224,7 +1236,7 @@
           "hash": "V53nROGUxR1srGABtw/pdS7Rt+3lfsuMEsOZCeG0esc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1236,7 +1248,7 @@
           "hash": "YA9at1xzvxwPjkiNeHmfaJM17nZQ3UGkcEBqws5h8H4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1248,7 +1260,7 @@
           "hash": "U3TOOcsG0NWuIO4vxdhMtZIzmoT2bdfAvOhfV+C39Co="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1260,7 +1272,7 @@
           "hash": "CUpABrwLmP15hWwYFfRYKdefNczZV/byR+UzRs0c+oQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1269,10 +1281,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HVRForceGrabberLaser.html",
-          "hash": "9Rti4bDgXG+7Umtpl1OSn2QxmC8t5b03daYunNw5hQU="
+          "hash": "w8MSvTj/GfqC0IKeUtE+ENGDzvIo1nBQHLneC2wCD/A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1281,10 +1293,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HVRGrabPoints.html",
-          "hash": "TyX/t8ZeBdgAJ1Ws8W0GigJ5XjscDf6y3WtpumNB5lo="
+          "hash": "2OhzhPQFneSBWbT80chKr2nDsbf4u0dhgbzK8Uw0uj0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1293,10 +1305,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HVRGrabbable.html",
-          "hash": "6dLPX47kS4yXbh1jR7YYodHsXFO0+ev8CvzQKC2/EF0="
+          "hash": "4dMaWpU3NTdKM0mvOqrD3XUXU6YWkOddtSL77+LyJRk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1305,10 +1317,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HVRGrabbableChild.html",
-          "hash": "L+Xpr9+Scit7DkNJ5cndlhtur0EsOeq+x3Q8NIlvC9I="
+          "hash": "1Ubr+goSb9W7vzrbY1Oph2sUpe9MCiDUnjEXdulfWH0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1317,10 +1329,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HVRGrabberManager.html",
-          "hash": "5baiNDLORHrfswlSLX1fRiRk/WzJk5h6HCn04skyHok="
+          "hash": "L0nyhNV7XVZIJEkiwZyfoTpRE2CaeDEbB6fXzaskp54="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1329,10 +1341,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HVRHandGrabEvent.html",
-          "hash": "JVknDSS71zZQZtRkNcc/RFE1Wj7RMIdVNqsc+2bgqbc="
+          "hash": "a17yyd3Itj8D5O2ETwoFnyhR6JbUWXk8FTPWLIB0ySc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1341,10 +1353,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HVRHandPhysics.html",
-          "hash": "vS5OAhOrgqS3R5/9K0kz7HN/HnFq2yAFpTpHq812aQQ="
+          "hash": "mVWDVRaHNSIoKMmLwirl3IjqF8HdPrP/A5rfXB5U21k="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1353,10 +1365,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HVRManager.html",
-          "hash": "aJkG7AvoAjpd9/U1O60DRGH2K5JG6bx4/88qhnP8Z6M="
+          "hash": "ZRkfPKfH+AABu9QODQJirS3oFwx6lF6TFWbXE0+K6Yg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1365,10 +1377,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HVRPhysicsGrabbable.html",
-          "hash": "Gpr5vmp9RWpeWLmNDlcRpfpDKM79iynRt3mxKOlOqbY="
+          "hash": "GsyXC0ndBcxyMs0OgNGGpGL8+Yq/Kix7ndhNK6KpMUA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1377,10 +1389,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HVRRequireOtherGrabbable.html",
-          "hash": "fIcW7XLb+qWNdt5aAQw1vYWLtPrFHdkVze86khpbiIg="
+          "hash": "FMcEPNpXpAjy/TrYKES1pTcK9DM3UikoP/g87xnKD9U="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1389,10 +1401,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HVRSettings.html",
-          "hash": "FgVTRGIBuc9jdvw76Mf+ioOvDUZDLdubN6H2CPkUVdI="
+          "hash": "FVqEA/H+xpNLK04BhipB0CozpB9X+EqVXV7uF53iD4w="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1404,7 +1416,7 @@
           "hash": "giBAhZn4sf5+feFdXEDlHQ1ew+e2Nlrtk+7jrnIHTdo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1416,7 +1428,7 @@
           "hash": "V9pbal/QhFvmLJ97TWf6X0QvYkal1J9OpXuH5dZVECs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1428,7 +1440,7 @@
           "hash": "Ujb7fVK0Msp1PAI4axKcXtEZbNT9D8lXilHoMW7EoxA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1440,7 +1452,7 @@
           "hash": "egiZ97iPcA6BLVGLAodmHn+YMfwLWBhQRVjj3NZ7L4M="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1452,7 +1464,7 @@
           "hash": "G/BLqbeSLompibx212HTTNUf48zWXgcwTbLZv8pF4fg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1464,7 +1476,7 @@
           "hash": "Uw+D+uA6wbP6xXyHHVumkFFpETcqazGanSXeZypbu6I="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1476,7 +1488,7 @@
           "hash": "O13lxm80O0fAn6w+8nLnN+itJ7N6wMj/e2+NtzdnGS0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1488,7 +1500,7 @@
           "hash": "ovL7XYBt2yKkywvUliDZiykjD7bex26NchtLYCUOxV4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1500,7 +1512,7 @@
           "hash": "OYoF6O3geJB67pfxqdwWKyqZRtgVOMrbnpxm34m09tM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1509,10 +1521,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRGrabPointSwapper.html",
-          "hash": "qW0ZbaL3ZrCB+HrqT2zgdWQgy+I15kxxtMq6pGvk/hA="
+          "hash": "J2GHI0uqzWarIhFo+xn3m1p0c9ML02jdC0dj6UkJg0A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1521,10 +1533,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandAnimator.html",
-          "hash": "zi+0JkDdgb9Cby8Fu3BezQDuaNvBg6+vo7+s5cWpEWo="
+          "hash": "Ilc1i2KhoRc24Ew5d+ic96QiBmrHUMFcXpdPoYf7/w0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1536,7 +1548,7 @@
           "hash": "Z5wILd3NOGysOj+FWVeCBcTMJYt6XFG45KjMj4XiWpE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1545,10 +1557,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandMirrorer.html",
-          "hash": "cPEWISpdLuOZwjit7VPwBhwgn0LIlRggELzbEWiG+lA="
+          "hash": "0V2UDqcj7MFkc+Y/ik+OFK+ESxo+EPx3AKBsX458Q50="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1560,7 +1572,7 @@
           "hash": "EIxwFQn/XGh8RZ1Z1wJgVBzQ9/fNc6Bm7v9/edX2lBY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1572,7 +1584,7 @@
           "hash": "7Lxb5iR7poQ0qwX1yFp/Zr22OvW5VWZ9DDMe+ObrLCo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1584,7 +1596,7 @@
           "hash": "qvI7kMrkAz2uEBzIZMzJtaBbQGhbr9i2aJNqfXdThew="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1593,10 +1605,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRHandPoser.html",
-          "hash": "FhdEhoLJGhUjsKrSaIypnELAI74/ropbK3Wcf0OnIzA="
+          "hash": "JSSaaBIILMHw313BTkmTAvhtuGBXjW0VpuMmQ3DU2uk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1605,10 +1617,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRIKTargets.html",
-          "hash": "WBmvMVB6xxUs1qXfSs4xXWY0bEZKf6Cnnpw/QiAnrF0="
+          "hash": "DQy0G33GlpcnwPz0ehDtxIPFSB+tJoGWS+hJijLa/fk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1620,7 +1632,7 @@
           "hash": "dcwhgZFXzW7OGWToSbcytNfFuZ9CQj3woDDqr6TUfp0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1629,10 +1641,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPhysicsPoser.html",
-          "hash": "+Y3SqryNJDcp05orL/EYUrmVH5o9AWAVI3sB/lpxHwY="
+          "hash": "26zzOzjHwR9UB12jpwm6dTfIFXfEANrJO6eL4mv5QVc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1644,7 +1656,7 @@
           "hash": "pYSBTfKfGE951/8xVeND3epahCh85To5E7JYBMdz3sc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1656,7 +1668,7 @@
           "hash": "+alEepgL0m7Vdq3d9Hf3qDYBry0jRWm/TdqhEj8NYkw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1665,10 +1677,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPosableGrabPoint.html",
-          "hash": "SmLGeoQusisgq+0TF8VLcEfQFK47qoLJ7DqVM0EmpsE="
+          "hash": "/ZBeYvvx2KWv4YVce8MqTnHVgOFkN8MJDsJYVD6REIo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1677,10 +1689,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.HVRPosableHand.html",
-          "hash": "iOUvov9DOyx9RfCBEwTjFKs8NMkALVs6A2avIe5F4fo="
+          "hash": "OT18oVJM5KRPR7OiSI4qf+SflaEVl4Kakah3DJHmADA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1689,10 +1701,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.HandPoser.MirrorAxis.html",
-          "hash": "N36zAmSaF2Nehk/1gaJpPvEgps3PsrtbALMJI+XmUBw="
+          "hash": "Psc9uLi2RbsBmaDoSKhAu8WsM7Mw7SQIpS7xn4JurHc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1704,7 +1716,7 @@
           "hash": "ABcs2W64Vi06DRIzW1fcSUEUbBm7zGE/jleJgHDnw88="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1716,7 +1728,7 @@
           "hash": "AY2m9RCIE4dDTU9SEjvWmG2qTCjSBEWdMoavgHF+VKw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1728,7 +1740,7 @@
           "hash": "vsmdM5LZlFsne9wgNsDBQm/PJuxbj8TYK5EAfX+cx0c="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1740,7 +1752,7 @@
           "hash": "xc7wI9WI0Uc7EcWxpA+8XCRdWVQqz1jbds9xq2OMw2g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1752,7 +1764,7 @@
           "hash": "Glq2Sr3CKYcXa1aS5m9xFQ1WLAs3yAATR6t966nfUaY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1764,7 +1776,7 @@
           "hash": "yXTFFJWeqKQkx7bJli1v7kRmzYVGyOhvWlZWWKI5BFc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1776,7 +1788,7 @@
           "hash": "QaftbwImFKEl3czEfYcTzSUbOLAuWIt223azHFNXAnU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1788,7 +1800,7 @@
           "hash": "4wVafWyuK0IT/C9nZNS5JwRI8GI2t+qpbWYBQqjTCjs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1797,10 +1809,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRCamera.html",
-          "hash": "z6mMzwWQZwY/hx7QWvzyZb0LM6t1BsVUOhGQqjCpho0="
+          "hash": "F/Q1gLUjK+cqeF152OcOC2hsKU2Y9i3dl8xukYDq3K4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1809,10 +1821,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRCameraRig.html",
-          "hash": "Y9xuzrtOfNAETuFhW+6fieJl2A7+twb4WteWIpluWto="
+          "hash": "/6epJPyrhUAoHmk+7Z3ezlSwsAu8eWW24yMkkmjhE+g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1821,10 +1833,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRCanvasFade.html",
-          "hash": "emMDz+RU7hAN5hQM6ftK/5y0mqnyG1/AT8BJa6ys8jY="
+          "hash": "MuwBepUbnnle6fQOyOZ0uhUC7mK55n7DAla5g1aRWqs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1836,7 +1848,7 @@
           "hash": "9s/DqWOJ3fvksOM3bS0b0LGvTcQ3wxbWSFR2iifJDR8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1845,10 +1857,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRGhostHand.html",
-          "hash": "rhXq9oigNzATpPmSK4jDq/H4xY1uEcLM7Xs1ZO0IVO8="
+          "hash": "xJ6F+YnidOUjZcpOBD0gpfMc/jHghX/9dPRR1RultOU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1857,10 +1869,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRGlobalFadeFinder.html",
-          "hash": "y/VF7CQaq0e6jEjlDKSldGIqfPadA6rW3cV9gYRWVM8="
+          "hash": "0AHdhFnItnfa0RssndkB6Tno87hTffjfL4a5m6kacss="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1869,10 +1881,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRHandStrengthHandler.html",
-          "hash": "hK322SnaBm4mPo0WWKKQScqpGw+qc+EyERwnAyXllmw="
+          "hash": "n9zH9eYPD4c4J8/gaTZLzpw74lQu7OFRbwjpsA2f8uQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1881,10 +1893,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRHeadCollision.html",
-          "hash": "1Jj1hlD2j9jgug18U4Vyoa8I447A6orAJ+k9VO8cLA8="
+          "hash": "h/nUGJImkugsWj0yxv8EWasxJvm5GIHlu5aTCcz876k="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1893,10 +1905,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRInvalidTeleport.html",
-          "hash": "gHzRWSa5hYG5ml5AROgnCJyvzwvDj28JMNIFiBuzYjg="
+          "hash": "KA//APymaSfx+P3sbMO+4kKooV0nGyS++HmzPXp21Ns="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1905,10 +1917,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRJointHand.html",
-          "hash": "dJ96zJRrNNdbeNgDYF3tuF30T7MdTU/mQbwy+0Cz1v0="
+          "hash": "zAKlzr8yT/aDkCmwoNrSknIahl2xzmko65CFsG4z7C4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1917,10 +1929,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRPhysicsHands.html",
-          "hash": "gfagRkxgPN+/ytAKhpDzG2D02tjUUnr/+WVlQx33iiE="
+          "hash": "0vJziiPvA4bRklNTy2gGgPUVh7tiwTJl4Sjx/VX13wM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1929,10 +1941,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRPlayerController.html",
-          "hash": "e5xrH4VXmTcuMEovjIvTWkqGTud5tLznYrBmsDtP8zY="
+          "hash": "SREn0g/8anUQ2leLlZ4hea4kQ3nLG3e/BgdFH6StG6w="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1941,10 +1953,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRPlayerWaist.html",
-          "hash": "dAV660nZiCZg1cDLt1SWy69zKxDP6vl3OtS/zuQDspI="
+          "hash": "VrADo70P0ElUBdru6o2nWSO/z/dpig8lY0mqPUARlrw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1953,10 +1965,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRScreenFade.html",
-          "hash": "2cFSM6Gi9j2g9BKCM34gCGH9b2a0ZljV1mQKNSUb554="
+          "hash": "u8dsGCOHIUqgdfM58+A1rpDlA6aMR7IlHxMCeQ5LHhs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1968,7 +1980,7 @@
           "hash": "VSUfGQNJRXHBr9RG30Wb+dflL9qp3dLe6RphTo1RLgI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1977,10 +1989,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportCollisonHandler.html",
-          "hash": "7ZG+RglHT/7Oms9Desv5K4xG9ngWU9NbvieGkBUekoc="
+          "hash": "kMzY6HxD82zhO9YG+Gz7ObHkf5NwxZJk7v6EGnbOS2Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1992,7 +2004,7 @@
           "hash": "OoFTB39/jF8shKF5OHqVoo56gU64ufDSOuMA9mcWS4o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2001,10 +2013,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportMarker.html",
-          "hash": "0ZV3jJBNT5B0DSmMoDhqh66eCmIodSy5IiMhHwn49z8="
+          "hash": "giwjyU6TxcXDQqPivPKH54xCbg2NeSR6vZkzzxC6TaM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2013,10 +2025,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportMarkerBase.html",
-          "hash": "lH83ywFVesuG9s1VZPjgJNZNLsB1SRsIScfl2jTs008="
+          "hash": "PjhDOhiKPewpDp5AFsO/5kimxLLNjuJ+13swP5Yyc3I="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2025,10 +2037,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleportOptions.html",
-          "hash": "VuNWxJwuPHCMA8pWlXtBbExA9fDi640GrAFnxAAQclc="
+          "hash": "Zw2jo5LOW7tSqUUO3AgvF436IizT6XdC9iu5JxfHhnI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2037,10 +2049,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Player.HVRTeleporter.html",
-          "hash": "q5Esxl6flN45yGJyB8I61bnzx5TRZSo4WPxEyIrVPvE="
+          "hash": "2FnXad0L2WQXbeEOdrwMP/9f8V8B+E1j0e2zFWdETRc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2052,7 +2064,7 @@
           "hash": "8GxZqLUqi4Q8NMPyESx/hctz76YJHQdOfn59sykN6Jk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2064,7 +2076,7 @@
           "hash": "DYkV4XcICHR9mb7yFwi7YUSMtpQkwdnP2ZO/C28mtyM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2076,7 +2088,7 @@
           "hash": "Y53vqf0xwQA6ZkjLjhd1ebjVivq8cFyaEKFujO3V2R8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2088,7 +2100,7 @@
           "hash": "BppUP30hz9QDKuPKWC45v/lUEeqYMkUT8A+iXHfUChw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2100,7 +2112,7 @@
           "hash": "vWI2tEl4gH3NPQEeDtpkgoPS1GmFEGLHGFHKKIBrUgk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2112,7 +2124,7 @@
           "hash": "EJtUoLktir3wE+56SuMy/g8KfFj7t4e8XBQ8Cu3NGQU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2121,10 +2133,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.ForcePullRotationTrigger.html",
-          "hash": "zAyKt2g7AtOhRMlMFJ4DWCjemyV9mmFr3VXsP+l2Ljs="
+          "hash": "BrrDq3xt7ED4CeQoDZGjbXVUeyY6F6um0rEOoFDVyP4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2133,10 +2145,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.ForceRotationStyle.html",
-          "hash": "DW8zFgJSIsHJvyrr7dvKxdtdhOvc4UoUKXfO+DStCGc="
+          "hash": "VKaVuL3Yogh5q/LvPksgdf0Aeij7VZbyHcDFI36P+7Q="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2148,7 +2160,7 @@
           "hash": "aAeZKCfHuwf8Vno6gJnIpj04w4uZbO7dF9jVNkQusMo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2157,10 +2169,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings.html",
-          "hash": "mZpmIVJSpt+E7L+A3mvwbU9xF9uGMJ3aKTkXc+UM6co="
+          "hash": "/sz3t/pF53jiu/nEonjG7iwS4aDFfPDxNCjMy5S4+G8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2172,7 +2184,7 @@
           "hash": "bN2zRChV1ACoFdVLYXvFS/XqEuKbXv1R9Oz24k6MDus="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2184,7 +2196,7 @@
           "hash": "vx3nE/tNt7aHDinSmUiHgTVdsJLLMAaWmAmsNEPhZ0s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2196,7 +2208,7 @@
           "hash": "3A354arG1QZB4J+Zz3aRNTq6+jFvwPrev1N4q5ddsdQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2208,7 +2220,7 @@
           "hash": "Myt/Z2STtApsT/CQPxUicBIuRUggAc+4Wf54Yapg6iY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2220,7 +2232,7 @@
           "hash": "k60A8ThxrbQg3qMEfQK6Mtdn4D8zssVNKCwUPbHaxSc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2232,7 +2244,7 @@
           "hash": "LH80ih52sGP+v403UStXINEAlKdumkks/fFp+n6c+b4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2244,7 +2256,7 @@
           "hash": "th7bLAxryVXJAG2D33NOUKeNuD+kQyaDTXvpcxLiep8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2253,10 +2265,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumFlagsSocketFilter-1.html",
-          "hash": "7Gp3Lv9MJ3D8tnVS4tcXa4Kkpc5GIKY9+Qhl6DrKR1s="
+          "hash": "DFManSDH/yF6BQMJQw47LzbwdZD/mdKEK3JApSWfrZQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2265,10 +2277,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumFlagsSocketable-1.html",
-          "hash": "NW0e0vaofcfDmIYMeX5D3jkFu3s1q27ip3A6oq4tiwE="
+          "hash": "oMvOHhSAZxV4pI/KCJKADkgiO4gemQD7EQJi9mGkM2s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2277,10 +2289,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumSocketFilter-1.html",
-          "hash": "u5rWw4lh4dcQMjjs9kgCbDvRRkWfxeM0jvesSAn7kbE="
+          "hash": "URGOt5e3tmmGymXQtqpgeq3Nd3jRWltSZ8ohNJVMgTw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2289,10 +2301,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVREnumSocketable-1.html",
-          "hash": "Z6bWKfeK8mXlptV4wsIRo43BSxkHsude+c20zRg+tW4="
+          "hash": "RQ/z49H0VS+Y/039QAZ+v8LBMcmHH6VrNiMn+428drI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2301,10 +2313,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRGrabbableSocketExcluder.html",
-          "hash": "1XiF6gu79aFVS0ugQCKzVKGTyjFMyLJ2DP91saQ8u8w="
+          "hash": "1zVtB2dA3DIrlBhqFyGI8ZnKyWpduQPj9takfhInx40="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2313,10 +2325,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRGrabbableSocketFilter.html",
-          "hash": "IBqALBSA2vW/AvwvP0oBFtTKDfprSYVvk/0mXDvaWbA="
+          "hash": "Ve7mnP8Q9H7HjdSw0v2sWwaFD6bS7Cpnavb7gG70DKo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2325,10 +2337,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketContainer.html",
-          "hash": "IMNIReYCVaUXfNWV7ho7cvw9I0mG4cHaArbPL465rYY="
+          "hash": "HgdCtjQ/M0M69e+RCeyotAST7w36dTyqEF3DJfZ+QTM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2337,10 +2349,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketFilter.html",
-          "hash": "Zoza4BXNQ5nbRa6gaSUCWfXriPP7/HJ80CDAA7FOJPk="
+          "hash": "bMSgZBS0ekrgjqfgfAQt6bg/JW+XCMrHY1i8KFQkcI8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2349,10 +2361,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketHoverAction.html",
-          "hash": "qkbZIm66PP5msCGfnfGzPIfmnwn+O/DGUIeZWoHFqjo="
+          "hash": "nDiaPYBUSJlZH3/zDmYq9PTuZV7OC5xHXS2IOOfxB6Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2361,10 +2373,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketHoverMaterial.html",
-          "hash": "b3f5HRy1sgASSRbuw5RDAV9kW/ZmkybymWC4flb2dnw="
+          "hash": "acq7ZoOs0GnMvOKPF3M7ejI2DQ9nvRke/pPTxYdFeiE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2373,10 +2385,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketHoverScale.html",
-          "hash": "NalImGFwpqIPzJxNLm/wi3/QfD2SyIVuYoZs/d83enI="
+          "hash": "8WInvSLXy3unvo2N8sSjCUO/K1VK4odHfji7MmBwoqo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2385,10 +2397,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRSocketable.html",
-          "hash": "WO2OQp/P9DsWPhm3uyN9yfGAdqL+rUKn3fxW9hegOMQ="
+          "hash": "rja9tq/2jqXt6omYTS+aaWa/1QoHE/Ne3Ac7aP4YghA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2400,7 +2412,7 @@
           "hash": "kdG8brKCEswuq7N5ZE1ROq8t+VTxNmm2JZ+86/kEmD8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2412,7 +2424,7 @@
           "hash": "f200AsBfVED05ThD9wsirj8kBKKkLf84hBEnLUpX4Ng="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2421,10 +2433,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRStringSocketFilter.html",
-          "hash": "0YegbNaFU5KgQvsqK0Lg1mUqKYo9x8HcmMhYWk7ypaA="
+          "hash": "hu9uHFmUzm5+p9QoGN64iBVlsYPcl7rqq/glwQVQM0o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2433,10 +2445,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRStringSocketable.html",
-          "hash": "mwOoFd7l7n+eFfqB1z4AViSu6WpK6jV3UJY9NnBdweg="
+          "hash": "5U2TCW/NnQ3ph25KOVndtpCdqfjPen7g1fyJaVvBQ74="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2445,10 +2457,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRTagSocketFilter.html",
-          "hash": "YQd+QmQ1XVxcQZMz+e5Li5bqkaV8QdD4k7qNJoiMbKo="
+          "hash": "rg+PqjjaXHXLQ81mOyYixKLCr5nhGEhOHyBeCa0N/C8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2457,10 +2469,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Sockets.HVRTagSocketable.html",
-          "hash": "XFotf5/oS+DibmWPMzwwBkXSoXo/0mIHVuEhcovRO1I="
+          "hash": "zLKFMgRTENdVAnAVkDnzy7nrBRbg7JOytr3/iOTy6QI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2472,7 +2484,7 @@
           "hash": "bPN/8NRcU16xJ8r7sKbz+AkXFKixkbXT3zDN0KF4OiA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2481,10 +2493,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRNotStabbable.html",
-          "hash": "ckjEOKaqbgyTZrVevH7OkEHiMDeWbqGIxCLo48gOSOs="
+          "hash": "DK2fgsNWJ6/eZml3ddoe7VOCTBw5JBr1ZcUN+dEuKE8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2496,7 +2508,7 @@
           "hash": "1tU6rExOO2gi0RPDvPvQqEDorgmrfc7BnK6Gwj5iAxk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2508,7 +2520,7 @@
           "hash": "OQJx3UAbUD5cFwANcki2k7BnnpTm7sbFyF83fbSDrDY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2520,7 +2532,7 @@
           "hash": "q5TKvIJhK+M1SnCkH8CHUjoBk+m8QICWcnpDNNA2NK4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2529,10 +2541,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabbable.html",
-          "hash": "XucdC0gMnBWzVswPLaDRCqeDPswHj8DBDdGG88uq9gk="
+          "hash": "GCLWJoE5Vdvf+9ZxfhShR2F5CpFIrMTbfP1PFxFGHxU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2544,7 +2556,7 @@
           "hash": "93AmBmbqOxRr1iB+oGN4JMrJlPuToMP2P9KdW+n0Ixo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2553,10 +2565,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Stabbing.HVRStabber.html",
-          "hash": "DycZsmBTk5xXJ58SjmXGN6KJ4ZZVNHL2prfp/fJNEME="
+          "hash": "sm8yFi9Znsy7VCnnTKKWteshpW5MlAMMBVQkopx01zc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2568,7 +2580,7 @@
           "hash": "6qxp4yX553gG52tUd2GuQUMGN4bJDKydAoOGGUcRfa8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2580,7 +2592,7 @@
           "hash": "Gj1utWSk+qxN6FSOLgOQGUUeWj7wLC6kxqHIa+tXqU0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2592,7 +2604,7 @@
           "hash": "H+NAHUi3N7B6MF3rmWf5sWEgy2e/fKX6L4j0tS9VFBs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2601,10 +2613,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.UI.HVRGraphicRaycaster.html",
-          "hash": "31qA2+vwi3sAkd8bWe6npCUN3s/ZO3bb5BryAW6DlMY="
+          "hash": "2A0DRBvAegd8G9FRuB61JA+qW7oz1UVcwb9loB20Sr8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2613,10 +2625,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.UI.HVRInputModule.html",
-          "hash": "UDGMZrCJU1h8wGCNHRIIbOjOn1RN5GA6I7qrKY+lD+s="
+          "hash": "D+NAzA4DjkfYOWimICz690g+cm4ZjrRTWoj03vgtnkg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2625,10 +2637,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.UI.HVRUIPointer.html",
-          "hash": "W9gerhlr6yWbOpepfP7ZHFmhB5VCnYPihQcUJ+CpPKc="
+          "hash": "pPDgDAoRcKAidxdmbue9pWbFK/K2y7uO47fOMCQfDC4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2640,7 +2652,7 @@
           "hash": "SDFY1fBnHPq3n/2P6EQVqfbO699TO2ZAVzlAr0Now38="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2649,10 +2661,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Utils.AxisLines.html",
-          "hash": "2Gv+dEYFfeTqxdwMLLgfy/lIeKDxmUPf2HTSLLigteg="
+          "hash": "2ShUGxUac/FjU2btDurBlOWFCZGho2VAjakUkBc/coQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2664,7 +2676,7 @@
           "hash": "5+MAeq4Yli/xv2Zy7nIhIHb5UqqKuxdR4SsCLmRSDL4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2673,10 +2685,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Utils.DebugTools.html",
-          "hash": "FOUkyPuf7YfJhYx2ASmaJa3HneGSd4Ip7oR/4YPzKVk="
+          "hash": "BmCpzcAsH7TlhzHE5APAL3pAZeesTvJgdAZIjGW7YKY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2685,10 +2697,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Utils.DebugVR.html",
-          "hash": "mHYDbPJXVl/utVsfREr5FDaoE9Il6M1ssicLoudsqvc="
+          "hash": "Qvt2SSEXi35eNdPGUP9m4ihI25YsXfeKd8wcFdmVJZ8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2700,7 +2712,7 @@
           "hash": "maTJG3WGvyLAMFYsV+SU8U1lFzbxITmbCtVu3BLlGOA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2712,7 +2724,7 @@
           "hash": "8F/1uVj7A2T2kA5fWsRJ1DyKHnH+8ejYwBTYqzfAaAM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2724,7 +2736,7 @@
           "hash": "m76ya6jkYjXg7YB10SvQz5AZauOUICJlcMhNagXi9u4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2736,7 +2748,7 @@
           "hash": "jIyaHaMA7hw3LD4iVqvPRJRFLh83yUjXcR65BJYlwzg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2745,10 +2757,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRComments.html",
-          "hash": "RPGSVvYZSo4zPGS415YaXXJKAzk07T+iCz26RhYDd3k="
+          "hash": "05bqCNgV2fSCeiQeZ0uvKW3FVvvidMT1BpUxg+5E9vA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2760,7 +2772,7 @@
           "hash": "FR3J6IfJ6L0SVqMgOETa/Ns9vQFkNLIy0yDeINJaKCY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2769,10 +2781,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRHandColliderController.html",
-          "hash": "glTglMOn3uBH4qDnmqcgFFVZgh5LxEoOpDZQFU+IiPw="
+          "hash": "17J2fSzRfaiJwL3AN52ZwUi88YqH8Qa0CKUZzkrsw0w="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2784,7 +2796,7 @@
           "hash": "bRTyxkwA6oWp0Yyo/D8dVFeOPJ2x5QMnf/kJzMA3PXo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2793,10 +2805,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRObjectCollisionDisabler.html",
-          "hash": "s/SxrCfQI0LgQbGDUrrLDwcfwKjDB7CCsO+n7t9kL5c="
+          "hash": "JkGCh07cczSrbaEOqQL6AOMu/SIObrFJ7wvsMTe6UUc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2805,10 +2817,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRShoulderGrabber.html",
-          "hash": "F7kelj53zpXme52Dc4mHVKT18R+X2d5aIo03LO8NOcM="
+          "hash": "NUgS9Xf4BDzKL5JqSK3ulX8OhThT2T62kZmWb6nJ8vo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2817,10 +2829,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRShoulderSocket.html",
-          "hash": "gKjfhqMl48x7x9yHsTcVlUpDLjQ5vgfTGKVIqqnHOq4="
+          "hash": "1oXaiQ4cxA64sTe1iDkH1xt5Vxuo+GCvfbUXFf+IycY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2832,7 +2844,7 @@
           "hash": "WmE/ZF3ehYVaB2q1KIwUBJFNBRW7I5AjACgZPlry2U0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2841,10 +2853,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRTimeManager.html",
-          "hash": "ALrKZMfA0U5aL/1HEwIrGkvjw/iNj70pfS/mojIX3uY="
+          "hash": "GKczXoiZV28IOT0gEDpkqPB4J+R7/KOiWyBgRaB8Zkc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2853,10 +2865,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Utils.HVRUtilities.html",
-          "hash": "SK/g/KDbQAstPutBJ+iqZfAr1gtLLYt/BO0x0kvP+lg="
+          "hash": "Ss21NZg0vF3LtYtwuqKvzaVwI0rsTsK/ki3SFI4FU1E="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2868,7 +2880,7 @@
           "hash": "hzkYPyqHQIVTjVPehCMnLyufz/dNIBjthmvMshxfLm0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2880,7 +2892,7 @@
           "hash": "JYgyNyNbpyQNWUjpmAA6R1XuKT9TmbTFvW4iM9lGi+A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2889,10 +2901,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.Utils.SFXPlayer.html",
-          "hash": "h/97z+3KPgPNtz2Q8JvRnfpV/kLIOc1oZipxu71NHQ4="
+          "hash": "ppdl8OO+dvIruwzaSziH0nfnSRfyYHRGJxaZHRrIffA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2904,7 +2916,7 @@
           "hash": "k3nnw4S4nvMvv35wyPxbO6IaqoyMtPV40AEa0nRsqyo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2916,7 +2928,7 @@
           "hash": "TRoyCdT1hECmkC4lrO9/ymuMExTQ1mGrwhjOA2NWJ1Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2928,7 +2940,7 @@
           "hash": "lRcXHkbhrAyfkFq4gAhcX4JX25HKMU57wss5xKoElFw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2940,7 +2952,7 @@
           "hash": "BmAK6ZihnzFVP1cvVIbto5RclG3Ii7ubDwRoD8Ptroo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2952,7 +2964,7 @@
           "hash": "XrRZM3vNsjaq/0xtflhtHnOuj2RF7WnrLYwyylTSLso="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2964,7 +2976,7 @@
           "hash": "blHIGA0bNxTuAevX0d3MxearbHaA8j+9w9TFyH9RSk0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2976,7 +2988,7 @@
           "hash": "KunWarQix0Mw6SZ09sCUL1ty9p2fT1X5j+PUGnWb41Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2988,7 +3000,7 @@
           "hash": "5Y2XRtoYLzXYpKVEkBMxGWrQQI22r/wmBxcgREXObhs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2997,10 +3009,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Core.html",
-          "hash": "hqtwLatVeBh0DhHBZVF078a262MbWEQTbnhSjxQNRwk="
+          "hash": "gyZWZ7oaNc8QfDFO7sxwO/a4qqNBa+u2Db1JcLAyUzo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3012,7 +3024,7 @@
           "hash": "VpO4EFzEZHg1KE9YwmwcgB42up+Fy1C984687UyjOBM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3024,7 +3036,7 @@
           "hash": "0enYxBR74IuDiEY0W8EEACqnvo68IcC/0uqzYs2wDkg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3036,7 +3048,7 @@
           "hash": "5mUZVBie8dpubth2VN0kKNL7qO1/hLWFCsUxVzMK/rw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3045,10 +3057,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Shared.HVRController.html",
-          "hash": "dG5jomiXAXR63/HCe5cEzP5PPhOxVjAwmmBVHSaHlhk="
+          "hash": "11I/sI4pZAYdVFAODnYNT08OYtPdaq3jX7Cw/F7i8Kg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3060,7 +3072,7 @@
           "hash": "uW/oo4pfY7dQxNfeKujnHjekqIIlpRdtLNm90BCrs/Q="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3072,7 +3084,7 @@
           "hash": "DylxxMWwzfrm7JWXRP2eN5CVc1BnRwGc56fJwp+mjRY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3084,7 +3096,7 @@
           "hash": "nP9qxmwY/GJsF0oSomXWPmAwzV57mF1JOlAS9JH73Ks="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3096,7 +3108,7 @@
           "hash": "wM9KsM5lg28TG4jea3bCC+w7UnXfCd3Co/OUvKucn54="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3108,7 +3120,7 @@
           "hash": "0D2obrQeZ4J67UAlqfZkRpW7EECcgJsng2Rf28h9dSs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3120,7 +3132,7 @@
           "hash": "wnKcPS0ftFfJatnnIXghYjLN9coaDjbBzLOYrRTEpSA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3132,7 +3144,7 @@
           "hash": "4whn8+JbAY4++10jVh866JeE8yV2vyPWctAWfexGV7Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3144,7 +3156,7 @@
           "hash": "W+w9/xdSKcHh64JBKnilph0XDcIQUnPgXHOBrhFIOrc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3156,7 +3168,7 @@
           "hash": "3l7XXFL4beRQVt5CIwL3H84J8v8HtshHWlvQXmED3yM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3168,7 +3180,7 @@
           "hash": "qkAt5dwUGeiSvIm/PacPkD7d1AF1/PqQwIkgqCTuf2c="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3180,7 +3192,7 @@
           "hash": "3T790TMMwX4QnZIKpAfWMl/AFJ2jCFAuwf8BXXNSCg8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3192,7 +3204,7 @@
           "hash": "VR0rw+BFWGcdanqkmAbx8kBgS8IXom4UvFF2MxK7AcE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3204,7 +3216,7 @@
           "hash": "5puhuY91DfhyT8gte/kUCQgQ081uRdMbYsi1TI+bLpY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3216,7 +3228,7 @@
           "hash": "Oh8J+U4uC7LDJn8WilKH2lu9dhn3WlfUzfNbRMqV9kI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3228,7 +3240,7 @@
           "hash": "ikpdqismcx2Vblk7VABoTeiZ07o/+BVGO5En1MpQYps="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3240,7 +3252,7 @@
           "hash": "WaLeFQ8CufLI/GSEwGdplFgeg59DAQzstuY45+5ynfw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3252,7 +3264,7 @@
           "hash": "MuDqzS+FEd6TGiZfkoVIQRhHn7Tzm2juG0SY20zqJM0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3264,7 +3276,7 @@
           "hash": "OgQyWgg0bEr3FWr3MxgEFyykVUHDF/Sd/f9VlJqFN/4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3276,7 +3288,7 @@
           "hash": "tW3Wcph2SwSL+p+h7hZkH+KwQggrvjfddG1pBjqX/xU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3288,7 +3300,7 @@
           "hash": "+X74P63KOrDwmcOLDMAxyHacgJ8VRs57dD2+k/e8Qxc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3300,7 +3312,7 @@
           "hash": "j9yUlupzyD5vKJiOIVMTiwlbaAxX/VUUspnAajc84kA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3312,7 +3324,7 @@
           "hash": "+688QFn6TfZrj1Ry2MGR/VcmEuD0+MerKesMdHdnek0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3324,7 +3336,7 @@
           "hash": "8ZjPYxyGNo6ved9GpzGE4rraAQL0vmm9cB6QQ4Yp/hs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3333,10 +3345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRArrow.html",
-          "hash": "l30D9FCozRgmNO4nYBoklQm1XU8MBNFp76VavaLQHtk="
+          "hash": "+2p/DMHtKxW/ZDYSFuMKuch8lGTIyrJKurwYvc1Gvl4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3345,10 +3357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRArrowLoader.html",
-          "hash": "775BZghhawzdYiFE+Z/fiiHvRZmpW/pjd2QNVHYQgxk="
+          "hash": "ksnGIXtoWD6yf9VJ5p+cy7gkgpdx8ESCE09e98kGF7s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3357,10 +3369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRArrowPassthrough.html",
-          "hash": "m92QWNFdYAErU41881oj+/I1/BqGtVfHWxJBTvRArLE="
+          "hash": "yZzEk+3jpkiOXul7VkIn/EPbWaVO01g+hXnscbbPmhw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3369,10 +3381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRBowAnimator.html",
-          "hash": "YVpwsKp0YxgKW1U7qp6MOaqPWmijQwtjLX7nMU0vw28="
+          "hash": "HwaDK5/Bpze72zIvUa9W6uyh7uLhn+3PT0pLZMVOQpA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3381,10 +3393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRBowBase.html",
-          "hash": "aImq7/91ltE/mqXfPqfTjkdI6NlQFSSjYl6UvDM11gI="
+          "hash": "UH8DrJQ5MoKSAKISZ/Q42qIJuaJunuC4qO+k9RCHGhE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3396,7 +3408,7 @@
           "hash": "wm7ne+RvUgnzte9onBPUdDWU8fH1yfMYDF6dWAr2An4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3408,7 +3420,7 @@
           "hash": "POEtaBv0Jj5tOsoTpK4JY/7a+YdpHa6ogvprt20KfJ0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3417,10 +3429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRNockingPoint.html",
-          "hash": "DFDAxauNZnMBNdfAo+Q9dgQ4f0pPbDbl6RvGrdHeXSk="
+          "hash": "fM1D6Q2zRMXnzOUQGLTTMEzcN2tJIxG1jzp5hxbo1Pk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3429,10 +3441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Bow.HVRPhysicsBow.html",
-          "hash": "07unYGxpQhSgCwBHCn7wwgj+8GVvfSoJSEGVyGhk2Cg="
+          "hash": "ctnxE6KMg4WoTid+6CxiD39ZDLJjzucF4zTDWRwerd4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3444,7 +3456,7 @@
           "hash": "ynjv5Tg1EQcJs+EDozBVRyaJfcjskWvTip/EA/DFqvs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3456,7 +3468,7 @@
           "hash": "n4o/BthF6SepFkI3EcKnpncBuQDkcPbkOFUs8yhsCoY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3468,7 +3480,7 @@
           "hash": "gIgwb8GcatsJjTc3K4npdiK0S5rYMZg2T+v/XDJMlvE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3480,7 +3492,7 @@
           "hash": "aDBgeme82JF8JjNesKPBFnDK3viaY5K7ZT5PP9fGtWo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3489,10 +3501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRAutoDropMagazine.html",
-          "hash": "W2tzyBgZ8kbqi/SMvftYD+5nTOC86LOww+VFNqLov48="
+          "hash": "FaXnyFlbbqn3R3FgteF8h8gNDinqtR4+YrtZWWFOcv8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3501,10 +3513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRAutomaticGun.html",
-          "hash": "jlcHdr8KJ0ricFh/sPU9iPc703hT+6HCVHYXF0OMfnM="
+          "hash": "+n3ZsndM0f3tVdvXAjl28bOsZj4hfm5gDJnbNK3IyRE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3513,10 +3525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRBullet.html",
-          "hash": "UrG81DKZWLXLdqecSZcKOvVNEnEFgf4PIy/nmrBWqeo="
+          "hash": "L5IzG4vpvNjqRF0wp3PkMatNbLEnm3BfIxofbX+oOpg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3525,10 +3537,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRBulletEmitter.html",
-          "hash": "xr7FpyXvz/weAg60di5g6Xih2KvQ0/YMfenu+bf0D2M="
+          "hash": "LveOX0CA4fKoaUv35fuYSGuFHJ2slq0AAO7TZPrcXIk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3537,10 +3549,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRCockingHandle.html",
-          "hash": "wn1KWeVk7SEFBB6dNKZdNgJWlXAg0EDchfRiVGV39mA="
+          "hash": "YXxzEyBvra5WQyixsU1pRWv1SZvoqJOE3jdw4IAAHcU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3552,7 +3564,7 @@
           "hash": "q4iBCpJ0lVwtpM0ADgkzokfjkIF+yW4cNPRYRPEJ/X4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3561,10 +3573,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGrabMagazine.html",
-          "hash": "2RI0V4XZZXMHHVSrbe40k79ST/pDbatPY9j1RtjkbkA="
+          "hash": "6URAQaN1QnRXotckP87l4Gzly0W0hkidtlXiCqxXE/0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3573,10 +3585,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunBase.html",
-          "hash": "X4Oi6i1LKrwSGS2YhWA3hfjm8B2GbTkKs8a7Y+xJD5s="
+          "hash": "Q1ubrw1IzgS+0af5i9JAsbtPOGIOYOjvBGExxizIixc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3585,10 +3597,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunBolt.html",
-          "hash": "3obIilVckuOKa1vebnxRtkj4srnDy84Evc1xlR9lAac="
+          "hash": "YMlPa+HfVgGUaPw3+YD0pW/GdhBYUrrGt+S+m3+NN6o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3597,10 +3609,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunEmitterBase.html",
-          "hash": "xi3rWACyAKPA4Sxit+r8eHMAUvskIoLBRVhJe/4qeug="
+          "hash": "6Dvg0dKuYU2K/JqHwhgf7ZSJFz465pdMO48dG76R+tU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3612,7 +3624,7 @@
           "hash": "7rC0wi4L5ilWlL1NYjPkDo4dYoCnkEmsKf884q73sNo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3621,10 +3633,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRGunPart.html",
-          "hash": "vjOGTJUR+tp2CWNfF3VOAtHbVMj2E9PHtq7PxmYKdbA="
+          "hash": "FyWSstVLmHY5IUl1uu4Mra5X4j4LHjk8srF+hWQ9ZQ8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3633,10 +3645,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRMagazineSocket.html",
-          "hash": "7+NawGpWealspdCQvOFFiA+7vSdx4JsM5HQXsPf8rzM="
+          "hash": "I9n3Udl5asu6oY3YOp6HwhE++5b2TQHCvVMnL8Be4ek="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3645,10 +3657,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRPistol.html",
-          "hash": "e1fibcLJ+UqyXpbmW3LkNBzJ5DvR2SbwRuCLB4rGOeA="
+          "hash": "5Hficp0L4AXIVMZbgVtQw6rClJh9joLCdrUFmNo67/w="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3657,10 +3669,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRPooledEmitter.html",
-          "hash": "z959dfkaGkQ5L3FDcHaAhCPEEhULwBb37jZ8N3Sb+yM="
+          "hash": "qXIHQ/MBwhSRn9kXMRSLSA1enpXqHEMPuVwXcq/pjZo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3669,10 +3681,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRShotgun.html",
-          "hash": "cfqtY/IGeYAoubDYuqVE8aUSU7TfDNlSK23+qsBMq3Q="
+          "hash": "A7ZTWjig3nMyUOIVukk+zVzZwCbjCxCezWjc/Zub59I="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3681,10 +3693,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.HVRTriggerAnimator.html",
-          "hash": "QGsr91O5XB6ZDAAUR//Dp//fMqEMFC9v80SA2WfJFUM="
+          "hash": "ovyy3XCqILmjJV+Y+/wgJ3DghyzURg8m/bjqr6vg8iU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3693,10 +3705,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.PartFinders.HVRChamberedCasingFinder.html",
-          "hash": "qyioCOSXPOICRYzDMJW2AqUtk2Bz7aIWqr1PCe8vmws="
+          "hash": "GBQuPkcKI2lb3iIBnghKBcW6bhECBhAWG8ra4r1RaGk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3705,10 +3717,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.PartFinders.HVRChamberedRoundFinder.html",
-          "hash": "m7k9tDvv5ow3d4uimTCJU8K6E4wYV6WR1KxFjtra6cE="
+          "hash": "gNRoJmVdia6ELZFyYRxd2VPbOhe82NsXR2KkdKDhoGI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3717,10 +3729,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.Guns.PartFinders.HVRMagazineFinder.html",
-          "hash": "yvxK7ggADCXdAL3WbDMSTqPOMx0+70rXe8u0jhR/cWo="
+          "hash": "sqWiY81wGwehYssdrJZLBCg5WuBWWEX2sq2DkGYZa/s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3732,7 +3744,7 @@
           "hash": "iTOfF4pOOAYUl+T9oRathL5Xuo7ACKgc8N4UO8lStZc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3744,7 +3756,7 @@
           "hash": "qPOVHir0meHnu7Jy7Q5b3PC4BJOJZUWSt/3KIc7H1UE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3753,10 +3765,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRAmmo.html",
-          "hash": "jMNGQTTyCRMHy4gkoI2pnomqkWMH9lBFzi1sDWHdSMU="
+          "hash": "0nhNIf/EtbuoLrFdmiYVyYlCNJLQfMCnqg6qguzlxvs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3765,10 +3777,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRAmmoReleaseAction.html",
-          "hash": "3oBUPuWsaFxW387ZPHJZd0Fxn85map5QcoJLSgcL88Q="
+          "hash": "twHs2ujSVhh4HN1k/ZvazqP26zbScv6dzzSgdJq/2Wg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3777,10 +3789,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRAssaultRifle.html",
-          "hash": "jWpuSILnJ/9ep/1LsYwFMfgKkQUTXbRD+xkhVMsaaU0="
+          "hash": "65yoXPfdtGqPv40Xmz8u80QOTf0pU2XSTq0u97UaVrk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3789,10 +3801,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRBolt.html",
-          "hash": "qS4+IbPVvaSWyn4KucKHujORGCzouIUxnZvrajRR2rY="
+          "hash": "gdkOfov5B5pSk7FQ5/lmFjRILrQPoL5fKBMB6WGWKow="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3801,10 +3813,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRChargingHandle.html",
-          "hash": "/mgXbW2UHtxi4jZMM7J1H0mM4satjv/S+5x+jRCzZkI="
+          "hash": "8efZHZqgh5V+tp4zHrImsuzndGadB32yDkTQaY0+Sag="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3813,10 +3825,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRGunSounds.html",
-          "hash": "AOFlto6i0tAZ7FgfMYaTX3an0W8EnGsigskeFQyVUBk="
+          "hash": "G9oaLSBgjgLnUBI3hEOxe9FiEjYff+4OPAoOAYspfJE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3825,10 +3837,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRPistol.html",
-          "hash": "PVLXvlGdlLL6ixUqF7SE34g1ABeUSZYQNmWhhws0pCE="
+          "hash": "yNVtZU3d6dA59MV7pCozs8WKMui7dYKJStvy/f9HkdM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3837,10 +3849,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRPump.html",
-          "hash": "+JIrCyoO6zvChzPT64ECBVgYsFgwALFV5lVJz9pQV/A="
+          "hash": "J6ZPFtPAO3CGjloJo0s0Xl/vCPh/vxQidS63oCqFWvk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3849,10 +3861,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRRayCastGun.html",
-          "hash": "QuDvAH06qxcOjwtC5mQhMcxF8IkAiR0lKdbbQu3Omac="
+          "hash": "3HL/zcPz1rViLMu6GjyrsgPmfJD+iJCbY5g+LsscikE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3861,10 +3873,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRRecoil.html",
-          "hash": "3BXOxYxrhOujX0XY1YldkbpAHPQsp5uVJSLp9FTVRyU="
+          "hash": "jCR/+oz+WzpTV40TVLAA7e8ZQkQ68IDXagONh4ej6Kw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3873,10 +3885,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRShotGun.html",
-          "hash": "7eBA8S9FOj7hVjHLopo8oRMH7VuKc40WQgIEau5yyvk="
+          "hash": "OrJWMP4tUC24cVH8H+x2O8Zr6cevKp4r61wN5/c3ZZs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3888,7 +3900,7 @@
           "hash": "E5wOHFTS4iqkq7mE2DoXgU6dcePjjwpisOFUxHfuH/o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3897,10 +3909,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRShotgunAmmoSocket.html",
-          "hash": "mHF2Khe13xAgGQID+y4pqN0IRxHQRxvP5ZGCBB+jIOw="
+          "hash": "Clnef5il3QtDIJ6w/heXrBfZFYmOhYhciegFoYFrgTg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3909,10 +3921,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRShotgunMagazine.html",
-          "hash": "JSAA5MGMLyTcgQzxovTFw2ZNs1qCZJHcSujYKaFqNyU="
+          "hash": "i19tLytxbLqnMGhh6GnkXbJisQgl/o2Ab7LEvg8Ys3g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3921,10 +3933,10 @@
       "output": {
         ".html": {
           "relative_path": "api/HurricaneVR.Framework.Weapons.HVRSlide.html",
-          "hash": "B0OQ7T9gWWvUAnJCv5T1eXqBkxM8cI9xnkkqjWk4dGI="
+          "hash": "7gI1Ek+3Qs7818c6Q6t2oxjrNY9UgpdDe73nIBv/ROE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3936,7 +3948,7 @@
           "hash": "70sSliGPqws2ZsUKz5wYJd9L6NO2BkGssIxAnD7fAJI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3948,7 +3960,7 @@
           "hash": "8M3eIlZsBoasAboYsb3iST7RyEgBgy5AjTQYo808+4E="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3960,7 +3972,7 @@
           "hash": "+Ek7aPArt1LGtHF0NpvPNu1kr8r9F97oersder0DGrs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3969,7 +3981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "z34fztwcWn2FwWyG0ZEEkzbVMuu8etwWqsFNmtY2K4k="
+          "hash": "ESctjunxax8eP8dJlGpUOvIMi0FUtLBHhcLaFrYYLzo="
         }
       },
       "is_incremental": false,
@@ -4116,7 +4128,7 @@
           "hash": "cVLsBxYnEuL0UIxGP/hjW+XNlGor82iPwkilmtjd/Ag="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4128,7 +4140,7 @@
           "hash": "p8tLm9gkVJhlkv1DHLfsMamj+rjnJkXkjlYPe7cGHaM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4140,7 +4152,7 @@
           "hash": "sHFt67a0Vs6rCFXA7uqPxu+IpZ9iyCOZQLvtnAsNLVw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4152,7 +4164,7 @@
           "hash": "fEwvVQ2UmGhk0YQ3Mx2faIXc3z6m8qJJQtC/M7bkyHU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4164,7 +4176,7 @@
           "hash": "nypGvleRWMCpjf3ua8zMI+wg3hiu96efCStJo+Lz9+I="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4185,10 +4197,10 @@
       "output": {
         ".html": {
           "relative_path": "manual/intro.html",
-          "hash": "+12FEMBxeHA52APnEhHuToJWDgHWCDRlhjPQ+HvX3Qs="
+          "hash": "PnzcyvcbCqzT5PQGm4vXyvqD/WTedcjcpH/3jb85t3c="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4200,7 +4212,7 @@
           "hash": "Xp6ICexxE3C/p26QSTFk0BDvXrFvw4ZcAs4xyA+H8O0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4212,7 +4224,7 @@
           "hash": "Bcx8NwYTCfpXKRFnA7croHoMy5dvSGo8DmDSMLA9hFE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4224,7 +4236,7 @@
           "hash": "UysIWAerrC9CkvTwebb0eEcr4DhCkHyPXiDm3q3ag70="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4236,7 +4248,7 @@
           "hash": "BukvMC3Pekg9Yntp/LndXuW8yCUSZZHiuoqpDa0MOgg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4248,7 +4260,7 @@
           "hash": "foLz1A4E9zyiuGck8l0cdGQD+r6iiTF4wX2i1hCeFy8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4257,10 +4269,10 @@
       "output": {
         ".html": {
           "relative_path": "manual/scenesetup.html",
-          "hash": "DC/uFO2rojGsTzjIsCJgyrG9fiJVgwtVsR0ZIDhV+tU="
+          "hash": "GgKyhiHsdnk4FzrMJJTuzaIyrFENTf+VZw495ONRhd8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4272,7 +4284,7 @@
           "hash": "q4Kwlt21rsd6K2Vl7GniNxYJZNam6yrHwqXVj48nA9M="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4284,7 +4296,7 @@
           "hash": "Z2L89C+iXdFnaImetV66WG0/hf73czsOhkAWvEMBq04="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4296,7 +4308,7 @@
           "hash": "hQExBoIT/ClUVon6fVQlkh/LjlcaxVJ/QHCqg9EQ6nM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4308,7 +4320,7 @@
           "hash": "FhxxD9SN6HgGIas3t1DrwO0+V7bIfqv197KdEtH5jNE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4320,7 +4332,7 @@
           "hash": "ZLOoohZ3VTJesF6cf9GSE06odgu4gMA/VHjU1KolO30="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4332,7 +4344,7 @@
           "hash": "F4XAXZs0mG8i+Cyvt5Bkar4IAtn6l+kHyL1yqxUOvaE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4363,23 +4375,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 20,
-          "skipped_file_count": 19
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 329,
-          "skipped_file_count": 329
+          "total_file_count": 330,
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

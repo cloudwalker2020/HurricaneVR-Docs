@@ -2,10 +2,24 @@
 
 The following provides a brief explanation of the required objects / components needed in your scene for the asset to function.
 
+At the minimum only the following is needed to be in the scene to get started:
+- HVRGlobal Prefab: /HurricaneVR/Framework/Prefabs
+- Rig Prefab
+ 
 Example scene with the minimum required: /HurricaneVR/TechDemo/Scenes/scenes_barebones
 
-HVRGlobal Prefab: /HurricaneVR/Framework/Prefabs
-XR Rig Prefab: /HurricaneVR/TechDemo/Prefabs/ TechDemoXRRig | TechDemoXRRigOpenXR
+# XR Rigs
+
+Two player rigs are included with the framework already setup for you. Have a read through the Rig Breakdown section if you want to learn more about it's setup.
+
+Rig prefabs are located in /HurricaneVR/TechDemo/Prefabs/
+- **TechDemoXRRig**: For use with Oculus / SteamVR plugins.
+- **TechDemoXRRigOpenXR**: For use with OpenXR Plugin.
+    - The tracked drivers have been replaced with Unity's new input system tracked drivers.
+    - Prefab variant of TechDemoXRRig
+
+> [!TIP]
+> Create a prefab variant of the Rig Prefab if you decide to customize the rig, as future rig updates will come in the framework prefabs.
 
 # HVRGlobal
 
