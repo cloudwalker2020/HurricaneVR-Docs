@@ -4152,19 +4152,31 @@
           "hash": "fEwvVQ2UmGhk0YQ3Mx2faIXc3z6m8qJJQtC/M7bkyHU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/integrations.md",
+      "source_relative_path": "manual/integrations/finalik.md",
       "output": {
         ".html": {
-          "relative_path": "manual/integrations.html",
-          "hash": "rJaHM0KGK0+gE+AIKJNJdgHXZbJfOWcebe4VXlrBX/A="
+          "relative_path": "manual/integrations/finalik.html",
+          "hash": "nypGvleRWMCpjf3ua8zMI+wg3hiu96efCStJo+Lz9+I="
         }
       },
       "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/integrations/hexabody.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/integrations/hexabody.html",
+          "hash": "YJ/uL+reS4i/BG1g9ia4DDC++pE7eneALKhClBqdEuE="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4176,7 +4188,7 @@
           "hash": "+12FEMBxeHA52APnEhHuToJWDgHWCDRlhjPQ+HvX3Qs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4320,7 +4332,7 @@
           "hash": "F4XAXZs0mG8i+Cyvt5Bkar4IAtn6l+kHyL1yqxUOvaE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4329,7 +4341,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "E3Gf1iUS9/xDdPuOx6ojePNZ7Jx3kS/227awHm46q54="
+          "hash": "QZ4tD03JNRdSY6ymlpQTp2lza408GnkCa6rnIPR9nSQ="
         }
       },
       "is_incremental": false,
@@ -4360,8 +4372,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 19,
-          "skipped_file_count": 18
+          "total_file_count": 20,
+          "skipped_file_count": 19
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

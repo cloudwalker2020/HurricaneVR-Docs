@@ -39,4 +39,8 @@
           href: rig/handbreakdown.md
 
 - name: Integrations
-  href: integrations.md
+  items: 
+    - name: FinalIK (VRIK)
+      href: integrations/finalik.md
+    - name: HexaBodyVR
+      href: integrations/hexabody.md
