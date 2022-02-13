@@ -8,6 +8,12 @@ The [HVRSocket](xref:HurricaneVR.Framework.Core.Grabbers.HVRSocket) component is
 - Each [HVRGrabbable](xref:HurricaneVR.Framework.Core.HVRGrabbable) requires a subclass of [HVRSocketable](xref:HurricaneVR.Framework.Core.Sockets.HVRSocketable) that has a matching filter to validate it.
   - One [HVRSocketable](xref:HurricaneVR.Framework.Core.Sockets.HVRSocketable) can be assigned to a grabbable object.
 
+## Grabbable Detection
+
+Each socket requires atleast one [HVRTriggerGrabbableBag](xref:HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag) referenced to detect grabbable objects. If a reference to an existing [HVRTriggerGrabbableBag](xref:HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag) is not provided, one will be added to the socket game object on start.
+
+Requires trigger colliders to detect objects.
+
 ## Framework Provided Filters / Socketables
 
 ### Scriptable Object Based Filtering
