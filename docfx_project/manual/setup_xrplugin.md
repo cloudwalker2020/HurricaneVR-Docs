@@ -18,3 +18,7 @@ Make sure to expand the OpenXR Plugin so that you can find version 1.3 and highe
 :::image type="content" source="../images/openxr_otherversions.PNG" alt-text="open":::
 
 :::image type="content" source="../images/openxr_13.PNG" alt-text="o":::
+
+> [!IMPORTANT]
+> When using OpenXR, be sure to use the OpenXR rig variants as the device components are different from older versions: [XR Rigs](scenesetup.md#xr-rigs)
+
