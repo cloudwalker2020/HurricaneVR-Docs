@@ -3989,6 +3989,72 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/custom_hand_menu.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/custom_hand_menu.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hand_poser_component.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/hand_poser_component.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hand_poser_hands.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/hand_poser_hands.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hand_poser_parameters.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/hand_poser_parameters.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hand_poser_poses.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/hand_poser_poses.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hand_poser_selected_pose.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/hand_poser_selected_pose.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/hexabody_integration.PNG",
       "output": {
         "resource": {
@@ -4048,6 +4114,17 @@
       "output": {
         "resource": {
           "relative_path": "images/physics.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/poser_finger_curls.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/poser_finger_curls.PNG"
         }
       },
       "is_incremental": false,
@@ -4140,7 +4217,31 @@
           "hash": "aFwXodQQjzJbWX2AoXuQj9rlFZYvsgU6xmBYRaYRHro="
         }
       },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/hand_posing.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/hand_posing.html",
+          "hash": "cgaQ78x6jyb4125tx0Yz3Hhvy93sncJR4kDm3AHM75U="
+        }
+      },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/hand_setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/hand_setup.html",
+          "hash": "0oNihnfMINgyF+IFeEotGh2feQKxwZZyrozRcMBwHb4="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4164,7 +4265,7 @@
           "hash": "fEwvVQ2UmGhk0YQ3Mx2faIXc3z6m8qJJQtC/M7bkyHU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4200,7 +4301,7 @@
           "hash": "PnzcyvcbCqzT5PQGm4vXyvqD/WTedcjcpH/3jb85t3c="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4236,7 +4337,7 @@
           "hash": "UysIWAerrC9CkvTwebb0eEcr4DhCkHyPXiDm3q3ag70="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4353,7 +4454,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "QZ4tD03JNRdSY6ymlpQTp2lza408GnkCa6rnIPR9nSQ="
+          "hash": "hrL+pXvgT9eNs0oem+J7lEzObxNPiVEgSLlOQYK3FPQ="
         }
       },
       "is_incremental": false,
@@ -4384,8 +4485,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 20,
-          "skipped_file_count": 19
+          "total_file_count": 22,
+          "skipped_file_count": 21
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

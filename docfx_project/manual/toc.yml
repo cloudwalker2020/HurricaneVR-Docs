@@ -23,6 +23,15 @@
       href: sockets.md
     - name: Grab Detection
       href: detection.md
+- name: Hand Setup / Posing
+  items:
+    - name: Hand Setup
+      href: hand_setup.md
+    - name: Hand Posing
+      href: hand_posing.md
+        
+        
+
 - name: Rig Breakdown
   items:
     - name: Player Controller
