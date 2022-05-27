@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Physics Door Setup </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Physics Door Setup ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="physics-door-setup">Physics Door Setup</h1>
+
+<p>This tutorial will be using the included '<strong>swinging_door</strong>' prefab as a guide.</p>
+<ol>
+<li><p>First we setup the door rigidbody. Hopefully your door has the model pivot point set correctly at the side of the door for &quot;hinge rotation&quot;. If not place the door as a child of an empty game object and use the empty to set the pivot point. The dummy pivot object would become your rigidbody.</p>
+</li>
+<li><p>Add the Rigidbody, HVRPhysicsDoor and HVRRotationTracker components to the door.</p>
+<ol>
+<li><span class="mx-imgBorder">
+<img src="../../images/door_components.PNG" alt="door">
+</span>
+</li>
+<li>HVRPhysicsDoor will set the mass and gravity setting of the rigidbody. I use a default of 10 mass as the additional mass helps prevent joint stretching.</li>
+<li>Set the axis of rotation in the door and tracker components. Example door has a up vector of Y for rotation.</li>
+<li>Door Options:
+<ol>
+<li><strong>Start Locked</strong>: the door and handles if referenced, will not be openable until the Unlock method is executed on the component.
+<ol>
+<li>The example scene includes an example of this. <strong>key_door_setup</strong> prefab.</li>
+</ol>
+</li>
+<li><strong>Door Closing Settings:</strong>
+<ol>
+<li>When the door handle is not held, the door will automatically shut all the way if it's angle is lower than the <strong>'Close Angle'</strong></li>
+<li><strong>Close Over Time</strong> - the automatic closing will occur over this amount of time.</li>
+<li><strong>Close Detection Time</strong> the close sequence will start only if this amount of time has elapsed while the door angle is lower than <strong>'Close Angle'</strong></li>
+</ol>
+</li>
+<li><strong>SFX</strong>
+<ol>
+<li>Audio Clips can play when opened or closed based on the <strong>SFX Threshold Angle</strong> field.</li>
+<li>The timeout field delays playing the same clip again.</li>
+</ol>
+</li>
+<li><strong>Joint Limits</strong>
+<ol>
+<li>Most doors will limit their rotation, enable Limit Rotation and set the desired min and max angle.</li>
+<li>Joint limit rotation will depend on the axis set. You can use the <strong>Target Angular Velocity</strong> setting to use torque to rotate the door in play mode to easily test your joint limits. (Requires non zero damper to work).</li>
+</ol>
+</li>
+<li><strong>Joint Settings</strong>
+<ol>
+<li>Adjust the damper to add rotational difficulty (damper brings angular velocity to zero).</li>
+<li>Adjust the spring to control how fast the door will return to it's start rotation.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>Next we setup the door handles. If you don't need rotating door handles skip this step. You can add two door handles in v2.8.6 and up.</p>
+<ol>
+<li><strong>Rigidbody</strong> (I use mass of 10 for joint stability).</li>
+<li><strong>HVRPhysicsDial</strong> - sets up the rotation joint with joint limits, spring, and damper.
+<ol>
+<li>Set the axis of rotation.</li>
+<li>Set the 'Connected Body' to the door rigidbody.</li>
+<li>Assign the desired joint limits based on how far the handle will rotate.</li>
+<li>Joint Settings
+<ol>
+<li>Grabbed Damper - rotation difficulty when held</li>
+<li>Damper - rotation difficulty when not held</li>
+<li>Spring - spring force to return to the starting rotation - 10:1 Spring:Damper ratio is a good starting point.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>HVRRotationTracker</strong> - will be used by the door component to detect handle rotation
+<ol>
+<li>Set the axis of rotation</li>
+<li>Other settings can be ignored.</li>
+</ol>
+</li>
+<li><strong>HVRGrabbable</strong> - so we can grab the door handle
+<ol>
+<li><a href="https://youtu.be/HZQ6QdMmZ34">Grabbable Tutorial</a></li>
+<li>Disable force grabbing (unless you want to open the door handle in style :D)</li>
+<li>Enable Stationary so that the hand will move to the handle on grab.</li>
+</ol>
+</li>
+<li><strong>HVRPhysicsDoor</strong> - assign references
+<ol>
+<li>Enable 'Handle Requires Rotation' and assign the references for one or both handles setup.</li>
+<li>Enablinge 'Hand Requires Rotation' causes the door to latch shut, and it will only unlatch if either handle is rotated beyond 'Handle Threshold' amount of degrees from it's start rotation.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>Door Collision</p>
+<ol>
+<li>If you haven't already, you should add collision geometry to your door, frames, and handles.</li>
+<li>Take a look at the swinging_door prefab root. I use the HVRObjectCollisionDisabler component to make sure door parts don't collide with each other.</li>
+<li>Using this component will make all children colliders of the assigned transforms ignore collision with each other.</li>
+<li><span class="mx-imgBorder">
+<img src="../../images/door_disable_collision.PNG" alt="ddc">
+</span>
+</li>
+</ol>
+</li>
+</ol>
+<p>Door Handle Components:</p>
+<p><span class="mx-imgBorder">
+<img src="../../images/door_handle_components.PNG" alt="dhc">
+</span>
+</p>
+<p>Handle References on HVRPhysicsDoor:</p>
+<p><span class="mx-imgBorder">
+<img src="../../images/door_handle_refs.PNG" alt="refs">
+</span>
+</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR-Docs/blob/main/docfx_project/manual/components/door.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

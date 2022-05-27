@@ -55,3 +55,7 @@
       href: integrations/finalik.md
     - name: HexaBodyVR
       href: integrations/hexabody.md
+- name: Components
+  items:
+    - name: Physics Door Setup
+      href: components/door.md

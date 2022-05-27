@@ -4000,6 +4000,50 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/door_components.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/door_components.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/door_disable_collision.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/door_disable_collision.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/door_handle_components.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/door_handle_components.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/door_handle_refs.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/door_handle_refs.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/hand_poser_component.PNG",
       "output": {
         "resource": {
@@ -4375,6 +4419,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/components/door.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/components/door.html",
+          "hash": "+eX9h/FyUWDJAfR0V/PHqAfZCJuLB9dZITgMJTcES/Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/detection.md",
       "output": {
         ".html": {
@@ -4382,7 +4438,7 @@
           "hash": "aFwXodQQjzJbWX2AoXuQj9rlFZYvsgU6xmBYRaYRHro="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4394,7 +4450,7 @@
           "hash": "wbAh4bT7yxoDdEjeAUQMLsNBG8GjZQt+rCgMGB5XKk0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4430,7 +4486,7 @@
           "hash": "sHFt67a0Vs6rCFXA7uqPxu+IpZ9iyCOZQLvtnAsNLVw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4442,7 +4498,7 @@
           "hash": "/2Olf1R2SHeCsU76kDCQmPYA8aj10R2IsltkW34SGZw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4454,7 +4510,7 @@
           "hash": "nypGvleRWMCpjf3ua8zMI+wg3hiu96efCStJo+Lz9+I="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4466,7 +4522,7 @@
           "hash": "YJ/uL+reS4i/BG1g9ia4DDC++pE7eneALKhClBqdEuE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4478,7 +4534,7 @@
           "hash": "PnzcyvcbCqzT5PQGm4vXyvqD/WTedcjcpH/3jb85t3c="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4490,7 +4546,7 @@
           "hash": "Xp6ICexxE3C/p26QSTFk0BDvXrFvw4ZcAs4xyA+H8O0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4502,7 +4558,7 @@
           "hash": "Bcx8NwYTCfpXKRFnA7croHoMy5dvSGo8DmDSMLA9hFE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4514,7 +4570,7 @@
           "hash": "UysIWAerrC9CkvTwebb0eEcr4DhCkHyPXiDm3q3ag70="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4526,7 +4582,7 @@
           "hash": "BukvMC3Pekg9Yntp/LndXuW8yCUSZZHiuoqpDa0MOgg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4538,7 +4594,7 @@
           "hash": "foLz1A4E9zyiuGck8l0cdGQD+r6iiTF4wX2i1hCeFy8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4550,7 +4606,7 @@
           "hash": "GgKyhiHsdnk4FzrMJJTuzaIyrFENTf+VZw495ONRhd8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4562,7 +4618,7 @@
           "hash": "q4Kwlt21rsd6K2Vl7GniNxYJZNam6yrHwqXVj48nA9M="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4574,7 +4630,7 @@
           "hash": "Z2L89C+iXdFnaImetV66WG0/hf73czsOhkAWvEMBq04="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4586,7 +4642,7 @@
           "hash": "hQExBoIT/ClUVon6fVQlkh/LjlcaxVJ/QHCqg9EQ6nM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4598,7 +4654,7 @@
           "hash": "FhxxD9SN6HgGIas3t1DrwO0+V7bIfqv197KdEtH5jNE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4610,7 +4666,7 @@
           "hash": "XIHm9aMUJy9wZgVKlhGHB+xzkxRZUzp5nBOSFHS26iI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4622,7 +4678,7 @@
           "hash": "F4XAXZs0mG8i+Cyvt5Bkar4IAtn6l+kHyL1yqxUOvaE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4631,7 +4687,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "tA9GFgrTcq2nfS3vKsPVUujMijn/sWGkMQMp0EAweB0="
+          "hash": "6pxYuPWKJPF/Ha8jZIQMrtMWQH4hJOgcJiT14Cejusc="
         }
       },
       "is_incremental": false,
@@ -4662,8 +4718,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 23,
-          "skipped_file_count": 22
+          "total_file_count": 24,
+          "skipped_file_count": 23
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
