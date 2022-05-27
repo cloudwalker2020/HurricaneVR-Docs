@@ -90,7 +90,8 @@ Choose to drive the animation via code or from controller button presses. Button
 **Button Parameter?** must be toggled to use the button parameter, otherwise the Animation Parameter will be used.
 
 
-To set and clear parameters in code use the below static function calls used by the HVRHandAnimator. 
+To set and clear parameters in code use the below static function calls used by the HVRHandAnimator. The first parameter being the hand
+that this assignment will affect. 
 
 ```csharp
 

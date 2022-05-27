@@ -15,7 +15,7 @@
   items:
     - name: Scene Setup
       href: scenesetup.md
-    - name: HVRSettings
+    - name: Global Settings
       href: hvrsettings.md
     - name: Joint Settings
       href: jointsettings.md
@@ -23,9 +23,9 @@
       href: sockets.md
     - name: Grab Detection
       href: detection.md
-- name: Hand Setup / Posing
+- name: Hand Posing
   items:
-    - name: Hand Setup
+    - name: Custom Hand Setup
       href: hand_setup.md
     - name: Hand Posing
       href: hand_posing.md
