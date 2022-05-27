@@ -27,6 +27,8 @@
   items:
     - name: Custom Hand Setup
       href: hand_setup.md
+    - name: Custom Hand Setup (Old)
+      href: hand_setup_old.md
     - name: Hand Posing
       href: hand_posing.md
         

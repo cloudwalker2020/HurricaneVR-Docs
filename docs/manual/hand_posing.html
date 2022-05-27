@@ -147,7 +147,8 @@ A curl value of 0 would pose that finger at the hand's relaxed pose, where a val
 <p><strong>Animation Parameter / Button Parameter</strong></p>
 <p>Choose to drive the animation via code or from controller button presses. Button Parameter mode is really only useful for Oculus controllers since only one button can be chosen at a time. Or if you are using grip / trigger as all controllers have that. To handle all controllers or for more complex scenarios then make use of the Animation Parameter instead.<br>
 <strong>Button Parameter?</strong> must be toggled to use the button parameter, otherwise the Animation Parameter will be used.</p>
-<p>To set and clear parameters in code use the below static function calls used by the HVRHandAnimator.</p>
+<p>To set and clear parameters in code use the below static function calls used by the HVRHandAnimator. The first parameter being the hand
+that this assignment will affect.</p>
 <pre><code class="lang-csharp">
 HVRAnimationParameters.ClearFloatParameter(HVRHandSide.Right, &quot;ParameterNameHere&quot;);
 HVRAnimationParameters.SetBoolParameter(HVRHandSide.Right, &quot;ParameterNameHere&quot;, true);

@@ -4055,6 +4055,171 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/hand_wizard_tip.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/hand_wizard_tip.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizard1.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizard1.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizard_assignposes.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizard_assignposes.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizard_capsules.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizard_capsules.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizard_empty_go.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizard_empty_go.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizard_findhand.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizard_findhand.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizard_finger_parent.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizard_finger_parent.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizard_hand_start.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizard_hand_start.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizard_hvrsettings.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizard_hvrsettings.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizard_mirrortestobjects.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizard_mirrortestobjects.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizard_palm.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizard_palm.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizard_poseview.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizard_poseview.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizardmirror.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizardmirror.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizardmirrortest.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizardmirrortest.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/handwizardtips.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/handwizardtips.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/hexabody_integration.PNG",
       "output": {
         "resource": {
@@ -4226,10 +4391,10 @@
       "output": {
         ".html": {
           "relative_path": "manual/hand_posing.html",
-          "hash": "cgaQ78x6jyb4125tx0Yz3Hhvy93sncJR4kDm3AHM75U="
+          "hash": "wbAh4bT7yxoDdEjeAUQMLsNBG8GjZQt+rCgMGB5XKk0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4238,10 +4403,22 @@
       "output": {
         ".html": {
           "relative_path": "manual/hand_setup.html",
-          "hash": "0oNihnfMINgyF+IFeEotGh2feQKxwZZyrozRcMBwHb4="
+          "hash": "oT6J7NiYDYC1jqn3Jjk34hRt5kZprLtPV/mhOomWW5A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/hand_setup_old.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/hand_setup_old.html",
+          "hash": "rLfokOQGMPnpZ1cn1kQ41OUttkPvLipA0zreGjGUJHY="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4262,7 +4439,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/hvrsettings.html",
-          "hash": "fEwvVQ2UmGhk0YQ3Mx2faIXc3z6m8qJJQtC/M7bkyHU="
+          "hash": "/2Olf1R2SHeCsU76kDCQmPYA8aj10R2IsltkW34SGZw="
         }
       },
       "is_incremental": true,
@@ -4454,7 +4631,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "hrL+pXvgT9eNs0oem+J7lEzObxNPiVEgSLlOQYK3FPQ="
+          "hash": "tA9GFgrTcq2nfS3vKsPVUujMijn/sWGkMQMp0EAweB0="
         }
       },
       "is_incremental": false,
@@ -4485,8 +4662,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 22,
-          "skipped_file_count": 21
+          "total_file_count": 23,
+          "skipped_file_count": 22
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

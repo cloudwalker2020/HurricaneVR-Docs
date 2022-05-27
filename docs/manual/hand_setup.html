@@ -73,13 +73,140 @@
 <p>If you have a single hand model you can follow this guide created by a fellow community user to created the second hand.</p>
 <div class="embeddedvideo"><iframe src="https://www.youtube-nocookie.com/embed/Hwgj7Z2_zLU" frameborder="0" allowfullscreen="true"></iframe></div>
 <h2 id="hand-setup-wizard">Hand Setup Wizard</h2>
-<p>If you have a set of hands that are mirrorable, you can make use of the hand setup wizard which automates the majority of the manual process described in the below video.</p>
+<p>If you have a set of hands that are mirrorable, you can make use of the hand setup wizard which automates a majority of the component and field setup.</p>
 <p><span class="mx-imgBorder">
 <img src="../images/custom_hand_menu.PNG" alt="customhandtoolbar">
 </span>
 </p>
-<h2 id="custom-hand-setup-tutorial">Custom Hand Setup Tutorial</h2>
-<div class="embeddedvideo"><iframe src="https://www.youtube-nocookie.com/embed/U0YVgwZvhfc" frameborder="0" allowfullscreen="true"></iframe></div>
+<ol>
+<li>Place the hand's as a child of the same object, making sure the fingers are pointing along the forward (blue) axis of the parent object.</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizard_empty_go.PNG" alt="handemptygo">
+</span>
+</p>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizard_hand_start.PNG" alt="start">
+</span>
+</p>
+<ol start="2">
+<li>Assign the hand root transforms.</li>
+<li>Assign the Rig root that these hands will attach to. Any included rig will work, including the HexaBody integration rigs.</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizard1.PNG" alt="hw1">
+</span>
+</p>
+<ol start="4">
+<li>Most models (should) have a common parent transform of the finger bones. Locate this and assign as in the image above.</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizard_finger_parent.PNG" alt="hwfp">
+</span>
+</p>
+<ol start="5">
+<li><p>The standard order for finger bones are Index, Middle, Pinky, Ring, Thumb. If your model does not follow this order, adjust the order using the drop downs.</p>
+</li>
+<li><p>Assign the number of bones that each finger has.</p>
+</li>
+<li><p>If there are non bone transforms between the assigned &quot;Finger Parent&quot; and the first bone of the finger, increase the &quot;Root Offset&quot; count for each of these.</p>
+<ol>
+<li>This most likely won't be the case unless the hand designer is doing some weird stuff..</li>
+</ol>
+</li>
+<li><p>After all fields are assigned, press Setup.</p>
+</li>
+<li><p>Upon pressing Setup, a new transform named &quot;Palm&quot; is added to each hand. Place it in the center of the palm just on the surface of the mesh with the forward axis facing out at a 90 degree angle from the palm surface as in the image below. Make sure to do this for both hands.</p>
+</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizard_palm.PNG" alt="palm">
+</span>
+</p>
+<ol start="11">
+<li>Take note of the Tip transforms added to each end bone.</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizardtips.PNG" alt="tips">
+</span>
+</p>
+<ol start="12">
+<li>Move each Tip transform to the center of the last bone as in the below image.</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="../images/hand_wizard_tip.PNG" alt="tip placement">
+</span>
+</p>
+<ol start="13">
+<li>At this point your editor should look like the below image. The progress tracker simply controls what view is currently seen. If you need to go back and redo a previous step simply uncheck the boxes from bottom to top.</li>
+<li>The hands should still be oriented facing forward on their dummy game object. Press Detect Mirror. This will snapshot the forward and up vectors of each bone for pose mirroring.</li>
+<li>After pressing Detect Mirror the option to &quot;Start Mirroring&quot; presents itself. This will let you test the mirroring of the hand bones.
+<span class="mx-imgBorder">
+<img src="../images/handwizardmirror.PNG" alt="hwmirror">
+</span>
+</li>
+<li>Pressing Mirror Test will clone the hands. Test mirroring by moving the Right Hand root, and the right hand bones. The left bone should mirror and match.
+<ol>
+<li>If mirroring for the thumbs failed, uncheck 'Mirror Detected', force the thumbs to align more closely with the forward vector of the dummy parent object, and try detecting mirror again.
+<span class="mx-imgBorder">
+<img src="../images/handwizard_mirrortestobjects.PNG" alt="mtesto">
+</span>
+</li>
+</ol>
+</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizardmirrortest.PNG" alt="mtest">
+</span>
+17. Once satisfied the mirroring is working, press Stop Mirroring. Then press 'Setup Rig References': this will replace the rig references to the components added to the new hands for you. The below screen will present itself.</p>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizard_poseview.PNG" alt="pv">
+</span>
+</p>
+<ol start="18">
+<li>Press 'Auto Setup Prefab / HVR Settings. This will create prefabs of the hand models in the root folder of the project (after the entire process is done feel free to relocate them), and update the HVRSettings scriptable object with the hand prefabs which is required for the posing system. If you locate your HVRSettings (search HVRSettings in the project search bar) you should now see the below fields populated. The prefabs are named the same as the hand model root's game object name.
+<ol>
+<li>While in HVRSettings you can choose a folder in your project for pose saving by pressing 'Chose Poses Directory' at the bottom of the inspector.</li>
+</ol>
+</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizard_hvrsettings.PNG" alt="hw">
+</span>
+</p>
+<ol start="19">
+<li>Press 'Create Hand Poser'. This will create a new game object with a HVRHandPoser component on it. Choose either hand and enable the preview for it in the hand poser editor. Proceed to create three poses:
+<ol>
+<li>Relaxed Pose: How the hand will look when you are not holding anything</li>
+<li>Fist Pose: Used by the hand animator when not holding anything and driven via capacitive finger curls. Also used by the dynamic poser.</li>
+<li>Open Pose: Used by the dynamic poser as the starting pose that interpolates towards the fist pose. A wide opened hand works best here.</li>
+<li>The posing and save process is the same as outlined in this tutorial video : <a href="https://youtu.be/HZQ6QdMmZ34">Hand Posing Tutorial</a>.</li>
+<li>After the poses are created, assign them in their respective fields and press 'Setup Poses'
+<ol>
+<li>The wizard will apply the pose field overrides automatically to the prefab objects in v2.8.6 and higher. In v2.8.5 and below you will need to apply the pending prefab overrides on the hand model prefabs.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizard_assignposes.PNG" alt="assign">
+</span>
+</p>
+<ol start="20">
+<li>At this point you will want to add colliders to your hand models, how you do this is up to you. There are some capsule collider helper buttons on the HVRPosableHand component located on the hand root. It will try and fit them based on the bone structure, but might need some massaging after adding.</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizard_capsules.PNG" alt="cap">
+</span>
+</p>
+<ol start="21">
+<li>The final step is to set the default position and rotation of the hand. Locate the hands on the physic hand objects. They were placed there by the setup process. You can use the existing rig hand as a guide. Afterwards I suggest going into play mode and placing the hand how you want it, copying the transform values out of play mode and back into edit mode. Once done you can remove the old hand model from the rig.</li>
+</ol>
+<p><span class="mx-imgBorder">
+<img src="../images/handwizard_findhand.PNG" alt="hand">
+</span>
+</p>
 </article>
           </div>
           
