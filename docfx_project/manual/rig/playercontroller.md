@@ -8,7 +8,7 @@ If you want to build a game like Boneworks or Blade and Sorcery, then [HexaBodyV
 
 ## [HVRPlayerController](xref:HurricaneVR.Framework.Core.Player.HVRPlayerController)
 
-The main component that drives the [CharacterController](https://docs.unity3d.com/ScriptReference/CharacterController.html) using smooth locomotion with smooth / snap turning options.
+The main component that drives the [CharacterController](https://docs.unity3d.com/ScriptReference/CharacterController.html) using smooth locomotion with smooth / snap turning options. Disable for teleporting only.
 
 ## [HVRTeleporter](xref:HurricaneVR.Framework.Core.Player.HVRTeleporter)
 
