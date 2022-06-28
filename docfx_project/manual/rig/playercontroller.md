@@ -12,7 +12,7 @@ The main component that drives the [CharacterController](https://docs.unity3d.co
 
 ## [HVRTeleporter](xref:HurricaneVR.Framework.Core.Player.HVRTeleporter)
 
-Used to teleport the player with Alyx style line curve options, destination validation, "jump" and "fall" optional limits. If you do need laser based teleporting in your game you can disable the component.
+Used to teleport the player with Alyx style line curve options, destination validation, "jump" and "fall" optional limits. If you do not need laser based teleporting in your game you can disable the component.
 
 Can be used to teleport the player with held objects programatically so be sure to leave this component as is if you need that functionality. Check 'scene_examples' for a demo of this.
 
