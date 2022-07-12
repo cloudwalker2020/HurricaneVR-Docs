@@ -23,6 +23,8 @@
       href: sockets.md
     - name: Grab Detection
       href: detection.md
+    - name: Inputs
+      href: inputs.md
 - name: Hand Posing
   items:
     - name: Custom Hand Setup

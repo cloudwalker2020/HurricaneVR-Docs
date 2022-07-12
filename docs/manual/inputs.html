@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Inputs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Inputs ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="inputs">Inputs</h1>
+
+<p>HVR reads inputs from SteamVR, OpenXR (Input system), or UnityXR depending on the XR Plugin chosen. Be sure to read through <a href="scenesetup.html#scene-setup">Scene Setup</a> first for required scene components.<br>
+Polled during the Update phase by HVRController class and subclasses.</p>
+<h3 id="controller-access">Controller Access</h3>
+<pre><code class="lang-csharp">
+//Access Controller classes from anywhere.
+HVRInputManager.Instance.RightController;
+HVRInputManager.Instance.LeftController;
+
+</code></pre>
+<h3 id="available-fields">Available Fields</h3>
+<p>The following fields are available on the HVRController objects (depending on controller type).<br>
+The HVRButtonState structs are used to determine if the button is pressed, just pressed, or just released.</p>
+<pre><code class="lang-csharp">
+public struct HVRButtonState
+{
+    public bool Active;
+    public bool JustActivated;
+    public bool JustDeactivated;
+    public float Value;
+}
+
+public HVRButtonState GripButtonState;
+public HVRButtonState TriggerButtonState;
+public HVRButtonState PrimaryButtonState;
+public HVRButtonState SecondaryButtonState;
+public HVRButtonState MenuButtonState;
+public HVRButtonState PrimaryTouchButtonState;
+public HVRButtonState SecondaryTouchButtonState;
+public HVRButtonState JoystickButtonState;
+public HVRButtonState TrackpadButtonState;
+
+public HVRButtonState JoystickTouchState;
+public HVRButtonState TrackPadTouchState;
+public HVRButtonState TriggerTouchState;
+public HVRButtonState ThumbTouchState;
+
+public HVRButtonState TriggerNearTouchState;
+public HVRButtonState ThumbNearTouchState;
+
+public HVRButtonState TrackPadUp;
+public HVRButtonState TrackPadLeft;
+public HVRButtonState TrackPadRight;
+public HVRButtonState TrackPadDown;
+
+public Vector2 JoystickAxis;
+public Vector2 TrackpadAxis;
+
+public bool PrimaryButton;
+public bool SecondaryButton;
+public bool JoystickClicked;
+public bool TrackPadClicked;
+public bool MenuButton;
+public bool PrimaryTouch;
+public bool SecondaryTouch;
+
+public float Grip;
+public float GripForce;
+public float Trigger;
+
+public bool ThumbTouch;
+public bool TriggerTouch;
+
+</code></pre>
+<h3 id="controller-type">Controller Type</h3>
+<p>For PCVR, use the following HVRController Properties to determine the controller type. Your last else statement can handle Oculus / standard type controllers.</p>
+<pre><code class="lang-csharp">public bool Knuckles =&gt; ControllerType == HVRControllerType.Knuckles;
+public bool WMR =&gt; ControllerType == HVRControllerType.WMR;
+public bool Vive =&gt; ControllerType == HVRControllerType.Vive;
+</code></pre>
+<h3 id="controller-hand">Controller Hand</h3>
+<pre><code class="lang-csharp">
+// Left or Right
+public HVRHandSide Side { get; set; }
+
+</code></pre>
+<h2 id="hvrplayerinputs">HVRPlayerInputs</h2>
+<p>This component (On PlayerController object by default) collects device inputs for use by the player controller, teleporter, and hand grabbing systems. It's designed to be subclassed if the user wants to override which buttons drive specific actions for various device types.</p>
+<h2 id="accessing-controller-from-grabbable">Accessing Controller From Grabbable</h2>
+<p>With a reference to a grabbable component, the below can be used to access the controller reference for each hand holding the object.</p>
+<pre><code class="lang-csharp">
+for (var i = 0; i &lt; Grabbable.HandGrabbers.Count; i++)
+{
+    var hand = Grabbable.HandGrabbers[i];
+    var controller = hand.Controller;
+}
+
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR-Docs/blob/main/docfx_project/manual/inputs.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

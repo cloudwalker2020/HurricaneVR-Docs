@@ -4503,6 +4503,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/inputs.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/inputs.html",
+          "hash": "B17kThxzOs8EqWx1tY8mQFIufMubCXqyDIeP8D5o2rI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/integrations/finalik.md",
       "output": {
         ".html": {
@@ -4594,7 +4606,7 @@
           "hash": "L11V4yxTq7+MfWopEe41x0EbDAWsU132j9d3rschnr4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4687,7 +4699,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "6pxYuPWKJPF/Ha8jZIQMrtMWQH4hJOgcJiT14Cejusc="
+          "hash": "Valby7NrTm9XhV2QRA5tyJAEKwPagfREeGuGfm8jOzQ="
         }
       },
       "is_incremental": false,
@@ -4718,8 +4730,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 24,
-          "skipped_file_count": 23
+          "total_file_count": 25,
+          "skipped_file_count": 24
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
