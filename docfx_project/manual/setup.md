@@ -1,20 +1,42 @@
 # Project and Packages Setup
 
 - Import the HurricaneVR Asset from the Unity Package Manager before proceeding.
-- Make sure TextMesh Pro is installed and updated to the latest version for the example scenes.
+- Make sure TextMesh Pro is installed and updated to the latest version for the example scenes. 
 - Setup your Unity VR environment based on the below, then proceed to setup your [Project Settings](setup_project.md#project-setup).
 
-## Oculus Store Builds
+# XR Plugin Management
 
-- [Oculus dev article on deprecation of the Unity 2019 Legacy Oculus SDK](https://developer.oculus.com/blog/oculus-all-in-on-openxr-deprecates-proprietary-apis/)
-- Install [XR Plugin Management](setup_xrplugin.md#xr-plugin-management) with either the [Oculus XR Plugin](https://docs.unity3d.com/Packages/com.unity.xr.oculus@2.0/manual/index.html) or the [OpenXR Plugin](https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.3/manual/index.html).
-- [Legacy SDK](setup_legacyvr.md#unity-2019-legacy-vr) is only allowed by Oculus with a waiver according to their article.
+1. Install the XR Plugin Management package from the Package Manager or the Project Settings window.
+1. Install the following packages from the Package Manager depending on your target platforms.
+    1. **Oculus**: Oculus XR Plugin
+        1. OpenXR XR Plugin also works but I feel that Oculus XR Plugin currently is better for Oculus devices.
+    1. **PCVR**: [SteamVR Plugin](https://assetstore.unity.com/packages/tools/integration/steamvr-plugin-32647) or OpenXR Plugin.
+        1. Keep in mind Valve Knuckles finger tracking is not supported yet by Unity OpenXR and requires SteamVR plugin to work correctly.
+1. Enable the Plug-in Providers under Edit -> ProjectSettings -> XR Plugin-Management
+    1. Oculus and/or OpenVR Loader OR OpenXR
 
-## PCVR Builds
+:::image type="content" source="../images/xr_plugin_management.png" alt-text="xr plugin":::
 
-Choose between using the [SteamVR Plugin](https://assetstore.unity.com/packages/tools/integration/steamvr-plugin-32647) or [OpenXR Plugin](https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.3/manual/index.html) depending on what Unity version you want to use.\
-Keep in mind Valve Knuckles finger tracking is not supported yet by Unity OpenXR and requires SteamVR plugin to work correctly.
+:::image type="content" source="../images/xr_plugin_projectsettings.png" alt-text="xrplugin":::
 
-- Unity 2019:  [Legacy SDK](setup_legacyvr.md#unity-2019-legacy-vr) + [SteamVR](setup_steamvr.md#steamvr)
-- Unity 2019 and above: [XR Plugin Management](setup_xrplugin.md#xr-plugin-management) + [SteamVR](setup_steamvr.md#steamvr)
-- Unity 2020.3 and above [XR Plugin Management](setup_xrplugin.md#xr-plugin-management) + [OpenXR](https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.3/manual/index.html) 1.3+
+## OpenXR Plugin 
+
+Make sure to expand the OpenXR Plugin so that you can find version 1.3 and higher. These are required for haptics to work and your project will not compile without the correct version.
+
+Install the Interaction Profiles for the devices you want to support.
+
+- G2 Support : https://developers.hp.com/omnicept-xr/blog/reverb-g2-tracking-openxr-unity?language=ko
+- WMR Support: https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool
+
+:::image type="content" source="../images/openxr.PNG" alt-text="o":::
+
+:::image type="content" source="../images/openxr_otherversions.PNG" alt-text="open":::
+
+:::image type="content" source="../images/openxr_13.PNG" alt-text="o":::
+
+> [!IMPORTANT]
+> Select the Oculus OpenXR runtime if you are using Oculus devices. SteamVR blocks the left menu button on Oculus devices.
+> Also as of July 2022 SteamVR broke Oculus devices anyway, read [here](https://forum.unity.com/threads/primary-button-on-quest-2-controllers-never-returns-true-when-pressed.1294833/#post-8214897)
+
+> [!IMPORTANT]
+> When using OpenXR, be sure to use the OpenXR rig variants as the device components are different from older versions: [XR Rigs](scenesetup.md#xr-rigs)

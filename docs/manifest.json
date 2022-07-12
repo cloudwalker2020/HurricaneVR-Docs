@@ -4297,6 +4297,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/openxr.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/openxr.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/openxr_13.PNG",
       "output": {
         "resource": {
@@ -4510,7 +4521,7 @@
           "hash": "B17kThxzOs8EqWx1tY8mQFIufMubCXqyDIeP8D5o2rI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4546,7 +4557,7 @@
           "hash": "PnzcyvcbCqzT5PQGm4vXyvqD/WTedcjcpH/3jb85t3c="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4627,10 +4638,10 @@
       "output": {
         ".html": {
           "relative_path": "manual/setup.html",
-          "hash": "q4Kwlt21rsd6K2Vl7GniNxYJZNam6yrHwqXVj48nA9M="
+          "hash": "qDdf775h5g8LLDQDyNtTfupzscXAD6brDy/J9jenslQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4642,7 +4653,7 @@
           "hash": "Z2L89C+iXdFnaImetV66WG0/hf73czsOhkAWvEMBq04="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4699,7 +4710,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "Valby7NrTm9XhV2QRA5tyJAEKwPagfREeGuGfm8jOzQ="
+          "hash": "RkTvJ6gFMpxTCsQRwabBcv6iFXV9zIUY82Kf8fIzLWY="
         }
       },
       "is_incremental": false,

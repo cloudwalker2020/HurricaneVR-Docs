@@ -5,12 +5,8 @@
   items:
     - name: Project Settings
       href: setup_project.md
-    - name: XR Plugin
-      href: setup_xrplugin.md
     - name: SteamVR
       href: setup_steamvr.md
-    - name: LegacyVR (Unity 2019)
-      href: setup_legacyvr.md
 - name: Framework
   items:
     - name: Scene Setup
