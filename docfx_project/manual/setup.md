@@ -10,7 +10,7 @@
 1. Install the following packages from the Package Manager depending on your target platforms.
     1. **Oculus**: Oculus XR Plugin
         1. OpenXR XR Plugin also works but I feel that Oculus XR Plugin currently is better for Oculus devices.
-    1. **PCVR**: [SteamVR Plugin](https://assetstore.unity.com/packages/tools/integration/steamvr-plugin-32647) or OpenXR Plugin.
+    1. **PCVR**: [SteamVR](setup_steamvr.md#steamvr) or OpenXR Plugin.
         1. Keep in mind Valve Knuckles finger tracking is not supported yet by Unity OpenXR and requires SteamVR plugin to work correctly.
 1. Enable the Plug-in Providers under Edit -> ProjectSettings -> XR Plugin-Management
     1. Oculus and/or OpenVR Loader OR OpenXR
