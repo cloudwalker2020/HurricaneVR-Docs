@@ -3,6 +3,9 @@
 - Import the HurricaneVR Asset from the Unity Package Manager before proceeding.
 - Make sure TextMesh Pro is installed and updated to the latest version for the example scenes. 
 - Setup your Unity VR environment based on the below, then proceed to setup your [Project Settings](setup_project.md#project-setup).
+- Optional Use Empty Template Projects
+    - https://github.com/cloudwalker2020/HurricaneTemplate_2021_OpenXR
+    - https://github.com/cloudwalker2020/HurricaneTemplate_2021_SteamVR
 
 # XR Plugin Management
 
