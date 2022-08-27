@@ -46,6 +46,12 @@ The rest of the included filters are deprecated due to the addition of the [Tag 
 
 ## Socketable Orientation
 
+**Version >= 2.9**
+
+> [!VIDEO <iframe width="1280" height="720" src="https://www.youtube.com/embed/YbJho-fLFyM" title="HurricaneVR | 2.9+ | Socketable Orientation Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]
+
+**Versions < 2.9**
+
 Socketable objects are parented to the object and their transform values are reset. If the Socketable has it's 'Socket Orientation' field assigned to a child transform, the local position and rotation will be pulled from that transform and aligned with the socket object axes. The grabbable objects in the example scene have these orientation overrides set as an example.
 
 If a socketable object is allowed into two different socket types, it's possible you will need to write custom orientation logic into one of the socket components. The DemoHolster socket subclass used in the example scene can be used as a guide. The small weapons (knife and gun) have DemoHolsterOrientation components with a Transform override that will align the socketable axis with the socket axis.
