@@ -48,7 +48,7 @@ The rest of the included filters are deprecated due to the addition of the [Tag 
 
 **Version >= 2.9**
 
-> [!VIDEO <iframe width="1280" height="720" src="https://www.youtube.com/embed/YbJho-fLFyM" title="HurricaneVR | 2.9+ | Socketable Orientation Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]
+> [!VIDEO https://www.youtube.com/embed/YbJho-fLFyM]
 
 **Versions < 2.9**
 

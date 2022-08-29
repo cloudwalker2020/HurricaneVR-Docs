@@ -57,3 +57,5 @@
   items:
     - name: Physics Door Setup
       href: components/door.md
+    - name: Stabbing System
+      href: components/stabbing.md

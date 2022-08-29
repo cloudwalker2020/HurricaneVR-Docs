@@ -4442,6 +4442,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/components/stabbing.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/components/stabbing.html",
+          "hash": "BRrjl8YwIDjoWiTEXP3aJrUX2sQ2jYcx0nbkh58Nq3Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/detection.md",
       "output": {
         ".html": {
@@ -4698,7 +4710,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/sockets.html",
-          "hash": "irp+ZSbUDTgvqCEy/y+K4Tjkielx+Azp7KyeI0pxzR4="
+          "hash": "FGsoTCfGmIMCFhVGfedCaK3Qkqkuhcfrz34fvylvKCQ="
         }
       },
       "is_incremental": false,
@@ -4710,7 +4722,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "RkTvJ6gFMpxTCsQRwabBcv6iFXV9zIUY82Kf8fIzLWY="
+          "hash": "rpN8D8vrmd2u5/OW0775k5sRGqY7i87c9Ybs1wRYgFM="
         }
       },
       "is_incremental": false,
@@ -4741,8 +4753,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 25,
-          "skipped_file_count": 24
+          "total_file_count": 26,
+          "skipped_file_count": 25
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
