@@ -4521,7 +4521,7 @@
           "hash": "/2Olf1R2SHeCsU76kDCQmPYA8aj10R2IsltkW34SGZw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4530,10 +4530,10 @@
       "output": {
         ".html": {
           "relative_path": "manual/inputs.html",
-          "hash": "B17kThxzOs8EqWx1tY8mQFIufMubCXqyDIeP8D5o2rI="
+          "hash": "ewj6+w1CNyqhqPqMpnwUPiDnbnK3usevLzMCJSnZ42g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4569,7 +4569,7 @@
           "hash": "PnzcyvcbCqzT5PQGm4vXyvqD/WTedcjcpH/3jb85t3c="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4713,7 +4713,7 @@
           "hash": "FGsoTCfGmIMCFhVGfedCaK3Qkqkuhcfrz34fvylvKCQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {

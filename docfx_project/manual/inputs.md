@@ -96,6 +96,9 @@ public HVRHandSide Side { get; set; }
 ## HVRPlayerInputs
 This component (On PlayerController object by default) collects device inputs for use by the player controller, teleporter, and hand grabbing systems. It's designed to be subclassed if the user wants to override which buttons drive specific actions for various device types.
 
+> [!IMPORTANT]
+> Update the component reference on both HVRHandGrabbers located on the Left and Right hand objects if replaced with a subclass.
+
 ## Accessing Controller From Grabbable
 
 With a reference to a grabbable component, the below can be used to access the controller reference for each hand holding the object.
