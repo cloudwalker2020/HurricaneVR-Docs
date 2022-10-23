@@ -56,4 +56,9 @@ Once you reach the desiered level of responsiveness, increase the Damper until t
 Dividing the Spring value by 10 is a good starting point for tuning the Damper.
 
 Then finally limit the Max value based on how strong you want the hand to be.
- 
+
+## Converting Joint Settings to PDStrength
+
+A context menu has been added when right clicking on HVRJointSettings assets to convert to PDStrength assets.
+
+:::image type="content" source="../../images/strengthconversion.PNG" alt-text="str":::

@@ -4407,6 +4407,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/strengthconversion.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/strengthconversion.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/tags_layers.png",
       "output": {
         "resource": {
@@ -4647,7 +4658,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/rig/pdstrength.html",
-          "hash": "oQK22QX3pd6MUGGWLGtgcV+UMSwizqf6nDxvpnjdmTs="
+          "hash": "a76gGv5KVXEjHNFue1IBcCvxvBh7IA9rMGDzav/MTEc="
         }
       },
       "is_incremental": false,
