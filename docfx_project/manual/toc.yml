@@ -42,6 +42,8 @@
     - name: Physics Hands
       href: rig/physicshands.md
       items:
+        - name: Physics PD Controller
+          href: rig/pdstrength.md
         - name: Hand Grabber
           href: hands.md
         - name: Hand Breakdown

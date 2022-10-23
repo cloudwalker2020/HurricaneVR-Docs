@@ -69,11 +69,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="physics-hands">Physics Hands</h1>
 
-<p>The hands are driven using a PD controller. The implementation makes use of Unity's <a href="https://docs.unity3d.com/Manual/class-ConfigurableJoint.html">Configurable Joint</a> to take advantage of the physics engines iterative nature and stability of simulation that joints allow.</p>
-<p>PD controllers are simply PID controllers that ignore the I component, if you want to learn more on the subject then check out this excellent video on the topic - <a href="https://www.youtube.com/watch?v=wkfEZmsQqiA">PID Control</a>.</p>
-<h2 id="hvrjointhand">HVRJointHand</h2>
-<p><a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRJointHand.html">HVRJointHand</a> is a PD controller implementation that chases the target controller.</p>
-<p><a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRJointHand.html#HurricaneVR_Framework_Core_Player_HVRJointHand_JointSettings">JointSettings</a> defines the default PD values used that controls the hand's strength.</p>
+<p>The hands are driven using a joint based PD controller. Read more <a href="pdstrength.html#pd-controller">PD Controller</a>.</p>
 <h3 id="max-distance">Max Distance</h3>
 <p>If distance between the hand and the controller is greater than <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRJointHand.html#HurricaneVR_Framework_Core_Player_HVRJointHand_MaxTargetDistance">MaxTargetDistance</a> or if the distance between <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRJointHand.html#HurricaneVR_Framework_Core_Player_HVRJointHand_Anchor">Anchor</a> (shoulder) and the hand is greater than <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRJointHand.html#HurricaneVR_Framework_Core_Player_HVRJointHand_ArmLength">ArmLength</a> one of the below is performed.</p>
 <p>Set <a class="xref" href="../../api/HurricaneVR.Framework.Core.Player.HVRJointHand.html#HurricaneVR_Framework_Core_Player_HVRJointHand_MaxDistanceBehaviour">MaxDistanceBehaviour</a> to determine what happens after max distance is breached.</p>

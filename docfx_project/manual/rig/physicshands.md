@@ -1,15 +1,6 @@
 # Physics Hands
 
-The hands are driven using a PD controller. The implementation makes use of Unity's [Configurable Joint](https://docs.unity3d.com/Manual/class-ConfigurableJoint.html) to take advantage of the physics engines iterative nature and stability of simulation that joints allow. 
-
-PD controllers are simply PID controllers that ignore the I component, if you want to learn more on the subject then check out this excellent video on the topic - [PID Control](https://www.youtube.com/watch?v=wkfEZmsQqiA).
-
-## HVRJointHand
-
-[HVRJointHand](xref:HurricaneVR.Framework.Core.Player.HVRJointHand) is a PD controller implementation that chases the target controller.
-
-[JointSettings](xref:HurricaneVR.Framework.Core.Player.HVRJointHand.JointSettings) defines the default PD values used that controls the hand's strength.
-
+The hands are driven using a joint based PD controller. Read more [PD Controller](pdstrength.md#pd-controller).
  
 ### Max Distance
 

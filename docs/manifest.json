@@ -4044,6 +4044,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/grabbable_strengths.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/grabbable_strengths.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/hand_poser_component.PNG",
       "output": {
         "resource": {
@@ -4330,6 +4341,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/pdstrength.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/pdstrength.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/physics.png",
       "output": {
         "resource": {
@@ -4389,6 +4411,17 @@
       "output": {
         "resource": {
           "relative_path": "images/tags_layers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/twohandstrengthoverride.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/twohandstrengthoverride.PNG"
         }
       },
       "is_incremental": false,
@@ -4533,7 +4566,7 @@
           "hash": "ewj6+w1CNyqhqPqMpnwUPiDnbnK3usevLzMCJSnZ42g="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4610,14 +4643,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/rig/pdstrength.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/rig/pdstrength.html",
+          "hash": "oQK22QX3pd6MUGGWLGtgcV+UMSwizqf6nDxvpnjdmTs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/rig/physicshands.md",
       "output": {
         ".html": {
           "relative_path": "manual/rig/physicshands.html",
-          "hash": "BukvMC3Pekg9Yntp/LndXuW8yCUSZZHiuoqpDa0MOgg="
+          "hash": "M720O/n+Zz1uZ7zx0iZvA6GRPJsFIemH1vS9seWmiqA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -4722,7 +4767,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "rpN8D8vrmd2u5/OW0775k5sRGqY7i87c9Ybs1wRYgFM="
+          "hash": "BgCgY6SBVORIoqqvZDWzNxEswIVHsEZjp2aZeXJMLZU="
         }
       },
       "is_incremental": false,
@@ -4753,8 +4798,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 26,
-          "skipped_file_count": 25
+          "total_file_count": 27,
+          "skipped_file_count": 26
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
