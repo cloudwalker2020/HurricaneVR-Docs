@@ -4286,6 +4286,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/hexadebugkeys.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/hexadebugkeys.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/hvrsetupwindow.png",
       "output": {
         "resource": {
@@ -4558,6 +4569,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/hexabody/hexabody.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/hexabody/hexabody.html",
+          "hash": "x+ILtDVi3ULEiOx0LhFoFjnS8A4tvDzUewzsUnr4W00="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/hvrsettings.md",
       "output": {
         ".html": {
@@ -4661,7 +4684,7 @@
           "hash": "a76gGv5KVXEjHNFue1IBcCvxvBh7IA9rMGDzav/MTEc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4673,7 +4696,7 @@
           "hash": "M720O/n+Zz1uZ7zx0iZvA6GRPJsFIemH1vS9seWmiqA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4778,7 +4801,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "BgCgY6SBVORIoqqvZDWzNxEswIVHsEZjp2aZeXJMLZU="
+          "hash": "35saxDMioJ6yPGlB1d28TdIoF5cf144UNA1gCvLl5bM="
         }
       },
       "is_incremental": false,
@@ -4809,8 +4832,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 27,
-          "skipped_file_count": 26
+          "total_file_count": 28,
+          "skipped_file_count": 27
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

@@ -61,3 +61,6 @@
       href: components/door.md
     - name: Stabbing System
       href: components/stabbing.md
+      
+- name: HexaBody
+  href: hexabody/hexabody.md

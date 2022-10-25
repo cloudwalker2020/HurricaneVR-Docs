@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>HexaBody </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="HexaBody ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="hexabody">HexaBody</h1>
+
+<p>This player controller was modelled after the Boneworks player controller which uses:</p>
+<ol>
+<li>A rolling ball for locomotion.</li>
+<li>Height calibration for fixed height player.</li>
+<li>Inverse forces applied to the player via the Hand rigidbodies</li>
+<li>Crouching and Jumping which is driven by lifting the lower ball / knee up and down.</li>
+</ol>
+<h2 id="height-calibration">Height Calibration</h2>
+<p>The player is required to calibrate their height as the HexaBody is fixed height. The 'Eye Height' field under the Body Adjustment section of HexaBodyPlayer4 component drives the height calibration.</p>
+<p>The default 1.66m is chosen since the average male height is 5'9''.</p>
+<p>The <strong>HexaBodyPlayer4.Calibrate</strong> function should be called via a UI you provide to your player. After the calibration function executes you should persist the Camera's local y position to be reused when the player restarts your game.</p>
+<p>The <strong>HexaBodyPlayer4.CalibrateHeight</strong> function should be called passing in the value you stored when the player resumes their game in the future.</p>
+<p>Naturally if the player's play space changes, they will have to recalibrate.</p>
+<h3 id="sit--standing-mode">Sit / Standing Mode</h3>
+<p>The height calibration runs in two different modes:</p>
+<ol>
+<li>Sitting - the Camera rig will lower / raise depending on the difference between the 'Eye Height' field and the height of the Camera to bring the in game player to it's standing pose.</li>
+<li>Standing - The Camera's parent, named 'Scaler', will scale up or down depending on the height.
+<ol>
+<li>Shorter players would scale down and Taller players will scale up.</li>
+<li>This uniformly scales the controller and camera tracking which may not be 100% accurate, but close enough without Bonelab's level of engineering.</li>
+</ol>
+</li>
+</ol>
+<div class="TIP">
+<h5>Tip</h5>
+<p>It would be wise to offer fine tuning over the saved height calibration like Boneworks did. By giving 1 CM up / down adjustment buttons.</p>
+</div>
+<h3 id="debug-height-calibration-helpers">Debug Height Calibration Helpers</h3>
+<p>The following fields on the HexaBody component can help with height calibration while testing. Even though the included code can save and restore height using these fields, it is strongly advised you create your own height saving and reloading mechanism as mentioned in <a href="#height-calibration">Height Calibration</a>.</p>
+<p>CalibrateHeightOnStart - if enabled the calibration function will execute once the headset has moved past some small threshood. If 'SaveCalibrationHeight' is enabled, the previous stored height will be used to calibrate.</p>
+<p>'SaveCalibrationHeight' - saves height calibration whenever Calibrate is executed.</p>
+<p>The EnableDebugCalibrationButton fields on the HexaBodyInputs component allows the Recalibrate Key (default 'R') and 'X' button on the Left controller (Menu for WMR devices) for rapid recalibration during test cycles.</p>
+<p><span class="mx-imgBorder">
+<img src="../../images/hexadebugkeys.PNG" alt="str">
+</span>
+</p>
+<p>The UI in the Hurricane integration scene has examples for height Calibration which change the Sit / Stand mode, and execute the Calibration function mentioned in <a href="#height-calibration">Height Calibration</a>.</p>
+<h1 id="how-do-i-change-the-height-of-my-player">How do I change the height of my player?</h1>
+<p>The player cannot be scaled, therefore if you want to try and make a taller or shorter player changes these fields:</p>
+<ol>
+<li>Eye Height - height to the eyes of the player to match with the HMD height.
+<ol>
+<li>Change this to make your player shorter or taller</li>
+</ol>
+</li>
+<li>Player Waist Height - the pelvis is placed above the locoball by this distance.
+<ol>
+<li>Crouch settings are a percentage of this height.</li>
+</ol>
+</li>
+<li>Colliders
+<ol>
+<li>Chest Capsule Collider - height is controlled in the UpdateChest function, you can change the radius.</li>
+<li>Knee Capsule Collider - height is controlled in the UpdateLegCollider function, you can change the radius.</li>
+<li>Head Sphere Collider - you can change the radius.</li>
+<li>Loco Sphere Collider - you can change the radius.
+<ol>
+<li>Fender Collider needs to be slightly larger than the Loco Sphere
+<ol>
+<li>Adjust the Bumper offset field which raises the Fender - some trial and error required to prevent rolling up vertical objects. The point of the fender is to prevent rolling up walls, but still allow ground rolling.</li>
+</ol>
+</li>
+<li>Loco and Fender collider radius are cached on awake, - if you change it at runtime you need to modify the code to recache your change. The jumping left lift sequence shrinks and restores the radius.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cloudwalker2020/HurricaneVR-Docs/blob/main/docfx_project/manual/hexabody/hexabody.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
