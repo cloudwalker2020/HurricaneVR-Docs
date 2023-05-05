@@ -50,6 +50,9 @@
         ]
       }
     ],
+    "globalMetadata": {
+      "_enableSearch": true
+    },
     "dest": "../docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
